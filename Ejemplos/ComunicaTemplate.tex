@@ -1,0 +1,236 @@
+\documentclass[12pt,a4paper,spanish]{book} %%%Esto indica el tipo de documento.
+%Va a ser un libro (book), el tamaño es a4, la lengua castellano (spanish)%%%
+\usepackage{babel} %%%Incluimos el paquete Babel
+%que sirve para separar correctamente
+%las palabras de multitud de idiomas%%%
+\usepackage[latin1]{inputenc}
+%%%Este paquete permite poner acentos directamente%%%
+\usepackage{amsmath}%%%Macros AMS%%%
+\usepackage{amsthm}%%%Macros AMS para teoremas%%%
+\usepackage{amsfonts}%%%Permite usar fuentes AMS%%%
+\usepackage[dvips]{epsfig} %%%Inclusión de figuras postscript% con visualización posterior%%%\usepackage{indentfirst}%%%Espaciado de
+\usepackage{titlesec}
+\usepackage{lettrine}
+\usepackage{eso-pic} 
+\usepackage{xcolor}
+
+\let\oldcleardoublepage\cleardoublepage
+\renewcommand{\cleardoublepage}{\newpage{\pagestyle{empty}\oldcleardoublepage}}
+
+%Cabecera%
+\date{}
+\usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
+\pagestyle{fancyplain}
+\newcommand{\diezpuntos}{\fontsize{8pt}{\baselineskip}\selectfont}
+\addtolength{\headheight}{1\baselineskip}
+\lhead{\diezpuntos ITISistemas}
+%\chead{\diezpuntos }%
+\rhead[\diezpuntos \bfseries \leftmark]{\diezpuntos \bfseries \rightmark}
+\renewcommand{\headrulewidth}{0.5 pt}
+\renewcommand{\footrulewidth}{0pt}
+\lfoot{\diezpuntos}
+
+
+%Comandos%
+
+%*Marquesina*%
+\newcommand\BackgroundPic{ 
+\put(-5,0){ 
+\parbox[b][\paperheight]{3cm}{% 
+\vfill 
+\includegraphics[width=3cm,height=\paperheight, 
+keepaspectratio]{img/CircuitoMarquesina.eps}% 
+\vfill 
+}}} 
+
+%Listas sin enumerar%
+\renewcommand{\labelitemi}{-}
+\renewcommand{\labelitemii}{-}
+\renewcommand{\labelitemiii}{-}
+%Listas enumeradas%
+\renewcommand{\labelenumi}{%
+\textbf{\theenumi}.$\star$
+}
+\renewcommand{\theenumii}{\arabic{enumii}}
+\renewcommand{\labelenumii}{%
+\textbf{\theenumi}.\theenumii.$\star$
+}
+\renewcommand{\theenumiii}{\arabic{enumiii}}
+\renewcommand{\labelenumiii}{%
+\textbf{\theenumi}.\theenumii.\theenumiii.$\star$
+}
+
+%Citas%
+\let\oldquote\quote
+\renewcommand\quote{\par\singlespacing\small\oldquote}
+\let\oldquotation\quotation
+\renewcommand\quotation[1]{\oldquotation\hfill\small\emph{\color{blue! 10!black}{#1}}}
+\let\oldverse\verse
+\renewcommand\verse{\par\singlespacing\small\oldverse}
+
+%Capital%
+\renewcommand{\LettrineFontHook}{\fontfamily{ptm}\mdseries\upshape\color{blue! 30!black}}
+
+%Imagenes%
+\newcommand{\imgIncl}[3]{
+  \begin{figure}
+		\centering
+		\includegraphics[width=#1cm,angle=#2]{#3}
+		\label{fig:#3}
+	\end{figure}
+	
+	}
+	
+	%Parte%
+\newcommand{\bigrule}{\titlerule[0.5mm]}
+\titleformat{\part}[display] % cambiamos el formato de los capítulos
+{\bfseries\Huge} % por defecto se usarán caracteres de tamaño \Huge en negrita
+{% contenido de la etiqueta
+\titlerule % línea horizontal
+\filleft % texto alineado a la derecha
+\Large{Parte}  % "Parte" en tamaño \Large en lugar de \Huge
+\Large\thepart} % número de capítulo en tamaño \Large
+{0mm} % espacio mínimo entre etiqueta y cuerpo
+{\filleft} % texto del cuerpo alineado a la derecha
+[\vspace{0.5mm} \bigrule \vspace{4cm}] % después del cuerpo, dejar espacio vertical y trazar línea horizontal gruesa
+
+%Capitulo%
+\titleformat{\chapter}[hang] % cambiamos el formato de los capítulos
+{\bfseries\Large} % por defecto se usarán caracteres de tamaño \Huge en negrita
+{% contenido de la etiqueta
+\color{blue! 30!black}
+\Large\chaptertitlename\ %"Capítulo" o "Apéndice" en tamaño \Large en lugar de \Huge
+\Large\thechapter .} % número de capítulo en tamaño \Large
+{2mm} % espacio mínimo entre etiqueta y cuerpo
+{\filright\color{blue! 30!black}} % texto del cuerpo alineado a la derecha
+[\vspace{0.5mm}] % después del cuerpo, dejar espacio vertical y trazar línea horizontal gruesa
+
+%Secciones%
+\titleformat{\section}[hang]
+{\scshape\bfseries\Large}
+{\color{blue! 30!black}\thesection. }
+{0mm}{\filright\color{blue! 30!black}}[\vspace{0.5mm}]
+
+%SubSecciones%
+\titleformat{\subsection}[hang]
+{\scshape\bfseries\large}
+{\color{blue! 30!black}\thesubsection .}
+{0mm}{\filright\color{blue! 30!black}}[\vspace{0.5mm}]
+
+%SubsubSecciones%
+\titleformat{\subsubsection}[hang]
+{\scshape\bfseries}
+{\color{blue! 30!black}\thesubsubsection .}
+{0mm}{\filright\color{blue! 30!black}}[\vspace{0.5mm}]
+%Fin de comandos%
+%primera línea de cada párrafo%%%
+\author{Hola}
+\title{Esto es un ejemplo de \LaTeX en acción}
+\date{La fecha de hoy}
+\begin{document}%%%Aquí empieza el documento%%%
+\maketitle
+\tableofcontents
+\listoffigures
+\part{Primer capítulo}
+\AddToShipoutPicture{\BackgroundPic} 
+\chapter{Primer capítulo}
+{\quotation{
+ Esto es una cita?}}
+\section{Primera sección}
+\subsection{Primera subsección}
+\subsubsection{Primera subsubsección}
+\lettrine{L}orem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus mattis felis, sed pulvinar leo sagittis at. Nulla ullamcorper aliquam eleifend. Nunc porta vulputate commodo. Nullam eu sem nec urna porttitor faucibus. Quisque vel feugiat mi. Ut orci neque, adipiscing eu fringilla facilisis, dictum et justo. Nam imperdiet congue metus at congue. Proin a ullamcorper augue. Vivamus a augue vel diam posuere sollicitudin in ut leo. Sed lectus neque, faucibus et pulvinar id, rutrum id ante. Donec quis tortor a tellus consectetur ultricies ut a mauris. 
+%Texto de la sección
+\begin {eqnarray}
+ \label{eq1} %%%Comienzo
+%de la ecuación%%%
+f:A \times M \rightarrow M \\
+(\lambda, x) \rightarrow \lambda x \nonumber
+\end {eqnarray} %%%Fin de la ecuación%%%
+\begin{enumerate}
+\item Item 1
+\item Item 2
+\begin{enumerate}
+\item Item 2.1
+\item Item 2.2
+\begin{enumerate}
+\item Item 2.2.1
+\item Item 2.2.2
+\item Item 2.2.3
+\end{enumerate}
+\end{enumerate}
+\item Item 3
+\item Item 4
+\end{enumerate}
+
+\begin{itemize}
+  \item Item 1
+\item Item 2
+\begin{itemize}
+\item Item 2.1
+\item Item 2.2
+\begin{itemize}
+\item Item 2.2.1
+\item Item 2.2.2
+\item Item 2.2.3
+\end{itemize}
+\end{itemize}
+\item Item 3
+\item Item 4
+\end{itemize}
+
+\begin{verbatim}
+/**
+	 * \brief Instancia un nuevo usuario.
+	 *
+	 * @param id the id
+	 * @param nombre el nombre de pila del usuario.
+	 * @param apellidos el apellido del usuario.
+	 * @param string 
+	 * @param rol el rol de usuario
+	 * @param mail the mail
+	 */
+	public Usuario(Long id, String nombreUsuario, String nombre,
+								 String apellidos, Rol rol, String mail) {
+
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		this.rol = rol;
+		this.email=mail;
+		this.id=id;
+		this.nombreUsuario = nombreUsuario;
+	}
+\end{verbatim}
+
+\verb|this.nombre = nombre;|
+
+\begin{verbatim*}
+/**
+	 * \brief Instancia un nuevo usuario.
+	 *
+	 * @param id the id
+	 * @param nombre el nombre de pila del usuario.
+	 * @param apellidos el apellido del usuario.
+	 * @param string 
+	 * @param rol el rol de usuario
+	 * @param mail the mail
+	 */
+	public Usuario(Long id, String nombreUsuario, String nombre,
+								 String apellidos, Rol rol, String mail) {
+
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		this.rol = rol;
+		this.email=mail;
+		this.id=id;
+		this.nombreUsuario = nombreUsuario;
+	}
+\end{verbatim*}
+
+\imgIncl{13}{10}{img/060911scrumtoon.eps}
+\imgIncl{13}{350}{img/060911scrumtoon.eps}
+
+
+
+\end {document}
