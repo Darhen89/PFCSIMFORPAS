@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  15 MAY 2014 20:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  15 MAY 2014 21:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -479,8 +479,8 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@toc=\write3
 \openout3 = `SIMFORPAS.toc'.
 
-LaTeX Info: Redefining \. on input line 371.
-LaTeX Info: Redefining \% on input line 371.
+LaTeX Info: Redefining \. on input line 321.
+LaTeX Info: Redefining \% on input line 321.
  [7
 
 ] [8
@@ -492,18 +492,18 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lof=\write4
 \openout4 = `SIMFORPAS.lof'.
 
-LaTeX Info: Redefining \. on input line 374.
-LaTeX Info: Redefining \% on input line 374.
+LaTeX Info: Redefining \. on input line 324.
+LaTeX Info: Redefining \% on input line 324.
  [9] [10
 
 ]
-LaTeX Info: Redefining \. on input line 384.
-LaTeX Info: Redefining \% on input line 384.
+LaTeX Info: Redefining \. on input line 336.
+LaTeX Info: Redefining \% on input line 336.
  [1] [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 384.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 336.
 
 [3] [4]
 Cap\'{\i }tulo 1.
@@ -515,18 +515,15 @@ Package epstopdf Info: Source file: <img/figura1.eps>
 (epstopdf)                    size: 88894 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/figura1-eps-converted-
 to.pdf img/figura1.eps>
-(epstopdf)             \includegraphics on input line 405.
+(epstopdf)             \includegraphics on input line 346.
 Package epstopdf Info: Output file is already uptodate.
 <img/figura1-eps-converted-to.pdf, id=52, 637.38126pt x 278.03876pt>
 File: img/figura1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/figura1-eps-converted-to.pdf>
-Package pdftex.def Info: img/figura1-eps-converted-to.pdf used on input line 40
-5.
+Package pdftex.def Info: img/figura1-eps-converted-to.pdf used on input line 34
+6.
 (pdftex.def)             Requested size: 341.43306pt x 148.93805pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    date: 2014-05-13 20:26:31
 (epstopdf)                    size: 945958 bytes
@@ -535,21 +532,25 @@ Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    size: 31607 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
 o.pdf img/Clouds.eps>
-(epstopdf)             \includegraphics on input line 405.
+(epstopdf)             \includegraphics on input line 349.
 Package epstopdf Info: Output file is already uptodate.
 
 <img/Clouds-eps-converted-to.pdf, id=53, 118.4425pt x 1315.91624pt>
 File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/Clouds-eps-converted-to.pdf>
-Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 405
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 349
 .
 (pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
  [5
 
- <./img/Clouds-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 5046.
-LaTeX Info: Redefining \% on input line 5046.
+ <./img/Clouds-eps-converted-to.pdf> <./img/figura1-eps-converted-to.pdf>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 444.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 444.
+LaTeX Info: Redefining \. on input line 4996.
+LaTeX Info: Redefining \% on input line 4996.
 Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    date: 2014-05-13 20:26:31
 (epstopdf)                    size: 945958 bytes
@@ -558,34 +559,38 @@ Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    size: 31607 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
 o.pdf img/Clouds.eps>
-(epstopdf)             \includegraphics on input line 5046.
+(epstopdf)             \includegraphics on input line 4996.
 Package epstopdf Info: Output file is already uptodate.
 File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/Clouds-eps-converted-to.pdf>
-Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 504
+ <use img/Clouds-eps-converted-to.pdf>
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 499
 6.
 (pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
- [6 <./img/figura1-eps-converted-to.pdf>]
-(./SIMFORPAS.aux
+
+[6] (./SIMFORPAS.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-) ) 
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6329 strings out of 493315
- 86794 string characters out of 6137904
- 171375 words of memory out of 5000000
- 9642 multiletter control sequences out of 15000+600000
- 25542 words of font info for 54 fonts, out of 8000000 for 9000
+ 6344 strings out of 493315
+ 86986 string characters out of 6137904
+ 170375 words of memory out of 5000000
+ 9653 multiletter control sequences out of 15000+600000
+ 29651 words of font info for 59 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,13n,56p,737b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/
-texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on SIMFORPAS.pdf (16 pages, 275458 bytes).
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SIMFORPAS.pdf (16 pages, 285912 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
