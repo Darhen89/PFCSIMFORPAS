@@ -337,237 +337,93 @@ y miles de esclavos'' -- Alan Kay
  
 \AddToShipoutPicture{\BackgroundPic}
 
-\chapter{Introducción}
+\chapter{Introducci\'on}
 
-\lettrine{A}{UNQUE} el concepto de aviones no tripulados o UAV's (Unmanned Aerial Vehicles) es bastante antiguo, puesto que se han hecho uso de ellos desde la primera guerra mundial, cada día se oímos más hablar sobre ellos en los medios de comunicación, esto se debe al gran crecimiento que está sufriendo el sector de la aeronáutica en torno a estos dispositivos, tanto para uso militar, como los famosos "drones" de Estados Unidos, como civil.
+\lettrine{A}{UNQUE} el concepto de aviones no tripulados o UAV's (Unmanned Aerial Vehicles) es bastante antiguo, puesto que se ha hecho uso de ellos desde la primera guerra mundial, cada d\'ia o\'imos m\'as hablar sobre ellos en los medios de comunicaci\'on, esto se debe al gran crecimiento que est\'a sufriendo el sector de la aeron\'autica en torno a estos dispositivos, tanto para uso militar, como los famosos "drones" de Estados Unidos, como civil.
 
-Su uso es amplio y variado, desde rodaje de planos aéreos en películas de cine hasta control de incendios, control de costas, recogida de información, ayuda en operaciones de rescate, control de multitudes...
+Su uso es amplio y variado, desde rodaje de planos a\'ereos en pel\'iculas de cine hasta control de incendios, control de costas, recogida de informaci\'on, ayuda en operaciones de rescate, control de multitudes...
 
-\imgCentrada{fig.1}{img/figura1.eps}{Soporte aéreo en el control de incendios.}
+\imgCentrada{fig.1}{img/figura1.eps}{Soporte a\'ereo en el control de incendios.}
 
-A finales del siglo XX fue cuando los UAV's empiezan a operar con todas las características de autonomía. Esto nos provee de muchas ventajas, por ejemplo, presencia en lugares de difícil acceso sin necesidad de llevar al terreno a un piloto de UAV, reducción del riesgo humano en determinadas situaciones, disminución del la incursión humana sobre parques naturales y zonas protegidas... . Poco a poco los UAV's tienden a prescindir de la presencia de un piloto que tenga la obligación de estar visualizando el avión y a implementar sistemas de control remoto mediante estaciones de control de tierra o GCS's (Ground Control Stations) y de vuelo automatizado, lo que nos llevará a no depender del factor humano. 
+A finales del siglo XX fue cuando los UAV's empiezan a operar con todas las caracter\'isticas de autonom\'ia. Esto nos provee de muchas ventajas, por ejemplo, presencia en lugares de dif\'icil acceso sin necesidad de llevar al terreno a un piloto de UAV, reducci\'on del riesgo humano en determinadas situaciones, disminuci\'on del la incursi\'on humana sobre parques naturales y zonas protegidas... . Poco a poco los UAV's tienden a prescindir de la presencia de un piloto que tenga la obligaci\'on de estar visualizando el avi\'on y a implementar sistemas de control remoto mediante estaciones de control de tierra o GCS's (Ground Control Stations) y de vuelo automatizado, lo que nos llevar\'a a no depender del factor humano. 
 
-Las GCS son controladas por operadores expertos en estos dispositivos que se encargan de diseñar e implementar las misiones que realizarán los aviones, así como llevar el control del curso de la misma, conocer las características de la aeronave, deben saber interpretar los indicadores de telemetría, estar familiarizados con el protocolo de comunicación y saber reaccionar ante posibles fallos durante la misión para salvaguardar en todo momento la seguridad tanto del vehículo aéreo como del entorno en el que se mueve.
+Las GCS son controladas por operadores expertos en estos dispositivos que se encargan de dise\'nar e implementar las misiones que realizar\'an los aviones, as\'i como llevar el control del curso de la misma, conocer las caracter\'isticas de la aeronave, deben saber interpretar los indicadores de telemetr\'ia, estar familiarizados con el protocolo de comunicaci\'on y saber reaccionar ante posibles fallos durante la misi\'on para salvaguardar en todo momento la seguridad tanto del veh\'iculo a\'ereo como del entorno en el que se mueve.
 
-Estos operadores requieren de una formación en profundidad y fiable ya que tienen la responsabilidad sobre las acciones que realice la aeronave, por ello se debe exigir un entrenamiento concienzudo. Si este entrenamiento es realizado con dispositivos reales corremos el riesgo de que frente a cualquier fallo, error humano o de carácter informático, haya una pérdida en algún componente del sistema, ya sea que se estrelle la aeronave, que dañe alguna estructura o a alguna persona, lo que resultaría en una importante pérdida económica y/o humana. 
+Estos operadores requieren de una formaci\'on en profundidad y fiable ya que tienen la responsabilidad sobre las acciones que realice la aeronave, por ello se debe exigir un entrenamiento concienzudo. Si este entrenamiento es realizado con dispositivos reales corremos el riesgo de que frente a cualquier fallo, error humano o de car\'acter inform\'atico, haya una p\'erdida en alg\'un componente del sistema, ya sea que se estrelle la aeronave, que da\'ne alguna estructura o a alguna persona, lo que resultaría en una importante p\'erdida econ\'omica y/o humana. 
 
-El proyecto SIMFORPAS pretende dar una solución a este problema presentando un entorno de simulación de vuelo de UAV's para operadores de GCS en formación, que proveerá de un contexto de vuelo seguro e idéntico a una situación real de control de misión de un UAV.
+El proyecto SIMFORPAS pretende dar una soluci\'on a este problema presentando un entorno de simulaci\'on de vuelo de UAV's para operadores de GCS en formaci\'on, que proveer\'a de un contexto de vuelo seguro e id\'entico a una situaci\'on real de control de misi\'on de un UAV.
 
+\section{Motivaci\'on}
 
+\lettrine{S}{eg\'un} un estudio publicado por el medio online \emph{Update Defense} y realizado por la firma de investigaci\'on de mercados \emph{ICD Research} durante la pr\'oxima d\'ecada el sector de la aviaci\'on no tripulada tendr\'a un aumento anual del 4,08\% lo que supondr\'a que en 2021 alcance alrededor de los 10.500 millones de d\'olares. El gran incremento de la demanda  se traducir\'a en una mayor necesidad de infraestructuras y tecnolog\'ias en torno a estos dispositivos.
 
+En vistas de estas espectativas resulta interesante implicarse de una forma activa en un mercado en auge que supondr\'a la aceptaci\'on de un gran n\'umero de nuevas tecnolog\'ias y traer\'a nuevos desaf\'ios en cuanto a investigaci\'on y desarrollo.
 
+Uno de los requisitos que tendr\'a esta etapa ser\'a pa de disponer de personal cualificado para la manipulaci\'on de los dispositivos de pilotage remotos de aeronaves no tripuladas, el proyecto SIMFORPAS pretende ocupar ese hueco proveyendo de un entorno seguro y fiable que permita conceder una certificaci\'on avanzada a operadores de GCS de forma que se aseguren los conocimientos t\'ecnicos necesarios en una situaci\'on real de pilotage.
 
+En este proyecto propondremos una soluci\'on usando una serie de tecnolog\'ias que nos proveer\'an de las herramientas necesarias para crear el sistema necesario para la consecuci\'on de nuestro objetivo.
 
-%\lettrine{H}{}oy en día, en la industria, la globalización es un hecho. Las
-%empresas tienen que realizar sus productos en un marco cada vez más competitivo.
-%La aparición continua de nuevos productos y servicios, cuyo ciclo
-%de vida se acorta, obliga a incrementar la productividad y disminuir
-%el tiempo de reacción, adaptarse rápidamente a las variantes necesidades
-%de los clientes y, en definitiva, aumentar la capacidad de competir
-%en un mercado mucho más amplio.
-%
-%Sobre el desarrollo de software, además, hay que tener en cuenta otros
-%factores. Mientras algunas áreas de la ingeniería como la construcción
-%de edificios, de puentes o de caminos son centenarias e incluso milenarias,
-%la edad del software es de apenas medio siglo. Hasta ahora se ha aplicado
-%una metodología similar a las de las ingenierías centenarias, heredada
-%de la industria de la construcción y manufactura, para abordar los
-%proyectos de software, cuya idea base es construir a partir de unos
-%planos bien definidos. Sin embargo, el software padece una extraña
-%enfermedad: su envejecimiento está mil veces más acelerado que el
-%de esas ingenierías de las cuales se ha copiado el modelo de
-%desarrollo.
-%
-%Como ejemplo del fracaso de estos modelos tradicionales, de un estudio
-%del proyecto Standish %
-%\footnote{http://blog.standishgroup.com/%
-%} se extrae la siguiente estadística:
-%\begin{itemize}
-%\item Porcentaje de proyectos que son cancelados: 31\%
-%\item Porcentaje de proyectos problemáticos: 53\%
-%\item Porcentaje de proyectos exitosos: 16\%
-%\end{itemize}
-%
-%Debido a toda esta situación, nos preguntamos si el modelo actual
-%se adapta a lo que solicita el mercado. ¿Son las metodologías ágiles
-%la solución?
-%
-%Según Kent Beck, uno de los padres del modelo ágil, \textquotedblleft{}\emph{cada
-%cosa en software cambia. Los requisitos cambian, el diseño cambia,
-%el negocio cambia, la tecnología cambia, el equipo cambia y los miembros
-%del equipo cambian. El problema no es el cambio, porque el cambio,
-%inevitablemente, va a ocurrir. El problema, realmente, es nuestra
-%incapacidad para hacer frente a los
-%cambios}\textquotedblright{}\cite{XPExplained}. Evidentemente, se puede
-%concluir que el mercado de software está siempre en continua variación y que
-%estamos obligados a abordar estos cambios con nuevas alternativas que nos
-%permitan adaptarnos.
-%
-%En este contexto las metodologías ágiles aparecen como una atractiva
-%opción pues, en contraposición con las metodologías convencionales
-%que actúan basadas en principios de estabilidad y control del contexto,
-%las metodologías ágiles no se centran en habilidades de predicción,
-%ni pretenden tener un sistema perfectamente definido como paso previo
-%a su construcción, sino que perciben cada respuesta al cambio como
-%una oportunidad para mejorar el sistema e incrementar la satisfacción
-%del cliente considerando la gestión de cambios como un aspecto inherente
-%al propio proceso de desarrollo de software y permitiendo, de este modo,
-%una mejor adaptación en entornos turbulentos.
-%
-%En este proyecto fin de carrera se presenta el estudio realizado sobre
-%el comportamiento de las metodologías ágiles en la evolución de proyectos
-%de software. Concretamente se usará el marco de trabajo Scrum y la programación
-%orientada a comportamiento (BDD) durante el desarrollo de un producto concreto.
-%Se explicará el proceso desde la concepción hasta la entrega final,
-%siguiendo el marco de trabajo Scrum para la gestión de dicho proyecto, basándonos
-%en nuestras propias experiencias profesionales y con la suerte de
-%haber participado en un curso de certificación de la Scrum
-%Alliance.
-%
-%Concretamente, el proyecto Comunic@ pretende servir como ejemplo
-%práctico de un desarrollo ágil, que pueda valer de iniciación en esta
-%metodología y que ayude a entender este gran desconocido llamado ``Agile''.
-%
-%Se va a seguir el marco de trabajo Scrum. Para ello, se han realizado todas las
-%reuniones necesarias con el dueño del producto, figura encarnada por el tutor
-%del proyecto, que hará el papel de representante de la empresa ficticia
-%interesada. Se han utilizado historias de usuario que se han divido en tareas, se han
-%mostrado demos y, durante todo el proyecto, se puede asegurar que los requisitos
-%cambiantes han estado a la orden del día.
-%
-%En cuanto a la programación, esta se ha desarrollado conforme a las directrices de
-%XP: escribiendo los test antes que el código (BDD), refactorizando y realizando,
-%cuando era posible, programación por parejas. Se pretende probar cómo, siguiendo
-%estas pautas, se consigue un código flexible y de mejor calidad capaz de adaptarse a
-%los cambios.
+\section{Objetivos del proyecto}
 
-\section{Motivación}
+\lettrine{E}{l} objetivo de este proyecto ser\'a el de crear una plataforma de simulaci\'on para la formaci\'on y entrenamiento de pilotos de RPAS (Remotely Piloted Aircraft System) ligeros que se comporte exactamente como lo har\'ia el avi\'on real. Que el sistema permita hacer uso de una GCS homologada para el manejo de UAV's usando un protocolo de comunicaciones para aviones no tripulados de menos de 25 Kg y usando un modelo de avi\'on real.
 
-Según un estudio publicado por el medio online \emph{Update Defense} y realizado por la firma de investigación de mercados \emph{ICD Research} durante la próxima década el sector de la aviación no tripulada tenga un aumento anual del 4,08\% lo que supondrá que en 2021 alcance alrededor de los 10.500 millones de dólares. El gran incremento de la demanda  se traducirá en una mayor necesidad de infraestructuras y tecnologías en torno a estos dispositivos
+Tambi\'en se requerir\'a de una herramienta que permita a un instructor ser capaz de controlar la simulaci\'on permiti\'endole manejar su curso e introducir errores en el sistema. La simulaci\'on se deber\'a hacer en tiempo real.
 
-%La idea de este proyecto comenzó a tomar forma cuando se empezó a trabajar en
-%empresas dedicadas al sector de la informática. Con esta experiencia se observó
-%que el cliente es un ente especial y caprichoso que todo lo quiere
-%sin querer implicarse. Se descubrió que, para los gestores de proyectos, el único
-%objetivo es vender los proyectos a toda costa aunque la vida privada de sus
-%programadores se vieran mermadas o destruidas. No les importa lo bien hecha que
-%esté la aplicación, quieren que el mantenimiento sea inconmensurable para ganar
-%más dinero. Y siempre se podrá recompensar al cliente de otra manera.
-%
-%Ante esta terrible visión de la programación, no dándonos por vencidas, y
-%gracias al azar, se descubrió esta metodología que, con su lógica, intenta
-%restaurar nuevos pilares para una programación lógica y fácil, con implicación
-%de todas las partes, para realizar un software que funcione, de mantenimiento
-%fácil y, por tanto, crear la figura de cliente feliz.
-%
-%Porque sin clientes y usuarios felices, la informática no tiene sentido.
-%
-%Puesto que la universidad forma a los futuros ingenieros informáticos como hizo
-%con nosotras, se considera importante que se le dé dentro de esta institución,
-%un hueco en donde enseñarse, al igual que se hace con metodologías provenientes
-%de otras ingenierías, como lo es el modelo en cascada.
-%
-%Con este proyecto, se darán a conocer estas metodologías, explicando sus pros y
-%contras, comparándolas con los modelos actuales y haciendo una reflexión de
-%hacia qué camino se esta dirigiendo el desarrollo informático.
-%
-%Se espera que, tanto si se conocen la metodologías ágiles en las que se va a
-%profundizar como si no, disfruten de este proyecto y consigan entender o extender
-%conocimientos sobre estás técnicas que en España son unas tremendas desconocidas, 
-%mientras que en Europa están a la orden del día.
-%
-%\section{Objetivos del proyecto}
-%
-%\lettrine{E}{}l objetivo general de este proyecto es analizar la evolución de productos de software en el contexto de utilización de metodologías ágiles. Se
-%realizará mediante un ejemplo práctico, por lo que se pretende estudiar
-%la evolución del producto ficticio Comunic@.
-%
-%Explicaremos el proceso desde la concepción hasta la entrega final,
-%siguiendo el marco de trabajo Scrum para la gestión de dicho proyecto, basándonos
-%en nuestras propias experiencias profesionales y lo aprendido en cursos de Scrum.
-%
-%Para hacerlo más real, Comunic@ es una aplicación web con un tablón de anuncios
-%y sugerencias para una empresa ficticia. En este tablón virtual vamos a poder
-%insertar tanto anuncios como sugerencias. Para ello nos reunimos con nuestro cliente,
-%un ejecutivo de la empresa, sección de comunicación. Este papel será
-%realizado por nuestro tutor, de modo que el ejercicio parezca más
-%realista. 
-%
-%A parte de eso, hablando ya sobre el aspecto técnico, se ha aprovechado
-%el proyecto para utilizar tecnologías recientes como Struct 2, Hibernate
-%3, Spring, comunicación a través de WebServices e,
-%incluso, una aplicación desarrollada para Android que se comunica
-%mediante Rest con el sitio web de Comunic@.
-%
-%\subsection{Objetivos orientados a la metodología}
-%
-%Los objetivos que se tienen en mente al realizar esta aplicación con respecto a
-%las metodologías usadas son los siguientes:
-%
-%\begin{itemize}
-%  \item Aplicar el marco de trabajo Scrum, usando para ello los conocimientos
-%  adquiridos al trabajar en empresas que utilizan dicha metodología y cursos.
-%  También se dispone del apoyo bibliográfico de libros como ``Scrum and XP from
-%  the Trenches'' \cite{ScrumAndXp}.
-%  \item Verificar los costes y mejoras producidos al aplicar dicho marco de
-%  trabajo. (Scrum).
-%  \item Comprobar los beneficios colaterales a la realización de estas
-%  prácticas como, por ejemplo, la facilidad de añadir nuevas tareas durante el
-%  proceso de desarrollo.
-%  \item Asegurarse de que el cliente quede satisfecho con el producto final y el
-%  trato recibido durante el desarrollo.
-%\end{itemize}
-%
-%\subsection{Objetivos orientados a la técnica}
-%
-%Los objetivos que se han querido validar al realizar esta aplicación son los
-%siguientes:
-%
-%\begin{itemize}
-%  \item Utilizar procesos ágiles, como eXtreme Programing. Con ello se quiere
-%  comprobar que realmente la utilización de estas técnicas mejora la calidad y
-%  adaptabilidad del software producido.
-%  \item Enfatizar en un aspecto de la metodología XP, BDD. Para realizar este
-%  objetivo, se implementarán primero los test y a partir de ellos se realizará
-%  la codificación.
-%  \item Comprobar una máxima de la programación XP, la legibilidad del código.
-%  Para ello, los programadores intercambiarán partes de su código y se
-%  programará en parejas. Se asegurará la aplicación de este apartado
-%  usando el siguiente lema: ``El código es de todos''.
-%  \item Estar a la vanguardia con respecto a las nuevas tecnologías. Para ello,
-%  se utilizarán tecnologías recientes como: Struct 2, Hibernate 3, Spring y
-%  comunicación a través de RestFul.
-%\end{itemize}
-%
-%\subsection{Objetivos personales}
-%
-%Se ha querido asegurar que se cumplen los siguientes objetivos a lo largo del
-%desarrollo de la aplicación:
-%
-%\begin{itemize}
-%  \item Adaptación; adecuarse a las exigencias de estas nuevas metodologías. Los
-%  desarrolladores tienen la motivación de aprender nuevas técnicas que mejoren
-%  la calidad del software. Para ello se tendrán que destruir muchos muros
-%  fuertemente construidos y arraigados de metodologías usadas en otros proyectos. Se
-%  comprende el choque que produce esta nueva perspectiva de trabajo, pero con
-%  esfuerzo todo se logra.
-%  \item Coraje o valentía; como se explica en el libro ``Planning Extreme
-%  Programming'' \cite{XP}. Como compromiso personal esta el de adquirir el suficiente coraje como para poder
-%  afrontar la realización de este proyecto. Y la suficiente valentía como para
-%  no ser derrotado por el camino.
-%  \item Respeto; se quiere, durante todo el proyecto, mantener el respeto entre
-%  los integrantes del grupo. Esto es esencial para la buena armonía en el
-%  desarrollo del proyecto. Sin respeto, el trabajo puede llegar a ser insufrible
-%  y, por tanto, se puede perder la motivación.
-% \item Retroalimentación; se quiere aprender de los errores, para ello se
-% realizará una reunión final para echar una mirada atrás. Se repasarán los
-% objetivos conseguidos y fallidos. Para la realización de este objetivo, se
-% utilizará el siguiente dicho popular: ``rectificar es de sabios''.
-%\end{itemize}
-%
-%Se tendrán en cuenta estos objetivos durante la realización del proyecto y se
-%comprobará si han sido realizados al final de este, en el capítulo de
-%retrospectiva.
+Para garantizar la correcta consecuci\'on de los objetivos generales del proyecto se utilizar\'a la herramienta de organizaci\'on SCRUM junto a otras metodolog\'ias de desarrollo \'agil.
+
+\subsection{Objetivos orientados a la metodolog\'ia}
+
+Los objetivos que se tienen en mente al realizar esta aplicaci\'on con respecto a
+las metodolog\'ias usadas son los siguientes:
+
+\begin{itemize}
+  \item Aplicar el marco de trabajo Scrum, usando para ello los conocimientos
+  adquiridos al trabajar en empresas que utilizan dicha metodolog\'ia y cursos.
+  Tambi\'en se dispone del apoyo bibliogr\'afico de libros como \emph{Agile Samurai} y \emph{Agile Software Development with Scrum}
+
+  \item Aplicar metodolog\'ias de programaci\'on en pareja para agilizar el desarrollo y evitar errores en el c\'odigo.
+
+  \item Aplicar los principios S.O.L.I.D. como base de un c\'odigo robusto, limpio y sujeto a cambios.
+
+  \item Aplicar metodolog\'ias de eXtreme Programming para asegurar que el c\'odigo acepte cambios de manera sencilla e intuitiva.
+
+  \item Comprobar los beneficios colaterales a la realizaci\'on de estas
+  pr\'acticas como, por ejemplo, la facilidad de a\'nadir nuevas tareas durante el
+  proceso de desarrollo.
+ 
+\end{itemize}
+
+\subsection{Objetivos orientados a la t\'ecnica}
+
+Los objetivos que se han querido validar al realizar esta aplicaci\'on son los
+siguientes:
+
+\begin{itemize}
+  \item Aprender y utilizar tecnolog\'ias que garanticen una comunicaci\'on y procesado de datos en tiempo real como pueden ser C++ y DDS.
+  
+  \item Aprender y utilizar para el puesto de instructor herramientas que ayuden al desarrollo de una plataforma web para el control del simulador como Maven, Struts2, Spring4 e Hibernate4.
+  
+  \item Aprender y utilizar entornos de testeo de c\'odigo como Google test, Google mock, Junit y Jmock para asegurar que el c\'odigo funciona en todas las fases de desarrollo y modificaci\'on del software.
+
+  \item Aplicar correctamente cada una de las metodolog\'ias estudiadas y sacar conclusiones de su uso.
+  
+\end{itemize}
+
+\subsection{Objetivos personales}
+
+Se ha querido asegurar que se cumplen los siguientes objetivos a lo largo del
+desarrollo de la aplicaci\'on:
+
+\begin{itemize}
+  \item Adaptaci	\'on: adecuarse a las exigencias de estas nuevas metodolog\'ias. Los
+  desarrolladores tienen la motivaci\'on de aprender nuevas t\'ecnicas que mejoren
+  la calidad del software.
+  
+  \item Ecperiencia: 
+
+\end{itemize}
+%COMPROBAR APARTADO DE CONCLUSIONES
+Se tendr\'an en cuenta estos objetivos durante la realizaci\'on del proyecto y se comprobar?a si han sido realizados. Esto se ver?a con detenimiento en los apartados de conclusiones, v\'ease la parte V del presente documento.
 %
 %
 %\section{Estructura del documento}

@@ -2,3 +2,7 @@
 \contentsline {part}{I\hspace {1em}Introducci\'on}{3}
 \contentsline {chapter}{\numberline {1}Introducci\'on}{5}
 \contentsline {section}{\numberline {1.1}Motivaci\'on}{6}
+\contentsline {section}{\numberline {1.2}Objetivos del proyecto}{7}
+\contentsline {subsection}{\numberline {1.2.1}Objetivos orientados a la metodolog\'ia}{7}
+\contentsline {subsection}{\numberline {1.2.2}Objetivos orientados a la t\'ecnica}{8}
+\contentsline {subsection}{\numberline {1.2.3}Objetivos personales}{9}
