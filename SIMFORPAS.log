@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  21 MAY 2014 00:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  22 MAY 2014 00:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -459,18 +459,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/L
-OGO-eps-converted-to.pdf>] [2
-
-]
+OGO-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 316.
- [3]
-[4
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 311.
+ [2]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 311.
+ [3
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 316.
- [5] [6
+[4
 
 ] (./SIMFORPAS.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -479,11 +477,11 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@toc=\write3
 \openout3 = `SIMFORPAS.toc'.
 
-LaTeX Info: Redefining \. on input line 321.
-LaTeX Info: Redefining \% on input line 321.
- [7
+LaTeX Info: Redefining \. on input line 316.
+LaTeX Info: Redefining \% on input line 316.
+ [5
 
-] [8
+] [6
 
 ] (./SIMFORPAS.lof
 LaTeX Info: Redefining \. on input line 1.
@@ -492,37 +490,33 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lof=\write4
 \openout4 = `SIMFORPAS.lof'.
 
-LaTeX Info: Redefining \. on input line 324.
-LaTeX Info: Redefining \% on input line 324.
- [9] [10
-
-]
-LaTeX Info: Redefining \. on input line 336.
-LaTeX Info: Redefining \% on input line 336.
- [1] [2
+LaTeX Info: Redefining \. on input line 318.
+LaTeX Info: Redefining \% on input line 318.
+ [7] [8
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 336.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 322.
+ [1
 
-[3] [4]
+] [2]
 Cap\'{\i }tulo 1.
-Package epstopdf Info: Source file: <img/figura1.eps>
+Package epstopdf Info: Source file: <img/incendio.eps>
 (epstopdf)                    date: 2014-05-15 19:36:04
 (epstopdf)                    size: 1074848 bytes
-(epstopdf)             Output file: <img/figura1-eps-converted-to.pdf>
+(epstopdf)             Output file: <img/incendio-eps-converted-to.pdf>
 (epstopdf)                    date: 2014-05-15 19:37:02
 (epstopdf)                    size: 88894 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/figura1-eps-converted-
-to.pdf img/figura1.eps>
-(epstopdf)             \includegraphics on input line 346.
+(epstopdf)             Command: <repstopdf --outfile=img/incendio-eps-converted
+-to.pdf img/incendio.eps>
+(epstopdf)             \includegraphics on input line 334.
 Package epstopdf Info: Output file is already uptodate.
-<img/figura1-eps-converted-to.pdf, id=52, 637.38126pt x 278.03876pt>
-File: img/figura1-eps-converted-to.pdf Graphic file (type pdf)
+<img/incendio-eps-converted-to.pdf, id=39, 637.38126pt x 278.03876pt>
+File: img/incendio-eps-converted-to.pdf Graphic file (type pdf)
 
-<use img/figura1-eps-converted-to.pdf>
-Package pdftex.def Info: img/figura1-eps-converted-to.pdf used on input line 34
-6.
+<use img/incendio-eps-converted-to.pdf>
+Package pdftex.def Info: img/incendio-eps-converted-to.pdf used on input line 3
+34.
 (pdftex.def)             Requested size: 341.43306pt x 148.93805pt.
 Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    date: 2014-05-13 20:26:31
@@ -532,25 +526,25 @@ Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    size: 31607 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
 o.pdf img/Clouds.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/Clouds-eps-converted-to.pdf, id=53, 118.4425pt x 1315.91624pt>
+<img/Clouds-eps-converted-to.pdf, id=40, 118.4425pt x 1315.91624pt>
 File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/Clouds-eps-converted-to.pdf>
-Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 349
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 339
 .
 (pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
- [5
+ [3
 
- <./img/Clouds-eps-converted-to.pdf> <./img/figura1-eps-converted-to.pdf>]
+ <./img/Clouds-eps-converted-to.pdf> <./img/incendio-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 356.
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 344.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 356.
-LaTeX Info: Redefining \. on input line 363.
-LaTeX Info: Redefining \% on input line 363.
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 344.
+LaTeX Info: Redefining \. on input line 357.
+LaTeX Info: Redefining \% on input line 357.
 Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    date: 2014-05-13 20:26:31
 (epstopdf)                    size: 945958 bytes
@@ -559,19 +553,19 @@ Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    size: 31607 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
 o.pdf img/Clouds.eps>
-(epstopdf)             \includegraphics on input line 363.
+(epstopdf)             \includegraphics on input line 357.
 Package epstopdf Info: Output file is already uptodate.
 File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
  <use img/Clouds-eps-converted-to.pdf>
-Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 363
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 357
 .
 (pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
 
-[6]
+[4]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 374.
-LaTeX Info: Redefining \. on input line 383.
-LaTeX Info: Redefining \% on input line 383.
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 362.
+LaTeX Info: Redefining \. on input line 398.
+LaTeX Info: Redefining \% on input line 398.
 Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    date: 2014-05-13 20:26:31
 (epstopdf)                    size: 945958 bytes
@@ -580,18 +574,16 @@ Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    size: 31607 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
 o.pdf img/Clouds.eps>
-(epstopdf)             \includegraphics on input line 383.
+(epstopdf)             \includegraphics on input line 398.
 Package epstopdf Info: Output file is already uptodate.
 File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
  <use img/Clouds-eps-converted-to.pdf>
-Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 383
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 398
 .
 (pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
- [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 418.
-LaTeX Info: Redefining \% on input line 418.
+ [5]
+LaTeX Info: Redefining \. on input line 432.
+LaTeX Info: Redefining \% on input line 432.
 Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    date: 2014-05-13 20:26:31
 (epstopdf)                    size: 945958 bytes
@@ -600,17 +592,17 @@ Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    size: 31607 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
 o.pdf img/Clouds.eps>
-(epstopdf)             \includegraphics on input line 418.
+(epstopdf)             \includegraphics on input line 432.
 Package epstopdf Info: Output file is already uptodate.
 File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/Clouds-eps-converted-to.pdf>
-Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 418
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 432
 .
 (pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
- [8]
-LaTeX Info: Redefining \. on input line 439.
-LaTeX Info: Redefining \% on input line 439.
+ [6]
+LaTeX Info: Redefining \. on input line 434.
+LaTeX Info: Redefining \% on input line 434.
 Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    date: 2014-05-13 20:26:31
 (epstopdf)                    size: 945958 bytes
@@ -619,37 +611,35 @@ Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    size: 31607 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
 o.pdf img/Clouds.eps>
-(epstopdf)             \includegraphics on input line 439.
+(epstopdf)             \includegraphics on input line 434.
 Package epstopdf Info: Output file is already uptodate.
 File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/Clouds-eps-converted-to.pdf>
-Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 439
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 434
 .
 (pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
- [9]
-LaTeX Info: Redefining \. on input line 446.
-LaTeX Info: Redefining \% on input line 446.
-Package epstopdf Info: Source file: <img/Clouds.eps>
-(epstopdf)                    date: 2014-05-13 20:26:31
-(epstopdf)                    size: 945958 bytes
-(epstopdf)             Output file: <img/Clouds-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-13 20:27:17
-(epstopdf)                    size: 31607 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
-o.pdf img/Clouds.eps>
-(epstopdf)             \includegraphics on input line 446.
-Package epstopdf Info: Output file is already uptodate.
-File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
+ [7] [8
 
-<use img/Clouds-eps-converted-to.pdf>
-Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 446
-.
-(pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
- [10] [11
-
-] [12]
+] [9] [10]
 Cap\'{\i }tulo 2.
+Package epstopdf Info: Source file: <img/manifest.eps>
+(epstopdf)                    date: 2014-05-21 18:42:54
+(epstopdf)                    size: 3638351 bytes
+(epstopdf)             Output file: <img/manifest-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-21 18:44:09
+(epstopdf)                    size: 246444 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/manifest-eps-converted
+-to.pdf img/manifest.eps>
+(epstopdf)             \includegraphics on input line 456.
+Package epstopdf Info: Output file is already uptodate.
+<img/manifest-eps-converted-to.pdf, id=74, 835.12pt x 405.515pt>
+File: img/manifest-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/manifest-eps-converted-to.pdf>
+Package pdftex.def Info: img/manifest-eps-converted-to.pdf used on input line 4
+56.
+(pdftex.def)             Requested size: 341.43306pt x 165.79195pt.
 Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    date: 2014-05-13 20:26:31
 (epstopdf)                    size: 945958 bytes
@@ -658,18 +648,19 @@ Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    size: 31607 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
 o.pdf img/Clouds.eps>
-(epstopdf)             \includegraphics on input line 463.
+(epstopdf)             \includegraphics on input line 457.
 Package epstopdf Info: Output file is already uptodate.
 File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
-<use img/Clouds-eps-converted-to.pdf>
-Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 463
+ <use img/Clouds-eps-converted-to.pdf>
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 457
 .
 (pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
- [13
+
+[11
 
 ]
-LaTeX Info: Redefining \. on input line 489.
-LaTeX Info: Redefining \% on input line 489.
+LaTeX Info: Redefining \. on input line 474.
+LaTeX Info: Redefining \% on input line 474.
 Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    date: 2014-05-13 20:26:31
 (epstopdf)                    size: 945958 bytes
@@ -678,17 +669,74 @@ Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    size: 31607 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
 o.pdf img/Clouds.eps>
-(epstopdf)             \includegraphics on input line 489.
+(epstopdf)             \includegraphics on input line 474.
+Package epstopdf Info: Output file is already uptodate.
+File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
+ <use img/Clouds-eps-converted-to.pdf>
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 474
+.
+(pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
+ [12 <./img/manifest-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 512.
+LaTeX Info: Redefining \% on input line 512.
+Package epstopdf Info: Source file: <img/Clouds.eps>
+(epstopdf)                    date: 2014-05-13 20:26:31
+(epstopdf)                    size: 945958 bytes
+(epstopdf)             Output file: <img/Clouds-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-13 20:27:17
+(epstopdf)                    size: 31607 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
+o.pdf img/Clouds.eps>
+(epstopdf)             \includegraphics on input line 512.
+Package epstopdf Info: Output file is already uptodate.
+File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
+ <use img/Clouds-eps-converted-to.pdf>
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 512
+.
+(pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
+ [13]
+LaTeX Info: Redefining \. on input line 528.
+LaTeX Info: Redefining \% on input line 528.
+Package epstopdf Info: Source file: <img/Clouds.eps>
+(epstopdf)                    date: 2014-05-13 20:26:31
+(epstopdf)                    size: 945958 bytes
+(epstopdf)             Output file: <img/Clouds-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-13 20:27:17
+(epstopdf)                    size: 31607 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
+o.pdf img/Clouds.eps>
+(epstopdf)             \includegraphics on input line 528.
 Package epstopdf Info: Output file is already uptodate.
 File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/Clouds-eps-converted-to.pdf>
-Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 489
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 528
 .
 (pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
  [14]
-LaTeX Info: Redefining \. on input line 4775.
-LaTeX Info: Redefining \% on input line 4775.
+Package epstopdf Info: Source file: <img/scrum.eps>
+(epstopdf)                    date: 2014-05-21 18:23:41
+(epstopdf)                    size: 1042784 bytes
+(epstopdf)             Output file: <img/scrum-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-21 18:44:10
+(epstopdf)                    size: 14211 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/scrum-eps-converted-to
+.pdf img/scrum.eps>
+(epstopdf)             \includegraphics on input line 535.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/scrum-eps-converted-to.pdf, id=91, 417.56pt x 231.86626pt>
+File: img/scrum-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/scrum-eps-converted-to.pdf>
+Package pdftex.def Info: img/scrum-eps-converted-to.pdf used on input line 535.
+
+(pdftex.def)             Requested size: 341.43306pt x 189.60439pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 542.
+LaTeX Info: Redefining \% on input line 542.
 Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    date: 2014-05-13 20:26:31
 (epstopdf)                    size: 945958 bytes
@@ -697,35 +745,114 @@ Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    size: 31607 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
 o.pdf img/Clouds.eps>
-(epstopdf)             \includegraphics on input line 4775.
+(epstopdf)             \includegraphics on input line 542.
 Package epstopdf Info: Output file is already uptodate.
 File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/Clouds-eps-converted-to.pdf>
-Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 477
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 542
+.
+(pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
+ [15 <./img/scrum-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/tdd.eps>
+(epstopdf)                    date: 2014-05-21 21:33:10
+(epstopdf)                    size: 512417 bytes
+(epstopdf)             Output file: <img/tdd-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-21 21:38:31
+(epstopdf)                    size: 22796 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/tdd-eps-converted-to.p
+df img/tdd.eps>
+(epstopdf)             \includegraphics on input line 545.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/tdd-eps-converted-to.pdf, id=98, 490.83376pt x 512.91624pt>
+File: img/tdd-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/tdd-eps-converted-to.pdf>
+Package pdftex.def Info: img/tdd-eps-converted-to.pdf used on input line 545.
+(pdftex.def)             Requested size: 256.0748pt x 267.60237pt.
+LaTeX Info: Redefining \. on input line 547.
+LaTeX Info: Redefining \% on input line 547.
+Package epstopdf Info: Source file: <img/Clouds.eps>
+(epstopdf)                    date: 2014-05-13 20:26:31
+(epstopdf)                    size: 945958 bytes
+(epstopdf)             Output file: <img/Clouds-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-13 20:27:17
+(epstopdf)                    size: 31607 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
+o.pdf img/Clouds.eps>
+(epstopdf)             \includegraphics on input line 547.
+Package epstopdf Info: Output file is already uptodate.
+File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
+ <use img/Clouds-eps-converted-to.pdf>
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 547
+.
+(pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
+
+[16 <./img/tdd-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/pair.eps>
+(epstopdf)                    date: 2014-05-22 00:38:49
+(epstopdf)                    size: 2611642 bytes
+(epstopdf)             Output file: <img/pair-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=img/pair-eps-converted-to.
+pdf img/pair.eps>
+(epstopdf)             \includegraphics on input line 559.
+runsystem(repstopdf --outfile=img/pair-eps-converted-to.pdf img/pair.eps)...exe
+cuted safely (allowed).
+
+Package epstopdf Info: Result file: <img/pair-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-22 00:43:28
+(epstopdf)                    size: 122818 bytes.
+
+<img/pair-eps-converted-to.pdf, id=105, 578.16pt x 387.4475pt>
+File: img/pair-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/pair-eps-converted-to.pdf>
+Package pdftex.def Info: img/pair-eps-converted-to.pdf used on input line 559.
+(pdftex.def)             Requested size: 256.0748pt x 171.6007pt.
+LaTeX Info: Redefining \. on input line 4825.
+LaTeX Info: Redefining \% on input line 4825.
+Package epstopdf Info: Source file: <img/Clouds.eps>
+(epstopdf)                    date: 2014-05-13 20:26:31
+(epstopdf)                    size: 945958 bytes
+(epstopdf)             Output file: <img/Clouds-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-13 20:27:17
+(epstopdf)                    size: 31607 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
+o.pdf img/Clouds.eps>
+(epstopdf)             \includegraphics on input line 4825.
+Package epstopdf Info: Output file is already uptodate.
+File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
+ <use img/Clouds-eps-converted-to.pdf>
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 482
 5.
 (pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
- [15] (./SIMFORPAS.aux
+
+[17 <./img/pair-eps-converted-to.pdf>] (./SIMFORPAS.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-) ) 
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6362 strings out of 493315
- 87269 string characters out of 6137904
- 172373 words of memory out of 5000000
- 9669 multiletter control sequences out of 15000+600000
+ 6388 strings out of 493315
+ 87908 string characters out of 6137904
+ 173367 words of memory out of 5000000
+ 9691 multiletter control sequences out of 15000+600000
  32524 words of font info for 62 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,13n,56p,737b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/
-texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-di
-st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SIMFORPAS.pdf (25 pages, 313603 bytes).
+ 38i,14n,56p,1153b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SIMFORPAS.pdf (25 pages, 723304 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 129 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

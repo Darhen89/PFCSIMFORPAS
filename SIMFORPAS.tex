@@ -250,7 +250,7 @@ keepaspectratio]{img/Clouds.eps}%
 %%%%%%%%%%%%%%%%%
 
 \author{Manuel Mateos Gutiérrez.}
-\title{Comunic@: Un ejemplo práctico de desarrollo ágil}
+\title{SIMFORPAS}
 \begin{document}
 %%%Aquí empieza el documento%%%
 \pagenumbering{roman}
@@ -263,10 +263,10 @@ keepaspectratio]{img/Clouds.eps}%
     \bigbreak
     \bigbreak
     \bigbreak
-    ESCUELA TéCNICA SUPERIOR DE INGENIERíA INFORMáTICA
+    ESCUELA TÉCNICA SUPERIOR DE INGENIERÍA INFORMÁTICA
     \bigbreak
     \bigbreak
-    INGENIERíA TéCNICA EN INFORMáTICA DE GESTIóN
+    INGENIERÍA TÉCNICA EN INFORMÁTICA DE GESTIÓN
     \bigbreak
     \bigbreak
     \bigbreak
@@ -283,7 +283,7 @@ keepaspectratio]{img/Clouds.eps}%
     \bigbreak
     Realizado por
     \smallbreak
-    MANUEL MATEOS GUTIéRREZ\\
+    MANUEL MATEOS GUTIÉRREZ\\
     32076954-G
 
     \bigbreak
@@ -292,12 +292,12 @@ keepaspectratio]{img/Clouds.eps}%
     \smallbreak
     IRENE ALEJO TEISSI\`ERE
     \smallbreak
-    PABLO TRINIDAD MARTíN-ARROYO
+    PABLO TRINIDAD MARTÍN-ARROYO
     \bigbreak
     \bigbreak
     Departamento
     \smallbreak
-    LENGUAJES Y SISTEMAS INFORMáTICOS
+    LENGUAJES Y SISTEMAS INFORMÁTICOS
 \end{center}
     \vfill
 \begin{flushright}
@@ -306,34 +306,22 @@ Sevilla, Mayo de 2014
 \end{titlepage}
 %%%FIN de Portada%%%
 
-
-\cleardoublepage
 \vspace*{7cm}
-\begin{oldquotation}
-Cita, agradecimiento, whatever.
-\end{oldquotation}
-
+%AGRADECIMIENTOS
 \chapter*{Agradecimientos}
 Agradecimientos
 \cleardoublepage
 
 \tableofcontents
 \listoffigures
-\setlength{\parindent}{1cm}
-\setlength{\parskip}{1cm}
+
 \cleardoublepage
-\vspace*{7cm}
+
 \pagenumbering{arabic}
-\begin{oldquotation}
-
-``La mayoría del software actual es muy parecido a una pirámide
-egipcia, con millones de ladrillos puestos unos encima de otros sin
-una estructura integral, simplemente realizada mediante fuerza bruta
-y miles de esclavos'' -- Alan Kay
-
-\end{oldquotation}
 
 \part{Introducción}
+
+
  
 \AddToShipoutPicture{\BackgroundPic}
 
@@ -343,7 +331,7 @@ y miles de esclavos'' -- Alan Kay
 
 Su uso es amplio y variado, desde rodaje de planos aéreos en películas de cine hasta control de incendios, control de costas, recogida de información, ayuda en operaciones de rescate, control de multitudes...
 
-\imgCentrada{fig.1}{img/figura1.eps}{Soporte aéreo en el control de incendios.}
+\imgCentrada{fig.1}{img/incendio.eps}{Soporte aéreo en el control de incendios.}
 
 A finales del siglo XX fue cuando los UAV's empiezan a operar con todas las características de autonomía. Esto nos provee de muchas ventajas, por ejemplo, presencia en lugares de difícil acceso sin necesidad de llevar al terreno a un piloto de UAV, reducción del riesgo humano en determinadas situaciones, disminución del la incursión humana sobre parques naturales y zonas protegidas... . Poco a poco los UAV's tienden a prescindir de la presencia de un piloto que tenga la obligación de estar visualizando el avión y a implementar sistemas de control remoto mediante estaciones de control de tierra o GCS's (Ground Control Stations) y de vuelo automatizado, lo que nos llevará a no depender del factor humano. 
 
@@ -433,15 +421,15 @@ Se tendrán en cuenta estos objetivos durante la realización del proyecto y se co
 
 Éste documento se estructura en las siguientes partes:
 
-PREFACIO: En éste capítulo se introduce el proyecto creando el contexto de su implementación, explicando en qué consiste, la motivación que nos ha llevado a desarrollarlo y los objetivos que se quieren cumplir en el mismo, así como éste mismo apartado de estructura del proyecto en el que explicamos qué vamos a encontrarnos en ésta memoria y cómo está distribuida y un índice de contenidos y de figuras.
+\textbf{PREFACIO:} En éste capítulo se introduce el proyecto creando el contexto de su implementación, explicando en qué consiste, la motivación que nos ha llevado a desarrollarlo y los objetivos que se quieren cumplir en el mismo, así como éste mismo apartado de estructura del proyecto en el que explicamos qué vamos a encontrarnos en ésta memoria y cómo está distribuida y un índice de contenidos y de figuras.
 
-CONCEPTOS BÁSICOS: Introducimos las metodologías que hemos usado durante el desarrollo del proyecto así como los conceptos básicos necesarios para comprender todo el documento, una enumeración de tecnologías usadas y un glosario de terminología, también se explicará el método de desarrollo iterativo e incremental que hemos llevado a cabo y en el que se basa la documentación del proyecto.
+\textbf{CONCEPTOS BÁSICOS:} Introducimos las metodologías que hemos usado durante el desarrollo del proyecto así como los conceptos básicos necesarios para comprender todo el documento, una enumeración de tecnologías usadas y un glosario de terminología, también se explicará el método de desarrollo iterativo e incremental que hemos llevado a cabo y en el que se basa la documentación del proyecto.
 
-SISTEMA A DESARROLLAR: Aquí se enumerarán cada una de las etapas de desarrollo que ha ido sufriendo el proyecto SIMFORPAS desarrollando la planificación para cada iteración y cada problema que ha ido surgiendo durante el mismo, también se aportará el diagrama de Burndown para monitorizar en todo momento el estado del proyecto.
+\textbf{SISTEMA A DESARROLLAR:} Aquí se enumerarán cada una de las etapas de desarrollo que ha ido sufriendo el proyecto SIMFORPAS desarrollando la planificación para cada iteración y cada problema que ha ido surgiendo durante el mismo, también se aportará el diagrama de Burndown para monitorizar en todo momento el estado del proyecto.
 
-CONCLUSIONES: Realizaremos una retrospectiva final del proyecto analizando su estado final, la consecución de los objetivos, los cambios con respecto a la planificación inicial que se han realizado y las posibles mejoras y futuro del proyecto SIMFORPAS.
+\textbf{CONCLUSIONES:} Realizaremos una retrospectiva final del proyecto analizando su estado final, la consecución de los objetivos, los cambios con respecto a la planificación inicial que se han realizado y las posibles mejoras y futuro del proyecto SIMFORPAS.
 
-APENDICES: Para finalizar añadiremos un apéndice de definiciones, un manual de usuario y la bibliografía usada durante el desarrollo del proyecto y la memoria.
+\textbf{APENDICES:} Para finalizar añadiremos un apéndice de definiciones, un manual de usuario y la bibliografía usada durante el desarrollo del proyecto y la memoria.
 
 \newpage
 \ClearShipoutPicture
@@ -465,13 +453,15 @@ Para hacer frente a esta serie de problemas en torno al desarrollo software nace
 
 \subsection{Manifiesto ágil}
 
+\imgCentrada{fig.2.1}{img/manifest.eps}{Manifiesto ágil.}
+
 \subsubsection{VALORES:}
 
 \begin{itemize}
-\item \textbf{Valorar más a los individuos y su interacción que a los procesos y las herramientas} 
-\item \textbf{Valorar más el software que funciona que la documentación exhaustiva} 
-\item \textbf{Valorar más la colaboración con el cliente que la negociación contractual} 
-\item \textbf{Valorar más la respuesta al cambio que el seguimiento de un plan} 
+\item \textbf{Valorar más a los individuos y su interacción que a los procesos y las herramientas:} Este es posiblemente el principio más importante del manifiesto. Por supuesto que los procesos ayudan al trabajo. Son una guía de operación. Las herramientas mejoran la eficiencia, pero sin personas con conocimiento técnico y actitud adecuada, no producen resultados.
+\item \textbf{Valorar más el software que funciona que la documentación exhaustiva:} La documentación siempre será una medida importante pero no como guía para entender un código sino como complemento de un código claro y autoexplicativo. Al final lo que se debe valorar es un código ordenado y que funciona, que le da valor a un proyecto, por encima de una documentación que aporta datos y no información.
+\item \textbf{Valorar más la colaboración con el cliente que la negociación contractual:} Las prácticas ágiles están especialmente indicadas para productos difíciles de definir con detalle en el principio, o que si se definieran así tendrían al final menos valor que si se van enriqueciendo con retro-información continua durante el desarrollo. También para los casos en los que los requisitos van a ser muy inestables por la velocidad del entorno de negocio. En el desarrollo ágil el cliente es un miembro más del equipo, que se integra y colabora en el grupo de trabajo. Los modelos de contrato por obra no encajan.
+\item \textbf{Valorar más la respuesta al cambio que el seguimiento de un plan:} Para un modelo de desarrollo que surge de entornos inestables, que tienen como factor inherente el cambio y la evolución rápida y continua, resulta mucho más valiosa la capacidad de respuesta que la de seguimiento y aseguramiento de planes pre-establecidos. Los principales valores de la gestión ágil son la anticipación y la adaptación; diferentes a los de la gestión de proyectos ortodoxa: planificación y control para evitar desviaciones sobre el plan.
 
 \end{itemize}
 
@@ -507,6 +497,66 @@ más efectivo y, según estas reflexiones, ajustar su comportamiento.
 
 
 \end{enumerate}
+
+
+
+\subsection{Desarrollo iterativo incremental con Scrum}
+
+\subsubsection{Introducción}
+
+\lettrine{P}{ara} abordar la realización del proyecto SIMFORPAS se hará uso del modelo organizativo de trabajo Scrum. Una de las características de éste modelo es la búsqueda de una serie de beneficios, como por ejemplo, la capacidad de aceptación de nuevos cambios durante el desarrollo ya sean requeridos por el cliente como por el mercado, esto nos asegura que el cliente al finalizar el proyecto va a tener el producto que satisface a sus necesidades ya que de otro modo los requisitos pueden haber cambiado desde la definición inicial.
+
+El equipo de trabajo se auto asignará las tareas a realizar, esto provoca que cada integrante se mantenga motivado ya que él mismo se ha puesto su objetivo. El desarrollo iterativo exige tener una versión funcional o una serie de resultados presentables al finalizar cada etapa del desarrollo, esto se traduce en una mayor calidad del software.
+
+Utilizando herramientas como la gráfica de burn down es posible observar la velocidad que está llevando el equipo de desarrollo, esto es útil para detectar posibles problemas de rendimiento que haya que solucionar entre todo el equipo o una reorganización de la planificación así como para poder estimar el tiempo de duración del proyecto.
+
+\subsubsection{Roles}
+
+\begin{itemize}
+\item \textbf{Product owner:} El Product Owner representa la voz del cliente. Se asegura de que el equipo Scrum trabaje de forma adecuada desde la perspectiva del negocio. El Product Owner escribe historias de usuario, las prioriza, y las coloca en el Product Backlog.
+\item \textbf{ScrumMaster:} El Scrum es facilitado por un ScrumMaster, cuyo trabajo primario es eliminar los obstáculos que impiden que el equipo alcance el objetivo del sprint. El ScrumMaster no es el líder del equipo (porque ellos se auto-organizan), sino que actúa como una protección entre el equipo y cualquier influencia que le distraiga. El ScrumMaster se asegura de que el proceso Scrum se utiliza como es debido. El ScrumMaster es el que hace que las reglas se cumplan.
+\item \textbf{Equipo de desarrollo:} El equipo tiene la responsabilidad de entregar el producto. Un pequeño equipo de 3 a 9 personas con las habilidades transversales necesarias para realizar el trabajo (análisis, diseño, desarrollo, pruebas, documentación, etc).
+\end{itemize}
+
+Existen otros roles auxiliares como pueden ser proveedores, clientes, vendedores... sólo participarán directamente durante las revisiones de sprint.
+
+\subsubsection{Desarrollo del proyecto con Scrum}
+
+\lettrine{A}{l} principio se tiene una reunión con el cliente donde se recoge el objetivo del proyecto, los requisitos y las tareas que se llevarán a cabo para realizarlos, todo ello mediante historias de usuario en las que se asocia el rol a la necesidad del proyecto como se puede observar en el siguiente ejemplo: \emph{Como desarrollador quiero un módulo central capaz de cambiar y monitorizar el estado del modelo}, de esta forma se deciden las tareas a realizar. Luego el equipo y el cliente discuten la prioridad en las tareas hasta llegar a un consenso de qué es más importante desarrollar primero y qué dejar para más adelante, de esta forma nos aseguramos de ir cumpliendo las necesidades más importantes para poder tener cuanto antes una versión funcional del proyecto. También se valorarán según la dificultad de cada una de ellas, facilitando de esta forma la elección de qué se realizará antes, las acciones que sean esenciales y fáciles se harán primero, y las difíciles y poco necesarias se dejarán para el final, el tiempo de realización de cada tarea se hará en función a la dificultad de la misma.
+
+Una vez definidas las historias de usuario se define el tamaño de los \emph{sprints}, normalmente un sprint es un espacio de tiempo de entre una y cuatro semanas en las que se desarrollarán determinadas historias de usuario. Cuando se define el primer sprint se colocan en una pizarra las historias de usuario, para cada historia se definirán unos test de aceptación que asegurarán una vez cumplidos que la tarea está finalizada y se colocarán pequeñas sub-tareas necesarias para la realización de la historia de usuario. La pizarra tendrá varios \emph{pools} que indicarán las sub-tareas a realizar, las que están en proceso y las que ya se han realizado. Éstas sub-tareas se irán cambiando de posición según sea su estado. La morfología de la pizarra de Scrum se muestra en la siguiente figura.
+
+%FOTO SCRUM CATEC SIMFORPAS
+
+Durante el sprint se hará una reunión diaria entre el equipo y el ScrumMaster en la que se hablará del estado del proyecto, qué se realizó el día anterior, qué se realizará en ese día y qué problemas han surgido para buscar entre todos soluciones y que ningún miembro del equipo se quede estancado en una tarea.
+
+Una vez finalizado el sprint se organiza una reunión de retrospectiva, a la que acudirá el equipo, el ScrumMaster y el product owner en la que se presentará el estado del proyecto, qué es lo que se ha llevado a cabo durante el sprint, qué problemas han surgido, que se podría modificar/mejorar. El cliente dará el visto bueno y hará las peticiones que vea necesarias, se hará la gráfica de burn down para documentar el estado de esa fase del proyecto y se organizarán las tareas para el siguiente sprint.
+
+\imgCentrada{fig.2.3}{img/scrum.eps}{Ciclo metodología Scrum.}
+
+Esta forma de trabajo se repetirá hasta la finalización del proyecto, nos asegurará que el cliente está implicado en el desarrollo y que conocerá de antemano el producto que va a comprar y podrá interceder en su morfología. Con este método el equipo de desarrollo trabaja de una forma más relajada evitando la acumulación de trabajo a última hora y los estancamientos ya que entre el equipo debe fluir la comunicación y el problema que tenga uno en la realización de su parte se convierte en problema de todos. El cliente podrá añadir cambios o complementos al proyecto a sabiendas de que esos cambios vendrán con el sacrificio de otras historias de usuario programadas o de un incremento del tiempo de desarrollo y del coste del proyecto.
+
+\subsection{Test Driven Development}
+
+\lettrine{E}{l} desarrollo guiado por pruebas o TDD por sus siglas en inglés consiste en una práctica de programación que implica a su vez otras dos prácticas: Escribir las pruebas antes que el código y refactorizar. Una vez habiendo definido la funcionalidad de la parte del código que vamos a escribir hacemos un test que pruebe esa funcionalidad y una vez definido éste test y fallando nos disponemos a codificar la solución que lo resuelva, de esta forma nos aseguramos de que no perdemos ninguna función al programar el código. Si se hace al revés el test se ve afectado por la forma que tiene el código y tendemos a probar lo que sabemos que va a ocurrir dejándonos muchos casos sin resolver que pueden afectar más tarde al correcto funcionamiento de nuestro programa. Con esta técnica también nos aseguramos que en el momento en que se realice un cambio en el programa nada deja de funcionar, puesto que en todo momento el código debe pasar los test asegurando que no se pierde ninguna funcionalidad debida al nuevo cambio.
+
+Una vez se ha escrito el test, se ha comprobado que fallaba y se ha resuelto viene la hora de refactorizar el código, como no sabemos  a priori cómo va a ser el código final debemos probablemente el código que hemos escrito para pasar ese test sea memorable, por eso tenemos que estudiar la forma correcta de escribir esa parte del código, esto se hace mediante una refactorización. Una vez realizada ésta refactorización se vuelven a pasar los test, si no pasan habría que repasar el código para que se solucione el error y luego volver a repasar la refactorización.
+
+\imgCentradaMed{fig.2.4}{img/tdd.eps}{Ciclo TDD.}
+
+\newpage
+
+Mediante ésta técnica nos aseguramos un código limpio, bien estructurado y libre de errores. Otra funcionalidad de los test es explicar de qué manera se usa el código que estamos programando, ya que para probar nuestros métodos y clases debemos hacer uso de ellas, y este uso queda reflejado en el test.
+
+\subsection{Pair programming}
+
+\lettrine{A}{} la hora de programar es muy común perder mucho tiempo con errores al codificar así como en tomar decisiones correctas sobre qué forma darle al código, una técnica que evita estas situaciones es la programación por parejas, consiste en unir a dos desarrolladores para que programen juntos en el mismo puesto de trabajo, de forma que mientras uno programa el otro vigila que no tenga errores. También deciden entre los dos cómo hacer las cosas de una forma objetiva, siempre es bueno tener una segunda opinión y discutir cuál es la mejor solución a un problema.
+
+A priori puede parecer que éste método hace que dos personas estén haciendo el trabajo de una, pero a la larga esto acelera el tiempo de desarrollo. También es muy útil a la hora de transmitir conocimientos a una nueva incorporación al equipo o para enseñar a programadores junior.
+
+Cada cierto tiempo se pueden intercambiar los papeles lo que les permitirá a las dos partes coger soltura y ver el código con perspectiva de forma que puedan abstraerse y tener una visión global. Ésta técnica puede combinarse con la programación guiada por tests de forma que uno de los dos escribe el test y el otro tiene que escribir el código que lo resuelve para que el otro tenga la obligación de pensar de qué forma podría fallar y así tener una mayor cobertura frente a fallos.
+
+\imgCentradaMed{fig.2.5}{img/pair.eps}{Ciclo TDD.}
 
 %definir estas metodologías, pero ¿qué significa ser ágil desde una perspectiva
 %de software? Basados en el consenso de varias definiciones contemporáneas,
