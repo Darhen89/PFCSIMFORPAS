@@ -3,6 +3,13 @@
 \contentsline {chapter}{\numberline {1}Introducci\'on}{5}
 \contentsline {section}{\numberline {1.1}Motivaci\'on}{6}
 \contentsline {section}{\numberline {1.2}Objetivos del proyecto}{7}
-\contentsline {subsection}{\numberline {1.2.1}Objetivos orientados a la metodolog\'ia}{7}
+\contentsline {subsection}{\numberline {1.2.1}Objetivos orientados a la metodolog\IeC {\'\i }a}{7}
 \contentsline {subsection}{\numberline {1.2.2}Objetivos orientados a la t\'ecnica}{8}
 \contentsline {subsection}{\numberline {1.2.3}Objetivos personales}{9}
+\contentsline {section}{\numberline {1.3}Estructura del documento}{9}
+\contentsline {part}{II\hspace {1em}Conceptos b\'asicos}{11}
+\contentsline {chapter}{\numberline {2}Metodolog\IeC {\'\i }as usadas}{13}
+\contentsline {section}{\numberline {2.1}Metodolog\IeC {\'\i }as \'agiles}{13}
+\contentsline {subsection}{\numberline {2.1.1}Manifiesto \'agil}{14}
+\contentsline {subsubsection}{VALORES:}{14}
+\contentsline {subsubsection}{PRINCIPIOS:}{14}

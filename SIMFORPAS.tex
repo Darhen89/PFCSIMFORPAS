@@ -86,7 +86,7 @@
 \pagestyle{fancyplain}
 \newcommand{\diezpuntos}{\fontsize{8pt}{\baselineskip}\selectfont}
 \addtolength{\headheight}{1\baselineskip}
-\lhead{\diezpuntos ITIGesti\'on}
+\lhead{\diezpuntos ITIGestión}
 %\chead{\diezpuntos }%
 \rhead[\diezpuntos \bfseries \leftmark]{\diezpuntos \bfseries \rightmark}
 \renewcommand{\headrulewidth}{0.5 pt}
@@ -263,10 +263,10 @@ keepaspectratio]{img/Clouds.eps}%
     \bigbreak
     \bigbreak
     \bigbreak
-    ESCUELA T\'ECNICA SUPERIOR DE INGENIER\'IA INFORM\'ATICA
+    ESCUELA TéCNICA SUPERIOR DE INGENIERíA INFORMáTICA
     \bigbreak
     \bigbreak
-    INGENIER\'IA T\'ECNICA EN INFORM\'ATICA DE GESTI\'ON
+    INGENIERíA TéCNICA EN INFORMáTICA DE GESTIóN
     \bigbreak
     \bigbreak
     \bigbreak
@@ -283,7 +283,7 @@ keepaspectratio]{img/Clouds.eps}%
     \bigbreak
     Realizado por
     \smallbreak
-    MANUEL MATEOS GUTI\'ERREZ\\
+    MANUEL MATEOS GUTIéRREZ\\
     32076954-G
 
     \bigbreak
@@ -292,12 +292,12 @@ keepaspectratio]{img/Clouds.eps}%
     \smallbreak
     IRENE ALEJO TEISSI\`ERE
     \smallbreak
-    PABLO TRINIDAD MART\'IN-ARROYO
+    PABLO TRINIDAD MARTíN-ARROYO
     \bigbreak
     \bigbreak
     Departamento
     \smallbreak
-    LENGUAJES Y SISTEMAS INFORM\'ATICOS
+    LENGUAJES Y SISTEMAS INFORMáTICOS
 \end{center}
     \vfill
 \begin{flushright}
@@ -333,258 +333,181 @@ y miles de esclavos'' -- Alan Kay
 
 \end{oldquotation}
 
-\part{Introducci\'on}
+\part{Introducción}
  
 \AddToShipoutPicture{\BackgroundPic}
 
-\chapter{Introducci\'on}
+\chapter{Introducción}
 
-\lettrine{A}{UNQUE} el concepto de aviones no tripulados o UAV's (Unmanned Aerial Vehicles) es bastante antiguo, puesto que se ha hecho uso de ellos desde la primera guerra mundial, cada d\'ia o\'imos m\'as hablar sobre ellos en los medios de comunicaci\'on, esto se debe al gran crecimiento que est\'a sufriendo el sector de la aeron\'autica en torno a estos dispositivos, tanto para uso militar, como los famosos "drones" de Estados Unidos, como civil.
+\lettrine{A}{UNQUE} el concepto de aviones no tripulados o UAV's (Unmanned Aerial Vehicles) es bastante antiguo, puesto que se ha hecho uso de ellos desde la primera guerra mundial, cada día oímos más hablar sobre ellos en los medios de comunicación, esto se debe al gran crecimiento que está sufriendo el sector de la aeronáutica en torno a estos dispositivos, tanto para uso militar, como los famosos "drones" de Estados Unidos, como civil.
 
-Su uso es amplio y variado, desde rodaje de planos a\'ereos en pel\'iculas de cine hasta control de incendios, control de costas, recogida de informaci\'on, ayuda en operaciones de rescate, control de multitudes...
+Su uso es amplio y variado, desde rodaje de planos aéreos en películas de cine hasta control de incendios, control de costas, recogida de información, ayuda en operaciones de rescate, control de multitudes...
 
-\imgCentrada{fig.1}{img/figura1.eps}{Soporte a\'ereo en el control de incendios.}
+\imgCentrada{fig.1}{img/figura1.eps}{Soporte aéreo en el control de incendios.}
 
-A finales del siglo XX fue cuando los UAV's empiezan a operar con todas las caracter\'isticas de autonom\'ia. Esto nos provee de muchas ventajas, por ejemplo, presencia en lugares de dif\'icil acceso sin necesidad de llevar al terreno a un piloto de UAV, reducci\'on del riesgo humano en determinadas situaciones, disminuci\'on del la incursi\'on humana sobre parques naturales y zonas protegidas... . Poco a poco los UAV's tienden a prescindir de la presencia de un piloto que tenga la obligaci\'on de estar visualizando el avi\'on y a implementar sistemas de control remoto mediante estaciones de control de tierra o GCS's (Ground Control Stations) y de vuelo automatizado, lo que nos llevar\'a a no depender del factor humano. 
+A finales del siglo XX fue cuando los UAV's empiezan a operar con todas las características de autonomía. Esto nos provee de muchas ventajas, por ejemplo, presencia en lugares de difícil acceso sin necesidad de llevar al terreno a un piloto de UAV, reducción del riesgo humano en determinadas situaciones, disminución del la incursión humana sobre parques naturales y zonas protegidas... . Poco a poco los UAV's tienden a prescindir de la presencia de un piloto que tenga la obligación de estar visualizando el avión y a implementar sistemas de control remoto mediante estaciones de control de tierra o GCS's (Ground Control Stations) y de vuelo automatizado, lo que nos llevará a no depender del factor humano. 
 
-Las GCS son controladas por operadores expertos en estos dispositivos que se encargan de dise\'nar e implementar las misiones que realizar\'an los aviones, as\'i como llevar el control del curso de la misma, conocer las caracter\'isticas de la aeronave, deben saber interpretar los indicadores de telemetr\'ia, estar familiarizados con el protocolo de comunicaci\'on y saber reaccionar ante posibles fallos durante la misi\'on para salvaguardar en todo momento la seguridad tanto del veh\'iculo a\'ereo como del entorno en el que se mueve.
+Las GCS son controladas por operadores expertos en estos dispositivos que se encargan de dise\'nar e implementar las misiones que realizarán los aviones, así como llevar el control del curso de la misma, conocer las características de la aeronave, deben saber interpretar los indicadores de telemetría, estar familiarizados con el protocolo de comunicación y saber reaccionar ante posibles fallos durante la misión para salvaguardar en todo momento la seguridad tanto del vehículo aéreo como del entorno en el que se mueve.
 
-Estos operadores requieren de una formaci\'on en profundidad y fiable ya que tienen la responsabilidad sobre las acciones que realice la aeronave, por ello se debe exigir un entrenamiento concienzudo. Si este entrenamiento es realizado con dispositivos reales corremos el riesgo de que frente a cualquier fallo, error humano o de car\'acter inform\'atico, haya una p\'erdida en alg\'un componente del sistema, ya sea que se estrelle la aeronave, que da\'ne alguna estructura o a alguna persona, lo que resultaría en una importante p\'erdida econ\'omica y/o humana. 
+Estos operadores requieren de una formación en profundidad y fiable ya que tienen la responsabilidad sobre las acciones que realice la aeronave, por ello se debe exigir un entrenamiento concienzudo. Si este entrenamiento es realizado con dispositivos reales corremos el riesgo de que frente a cualquier fallo, error humano o de carácter informático, haya una pérdida en algún componente del sistema, ya sea que se estrelle la aeronave, que da\'ne alguna estructura o a alguna persona, lo que resultaría en una importante pérdida económica y/o humana. 
 
-El proyecto SIMFORPAS pretende dar una soluci\'on a este problema presentando un entorno de simulaci\'on de vuelo de UAV's para operadores de GCS en formaci\'on, que proveer\'a de un contexto de vuelo seguro e id\'entico a una situaci\'on real de control de misi\'on de un UAV.
+El proyecto SIMFORPAS pretende dar una solución a este problema presentando un entorno de simulación de vuelo de UAV's para operadores de GCS en formación, que proveerá de un contexto de vuelo seguro e idéntico a una situación real de control de misión de un UAV.
 
-\section{Motivaci\'on}
+\section{Motivación}
 
-\lettrine{S}{eg\'un} un estudio publicado por el medio online \emph{Update Defense} y realizado por la firma de investigaci\'on de mercados \emph{ICD Research} durante la pr\'oxima d\'ecada el sector de la aviaci\'on no tripulada tendr\'a un aumento anual del 4,08\% lo que supondr\'a que en 2021 alcance alrededor de los 10.500 millones de d\'olares. El gran incremento de la demanda  se traducir\'a en una mayor necesidad de infraestructuras y tecnolog\'ias en torno a estos dispositivos.
+\lettrine{S}{egún} un estudio publicado por el medio online \emph{Update Defense} y realizado por la firma de investigación de mercados \emph{ICD Research} durante la próxima década el sector de la aviación no tripulada tendrá un aumento anual del 4,08\% lo que supondrá que en 2021 alcance alrededor de los 10.500 millones de dólares. El gran incremento de la demanda  se traducirá en una mayor necesidad de infraestructuras y tecnologías en torno a estos dispositivos.
 
-En vistas de estas espectativas resulta interesante implicarse de una forma activa en un mercado en auge que supondr\'a la aceptaci\'on de un gran n\'umero de nuevas tecnolog\'ias y traer\'a nuevos desaf\'ios en cuanto a investigaci\'on y desarrollo.
+En vistas de estas espectativas resulta interesante implicarse de una forma activa en un mercado en auge que supondrá la aceptación de un gran número de nuevas tecnologías y traerá nuevos desafíos en cuanto a investigación y desarrollo.
 
-Uno de los requisitos que tendr\'a esta etapa ser\'a pa de disponer de personal cualificado para la manipulaci\'on de los dispositivos de pilotage remotos de aeronaves no tripuladas, el proyecto SIMFORPAS pretende ocupar ese hueco proveyendo de un entorno seguro y fiable que permita conceder una certificaci\'on avanzada a operadores de GCS de forma que se aseguren los conocimientos t\'ecnicos necesarios en una situaci\'on real de pilotage.
+Uno de los requisitos que tendrá esta etapa será pa de disponer de personal cualificado para la manipulación de los dispositivos de pilotage remotos de aeronaves no tripuladas, el proyecto SIMFORPAS pretende ocupar ese hueco proveyendo de un entorno seguro y fiable que permita conceder una certificación avanzada a operadores de GCS de forma que se aseguren los conocimientos técnicos necesarios en una situación real de pilotage.
 
-En este proyecto propondremos una soluci\'on usando una serie de tecnolog\'ias que nos proveer\'an de las herramientas necesarias para crear el sistema necesario para la consecuci\'on de nuestro objetivo.
+En este proyecto propondremos una solución usando una serie de tecnologías que nos proveerán de las herramientas necesarias para crear el sistema necesario para la consecución de nuestro objetivo.
 
 \section{Objetivos del proyecto}
 
-\lettrine{E}{l} objetivo de este proyecto ser\'a el de crear una plataforma de simulaci\'on para la formaci\'on y entrenamiento de pilotos de RPAS (Remotely Piloted Aircraft System) ligeros que se comporte exactamente como lo har\'ia el avi\'on real. Que el sistema permita hacer uso de una GCS homologada para el manejo de UAV's usando un protocolo de comunicaciones para aviones no tripulados de menos de 25 Kg y usando un modelo de avi\'on real.
+\lettrine{E}{l} objetivo de este proyecto será el de crear una plataforma de simulación para la formación y entrenamiento de pilotos de RPAS (Remotely Piloted Aircraft System) ligeros que se comporte exactamente como lo haría el avión real. Que el sistema permita hacer uso de una GCS homologada para el manejo de UAV's usando un protocolo de comunicaciones para aviones no tripulados de menos de 25 Kg y usando un modelo de avión real.
 
-Tambi\'en se requerir\'a de una herramienta que permita a un instructor ser capaz de controlar la simulaci\'on permiti\'endole manejar su curso e introducir errores en el sistema. La simulaci\'on se deber\'a hacer en tiempo real.
+También se requerirá de una herramienta que permita a un instructor ser capaz de controlar la simulación permitiéndole manejar su curso e introducir errores en el sistema. La simulación se deberá hacer en tiempo real.
 
-Para garantizar la correcta consecuci\'on de los objetivos generales del proyecto se utilizar\'a la herramienta de organizaci\'on SCRUM junto a otras metodolog\'ias de desarrollo \'agil.
+Para garantizar la correcta consecución de los objetivos generales del proyecto se utilizará la herramienta de organización SCRUM junto a otras metodologías de desarrollo ágil.
 
-\subsection{Objetivos orientados a la metodolog\'ia}
+\subsection{Objetivos orientados a la metodología}
 
-Los objetivos que se tienen en mente al realizar esta aplicaci\'on con respecto a
-las metodolog\'ias usadas son los siguientes:
+Los objetivos que se tienen en mente al realizar esta aplicación con respecto a
+las metodologías usadas son los siguientes:
 
 \begin{itemize}
   \item Aplicar el marco de trabajo Scrum, usando para ello los conocimientos
-  adquiridos al trabajar en empresas que utilizan dicha metodolog\'ia y cursos.
-  Tambi\'en se dispone del apoyo bibliogr\'afico de libros como \emph{Agile Samurai} y \emph{Agile Software Development with Scrum}
+  adquiridos al trabajar en empresas que utilizan dicha metodología y cursos.
+  También se dispone del apoyo bibliográfico de libros como \emph{Agile Samurai} y \emph{Agile Software Development with Scrum}
 
-  \item Aplicar metodolog\'ias de programaci\'on en pareja para agilizar el desarrollo y evitar errores en el c\'odigo.
+  \item Aplicar metodologías de programación en pareja para agilizar el desarrollo y evitar errores en el código.
 
-  \item Aplicar los principios S.O.L.I.D. como base de un c\'odigo robusto, limpio y sujeto a cambios.
+  \item Aplicar los principios S.O.L.I.D. como base de un código robusto, limpio y sujeto a cambios.
 
-  \item Aplicar metodolog\'ias de eXtreme Programming para asegurar que el c\'odigo acepte cambios de manera sencilla e intuitiva.
+  \item Aplicar metodologías de eXtreme Programming para asegurar que el código acepte cambios de manera sencilla e intuitiva.
 
-  \item Comprobar los beneficios colaterales a la realizaci\'on de estas
-  pr\'acticas como, por ejemplo, la facilidad de a\'nadir nuevas tareas durante el
+  \item Comprobar los beneficios colaterales a la realización de estas
+  prácticas como, por ejemplo, la facilidad de a\'nadir nuevas tareas durante el
   proceso de desarrollo.
  
 \end{itemize}
 
-\subsection{Objetivos orientados a la t\'ecnica}
+\subsection{Objetivos orientados a la técnica}
 
-Los objetivos que se han querido validar al realizar esta aplicaci\'on son los
+Los objetivos que se han querido validar al realizar esta aplicación son los
 siguientes:
 
 \begin{itemize}
-  \item Aprender y utilizar tecnolog\'ias que garanticen una comunicaci\'on y procesado de datos en tiempo real como pueden ser C++ y DDS.
+  \item Aprender y utilizar tecnologías que garanticen una comunicación y procesado de datos en tiempo real como pueden ser C++ y DDS.
   
   \item Aprender y utilizar para el puesto de instructor herramientas que ayuden al desarrollo de una plataforma web para el control del simulador como Maven, Struts2, Spring4 e Hibernate4.
   
-  \item Aprender y utilizar entornos de testeo de c\'odigo como Google test, Google mock, Junit y Jmock para asegurar que el c\'odigo funciona en todas las fases de desarrollo y modificaci\'on del software.
+  \item Aprender y utilizar entornos de testeo de código como Google test, Google mock, Junit y Jmock para asegurar que el código funciona en todas las fases de desarrollo y modificación del software.
 
-  \item Aplicar correctamente cada una de las metodolog\'ias estudiadas y sacar conclusiones de su uso.
+  \item Aplicar correctamente cada una de las metodologías estudiadas y sacar conclusiones de su uso.
   
 \end{itemize}
 
 \subsection{Objetivos personales}
 
 Se ha querido asegurar que se cumplen los siguientes objetivos a lo largo del
-desarrollo de la aplicaci\'on:
+desarrollo de la aplicación:
 
 \begin{itemize}
-  \item Adaptaci	\'on: adecuarse a las exigencias de estas nuevas metodolog\'ias. Los
-  desarrolladores tienen la motivaci\'on de aprender nuevas t\'ecnicas que mejoren
+  \item Adaptación: Adecuarse a las exigencias de estas nuevas metodologías. Los
+  desarrolladores tienen la motivación de aprender nuevas técnicas que mejoren
   la calidad del software.
   
-  \item Ecperiencia: 
+  \item Confianza: Conseguir conocimientos que me permitan en un futuro abatir exitosamente un proyecto software.
+  
+  \item Experiencia: Adquirir aptitudes para solucionar problemas y añadir valor a un grupo de trabajo en un entorno laboral.
+  
+  \item Conocimientos Técnicos: Trabajar y sintetizar nuevas tecnologías que me sirvan en el futuro para completarme como profesional en mi campo.
 
 \end{itemize}
 %COMPROBAR APARTADO DE CONCLUSIONES
-Se tendr\'an en cuenta estos objetivos durante la realizaci\'on del proyecto y se comprobar?a si han sido realizados. Esto se ver?a con detenimiento en los apartados de conclusiones, v\'ease la parte V del presente documento.
-%
-%
-%\section{Estructura del documento}
-%
-%\lettrine{E}{}l presente documento se estructura en las siguientes partes:
-%
-%En la Parte I se encuentra el presente capítulo, en el que se ha introducido
-%someramente el proyecto realizado junto con los objetivos que se pretenden
-%conseguir con su realización.
-%
-%La Parte II se centra en introducir al lector en las materias relacionadas
-%con el proyecto. Se hará una pequeña introducción de las metodologías
-%utilizadas para facilitar la compresión de este. Para finalizar esta parte, se
-%ha realizado un capítulo que describe la aplicación de dichas metodologías a
-%este proyecto en particular.
-%
-%Una vez entrados en materia, la Parte III muestra los resultados de
-%las distintas fases del desarrollo de nuestro sistema de software.
-%Se comienza esta parte con un capítulo de costes. En este capítulo se quieren
-%exponer los costes y la duración del proyecto. Se prosigue con la descripción de
-%la arquitectura utilizada. Además, se hace un breve resumen de los
-%modelos y tecnologías usados.
-%
-%A continuación, se agregan dos capítulos relacionados con la manera de
-%gestionar el proyecto con Scrum. Para el seguimiento de este marco de trabajo se
-%describen las historias de usuario y las pilas de producto. También se explica
-%la planificación del sprint.
-%
-%El capítulo nueve trata sobre la implementación del sistema. Se meten ``las
-%manos en la masa'' y se explica el desarrollo de las historias de usuario
-%mencionadas en capítulos anteriores.
-%
-%Finalmente, en el capítulo diez se hace una retrospectiva de final de proyecto,
-%donde se comentarán las impresiones generales que han marcado el desarrollo de
-%este proyecto fin de carrera, y se sacarán algunas conclusiones.
-%
-%Como apéndice se añade un manual de usuario, el cual explica la funcionalidad
-%del aplicativo.
-%
-%\newpage
-%\ClearShipoutPicture
-%\part{Conceptos básicos}
-%\chapter{Introducción a las metodologías ágiles}
-%\AddToShipoutPicture{\BackgroundPic}
-%\begin{quotation}
-%``En software, muy raramente partimos de requisitos con
-%sentido. Incluso teniéndolos, la única medida del éxito que importa
-%es si nuestra solución resuelve la cambiante idea que el cliente tiene
-%de lo que es su problema.'' -- Jeff Atwood.
-%\end{quotation}
-%
-%\lettrine{T}{}radicionalmente se ha tendido a desarrollar software a través de
-%metodologías un tanto rígidas provocando un resultado que, día a día,
-%demuestra su ineficacia dadas las actuales características de dinamismo
-%y variabilidad del mercado con el que se trabaja. Como indica Boehm en
-%la referencia \cite{Boehm00}, se tiende hacia el rápido desarrollo de aplicaciones
-%y la vida de los productos se acorta. En este entorno inestable, que
-%tiene como factor inherente el cambio y la evolución rápida y continua,
-%la ventaja competitiva se encuentra en aumentar la productividad y
-%satisfacer las variantes necesidades del cliente en el menor tiempo
-%posible para proporcionar un mayor valor al negocio. Sin embargo,
-%las metodologías convencionales presentan diversos problemas a la
-%hora de abordar un amplio rango de proyectos industriales.
-%
-%Entre estos problemas podemos destacar los siguientes: perciben la
-%captura de requisitos del proyecto como una fase previa a su desarrollo
-%que, una vez completada, debe proporcionar una fotografía
-%exacta de qué desea el cliente. Se trata de evitar a toda costa que
-%se produzcan cambios en el conjunto de requisitos inicial, puesto
-%que a medida que avanza el proyecto resulta más costoso solucionar
-%los errores detectados o introducir modificaciones \cite{Boehm01}. Además, pretenden
-%delegar toda responsabilidad económica en el cliente en caso de que
-%estos cambios de requisitos se produzcan. Por este motivo, se les
-%conoce también como ``metodologías predictivas''. Sin embargo, el esfuerzo,
-%tanto en coste como en tiempo, que supone hacer una captura detallada
-%de todos los requisitos de un proyecto al comienzo de este es enorme,
-%y rara vez se ve justificado con el resultado obtenido. Además, en
-%muchas ocasiones, el cliente no conoce sus propias necesidades con
-%la profundidad suficiente como para definirlas de forma exacta a priori
-%y, a menudo, estas necesidades y sus prioridades varían durante la
-%vida del proyecto.
-%
-%Establecer mecanismos de control es una de las opciones existentes
-%para protegerse de estos cambios, aunque frecuentemente provocan la
-%insatisfacción de los clientes, que perciben el desarrollo del proyecto
-%como algo inflexible que no se adapta a sus necesidades y que, si lo
-%hace, repercute negativamente en costes añadidos al presupuesto del
-%proyecto. Por otro lado, en muchas ocasiones el proceso de desarrollo
-%convencional está oprimido por excesiva documentación no siempre útil.
-%Un porcentaje elevado del tiempo de desarrollo de un producto de software,
-%desde el punto de vista de las metodologías ágiles, se malgasta en
-%crear documentación que finalmente no se utiliza o queda obsoleta
-%en un corto espacio de tiempo y que, por tanto, no aporta valor al
-%negocio. Además, esta documentación innecesaria entorpece las labores
-%de mantenimiento de la propia documentación útil, lo que provoca que
-%en muchas ocasiones el mantenimiento de la documentación se vea agudizado.
-%
-%Evidentemente, estas circunstancias no se adaptan a las restricciones
-%de tiempo del mercado actual. Otra dificultad añadida al uso de metodologías
-%convencionales es la lentitud del proceso de desarrollo. Es difícil
-%para los desarrolladores entender un sistema complejo en su globalidad,
-%lo que provoca que las diferentes etapas del ciclo de vida convencional
-%transcurran lentamente. Dividir el trabajo en módulos abordables ayuda
-%a minimizar los fallos y, por tanto, el coste de desarrollo. Además,
-%permite liberar funcionalidad progresivamente, según indiquen los
-%estudios de las necesidades del mercado que aportan mayor beneficio
-%a la organización. En la feroz competencia del mercado vigente, en
-%la que los productos quedan obsoletos rápidamente, básicamente, se pide rapidez, calidad y reducción de costes, pero para asumir estos retos,
-%es necesario tener agilidad y flexibilidad.
-%%IMG
-%%\imgCentrada{fig.1}{img/figura1.eps}{Impacto de riesgos en desarrollo en
-%%cascada.}
-%
-%Asimismo, las metodologías convencionales tienden a acumular los riesgos
-%y dificultades que surgen en el desarrollo del producto al final del
-%proyecto, como puede apreciarse en la figura \ref{fig.1}, y conllevan retrasos
-%en la entrega de productos o influyen en la incorrecta ejecución
-%de las últimas fases del ciclo de vida. En contraposición a las metodologías
-%convencionales, las metodologías ágiles aparecen como alternativa
-%atractiva para adaptarse a este entorno. Tal y como se indica en \cite{Lindvall}
-%y \cite{Nerur}, son apropiadas cuando los requisitos son emergentes y
-%cambian rápidamente. De este modo, presentan diversas ventajas en
-%el contexto actual:
-%
-%\begin{itemize}
-%\item Capacidad de respuesta a cambios a lo largo del desarrollo, ya que
-%no se perciben como un lastre sino como una oportunidad para mejorar
-%el sistema e incrementar la satisfacción del cliente, considerando
-%la gestión de cambios como un aspecto característico del propio proceso
-%de desarrollo software.
-%\item Entrega continua y en plazos breves de software funcional, lo que permite
-%al cliente verificar in situ el desarrollo del proyecto, ir disfrutando
-%de la funcionalidad del producto progresivamente y comprobando si
-%satisface sus necesidades, lo cual repercute en una mayor satisfacción.
-%Además, el desarrollo en ciclos de corta duración favorece que los
-%riesgos y dificultades se repartan a lo largo del desarrollo del producto,
-%principalmente al comienzo del mismo, y permite ir aprendiendo de estos
-%riesgos y dificultades (ver figura \ref{fig.2}).
-%\end{itemize}
-%%IMG
-%%\imgCentrada{fig.2}{img/figura2.eps}{Análisis de riesgos en desarrollo
-%%iterativo.}
-%
-%\begin{itemize}
-%\item Trabajo conjunto entre el cliente y el equipo de desarrollo con una
-%comunicación directa para mitigar malentendidos, que constituyen
-%una de las principales fuentes de errores en productos de software y de exceso de documentación improductiva.
-%\item Importancia de la simplicidad, por lo que se prescinde del trabajo innecesario que
-%no aporta valor al negocio.
-%\item Atención continua a la excelencia técnica y al buen diseño para mantener
-%una alta calidad de los productos.
-%\item Mejora continua de los procesos y del equipo de desarrollo, entendiendo
-%que el éxito depende de tres factores: éxito técnico, éxito personal
-%y éxito de la organización.
-%\end{itemize}
-%
-%\section{El Manifiesto Ágil}
-%%IMG
-%%\imgCentrada{fig.3}{img/figura3.eps}{Valores de las metodologías ágiles.}
-%
-%\lettrine{C}{}ontinuamente estamos utilizando el concepto de agilidad para
+Se tendrán en cuenta estos objetivos durante la realización del proyecto y se comprobará si han sido realizados. Esto se verá con detenimiento en los apartados de conclusiones, véase la parte V del presente documento.
+
+\section{Estructura del documento}
+
+Éste documento se estructura en las siguientes partes:
+
+PREFACIO: En éste capítulo se introduce el proyecto creando el contexto de su implementación, explicando en qué consiste, la motivación que nos ha llevado a desarrollarlo y los objetivos que se quieren cumplir en el mismo, así como éste mismo apartado de estructura del proyecto en el que explicamos qué vamos a encontrarnos en ésta memoria y cómo está distribuida y un índice de contenidos y de figuras.
+
+CONCEPTOS BÁSICOS: Introducimos las metodologías que hemos usado durante el desarrollo del proyecto así como los conceptos básicos necesarios para comprender todo el documento, una enumeración de tecnologías usadas y un glosario de terminología, también se explicará el método de desarrollo iterativo e incremental que hemos llevado a cabo y en el que se basa la documentación del proyecto.
+
+SISTEMA A DESARROLLAR: Aquí se enumerarán cada una de las etapas de desarrollo que ha ido sufriendo el proyecto SIMFORPAS desarrollando la planificación para cada iteración y cada problema que ha ido surgiendo durante el mismo, también se aportará el diagrama de Burndown para monitorizar en todo momento el estado del proyecto.
+
+CONCLUSIONES: Realizaremos una retrospectiva final del proyecto analizando su estado final, la consecución de los objetivos, los cambios con respecto a la planificación inicial que se han realizado y las posibles mejoras y futuro del proyecto SIMFORPAS.
+
+APENDICES: Para finalizar añadiremos un apéndice de definiciones, un manual de usuario y la bibliografía usada durante el desarrollo del proyecto y la memoria.
+
+\newpage
+\ClearShipoutPicture
+\part{Conceptos básicos}
+\chapter{Metodologías usadas}
+\AddToShipoutPicture{\BackgroundPic}
+
+\lettrine{E}{n} éste capítulo empezaremos haciendo una introducción a las metodologías ágiles, explicando su filosofía y el por qué de su existencia así como una serie de técnicas para implementar este tipo de metodologías a nuestro proyecto software y qué beneficio nos aporta.
+
+El proyecto fue desarrollado haciendo uso del sistema SCRUM de desarrollo iterativo, se explicará en qué consiste éste método y como ha sido aplicado a SIMFORPAS.
+
+\section{Metodologías ágiles}
+
+\lettrine{E}{l} proceso normal afianzado hasta ahora en el desarrollo software sigue unas pautas de rigidez que evita que el producto esté sometido a cambios ya que cuanto más avanzado está el desarrollo del proyecto más difícil y costoso resulta la introducción de modificaciones, para ello se definen unos requisitos que debe cumplir el producto final y antes de empezar el proyecto se decide las tecnologías a usar y la planificación del desarrollo, el cliente no toma parte en el proceso de implementación sino que cuando llega la fecha indicada para la finalización se le presenta y se evalúa si se ha conseguido el resultado que él esperaba.
+
+Como pueden imaginar en la mayoría de los casos debido al desconocimiento real del problema no se definen correctamente los requisitos o las tecnologías usadas y surgían problemas imprevistos en la planificación que retrasan la fecha de entrega o acortan el tiempo de desarrollo obligando al equipo a dedicar más horas repercutiendo todo esto negativamente en el resultado final.
+
+En otros casos la entrega se hace a tiempo pero debido a la ausencia del cliente durante el proceso de desarrollo el producto final no responde a lo que él imaginaba que se iba a desarrollar causando descontento por parte de nuestro cliente y afectando a futuros contratos que podamos hacer con él mismo.
+
+Para hacer frente a esta serie de problemas en torno al desarrollo software nacen las "Metodologías Ágiles", En 2001 un grupo de desarrolladores se reúne en Utah para discutir los \emph{métodos de peso ligero} de desarrollo software y publicaron el \emph{Manifiesto ágil}, un documento que resume la filosofía ágil y establece cuatro valores y doce principios.
+
+\subsection{Manifiesto ágil}
+
+\subsubsection{VALORES:}
+
+\begin{itemize}
+\item \textbf{Valorar más a los individuos y su interacción que a los procesos y las herramientas} 
+\item \textbf{Valorar más el software que funciona que la documentación exhaustiva} 
+\item \textbf{Valorar más la colaboración con el cliente que la negociación contractual} 
+\item \textbf{Valorar más la respuesta al cambio que el seguimiento de un plan} 
+
+\end{itemize}
+
+\subsubsection{PRINCIPIOS:}
+
+\begin{enumerate}
+
+\item La prioridad es satisfacer al cliente mediante tempranas y continuas
+entregas de software que le aporten valor.
+\item Dar la bienvenida a los cambios de requisitos. Se capturan los cambios
+para que el cliente tenga una ventaja competitiva.
+\item Liberar software que funcione frecuentemente, desde un par de semanas
+a un par de meses, con el menor intervalo de tiempo posible entre
+entregas.
+\item Los miembros del negocio y los desarrolladores deben trabajar juntos
+diariamente a lo largo del proyecto.
+\item Construir el proyecto en torno a individuos motivados. Darles el entorno
+y apoyo que necesiten y confiar a en ellos para conseguir finalizar
+el trabajo.
+\item El diálogo cara a cara es el método más eficiente y efectivo para
+comunicar información dentro de un equipo de desarrollo.
+\item El software que funciona es la principal medida de progreso.
+\item Los procesos ágiles promueven un desarrollo sostenible. Los promotores,
+desarrolladores y usuarios deberían ser capaces de mantener una paz
+constante.
+\item La atención continua a la calidad técnica y al buen diseño mejora
+la agilidad.
+\item La simplicidad es esencial.
+\item Las mejores arquitecturas, requisitos y diseños surgen de los equipos
+que se organizan ellos mismos.
+\item En intervalos regulares, el equipo debe reflexionar sobre cómo ser
+más efectivo y, según estas reflexiones, ajustar su comportamiento.
+
+
+\end{enumerate}
+
 %definir estas metodologías, pero ¿qué significa ser ágil desde una perspectiva
 %de software? Basados en el consenso de varias definiciones contemporáneas,
 %Qumer y Henderson-Sellers ofrecieron la siguiente definición de agilidad

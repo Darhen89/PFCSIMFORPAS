@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  18 MAY 2014 22:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  21 MAY 2014 00:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -609,8 +609,8 @@ Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 418
 .
 (pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
  [8]
-LaTeX Info: Redefining \. on input line 4852.
-LaTeX Info: Redefining \% on input line 4852.
+LaTeX Info: Redefining \. on input line 439.
+LaTeX Info: Redefining \% on input line 439.
 Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    date: 2014-05-13 20:26:31
 (epstopdf)                    size: 945958 bytes
@@ -619,35 +619,113 @@ Package epstopdf Info: Source file: <img/Clouds.eps>
 (epstopdf)                    size: 31607 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
 o.pdf img/Clouds.eps>
-(epstopdf)             \includegraphics on input line 4852.
+(epstopdf)             \includegraphics on input line 439.
 Package epstopdf Info: Output file is already uptodate.
 File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/Clouds-eps-converted-to.pdf>
-Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 485
-2.
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 439
+.
 (pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
- [9] (./SIMFORPAS.aux
+ [9]
+LaTeX Info: Redefining \. on input line 446.
+LaTeX Info: Redefining \% on input line 446.
+Package epstopdf Info: Source file: <img/Clouds.eps>
+(epstopdf)                    date: 2014-05-13 20:26:31
+(epstopdf)                    size: 945958 bytes
+(epstopdf)             Output file: <img/Clouds-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-13 20:27:17
+(epstopdf)                    size: 31607 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
+o.pdf img/Clouds.eps>
+(epstopdf)             \includegraphics on input line 446.
+Package epstopdf Info: Output file is already uptodate.
+File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/Clouds-eps-converted-to.pdf>
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 446
+.
+(pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
+ [10] [11
+
+] [12]
+Cap\'{\i }tulo 2.
+Package epstopdf Info: Source file: <img/Clouds.eps>
+(epstopdf)                    date: 2014-05-13 20:26:31
+(epstopdf)                    size: 945958 bytes
+(epstopdf)             Output file: <img/Clouds-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-13 20:27:17
+(epstopdf)                    size: 31607 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
+o.pdf img/Clouds.eps>
+(epstopdf)             \includegraphics on input line 463.
+Package epstopdf Info: Output file is already uptodate.
+File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
+<use img/Clouds-eps-converted-to.pdf>
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 463
+.
+(pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
+ [13
+
+]
+LaTeX Info: Redefining \. on input line 489.
+LaTeX Info: Redefining \% on input line 489.
+Package epstopdf Info: Source file: <img/Clouds.eps>
+(epstopdf)                    date: 2014-05-13 20:26:31
+(epstopdf)                    size: 945958 bytes
+(epstopdf)             Output file: <img/Clouds-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-13 20:27:17
+(epstopdf)                    size: 31607 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
+o.pdf img/Clouds.eps>
+(epstopdf)             \includegraphics on input line 489.
+Package epstopdf Info: Output file is already uptodate.
+File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/Clouds-eps-converted-to.pdf>
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 489
+.
+(pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
+ [14]
+LaTeX Info: Redefining \. on input line 4775.
+LaTeX Info: Redefining \% on input line 4775.
+Package epstopdf Info: Source file: <img/Clouds.eps>
+(epstopdf)                    date: 2014-05-13 20:26:31
+(epstopdf)                    size: 945958 bytes
+(epstopdf)             Output file: <img/Clouds-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-13 20:27:17
+(epstopdf)                    size: 31607 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Clouds-eps-converted-t
+o.pdf img/Clouds.eps>
+(epstopdf)             \includegraphics on input line 4775.
+Package epstopdf Info: Output file is already uptodate.
+File: img/Clouds-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/Clouds-eps-converted-to.pdf>
+Package pdftex.def Info: img/Clouds-eps-converted-to.pdf used on input line 477
+5.
+(pdftex.def)             Requested size: 76.06137pt x 845.05487pt.
+ [15] (./SIMFORPAS.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 6353 strings out of 493315
- 87127 string characters out of 6137904
- 172375 words of memory out of 5000000
- 9661 multiletter control sequences out of 15000+600000
- 31417 words of font info for 61 fonts, out of 8000000 for 9000
+ 6362 strings out of 493315
+ 87269 string characters out of 6137904
+ 172373 words of memory out of 5000000
+ 9669 multiletter control sequences out of 15000+600000
+ 32524 words of font info for 62 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,13n,56p,755b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,13n,56p,737b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/
 texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SIMFORPAS.pdf (19 pages, 301937 bytes).
+Output written on SIMFORPAS.pdf (25 pages, 313603 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
