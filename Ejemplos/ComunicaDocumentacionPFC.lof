@@ -1,0 +1,69 @@
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Impacto de riesgos en desarrollo en cascada.}}{17}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces An\'alisis de riesgos en desarrollo iterativo.}}{18}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Valores de las metodolog\IeC {\'\i }as \'agiles.}}{19}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces El algoritmo de BDD \cite {mantra}.}}{26}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama de BurnDown del proyecto Comunic@.}}{32}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de BurnDown del proyecto Comunic@.}}{33}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Iteraci\'on en Scrum. http://www.ted2.com.au/services/app-development/}}{34}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Tira c\'omica y realista hecha por Alex Gorbatchev}}{51}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Cartas para realizar planning poker.}}{53}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de Gantt antes de comenzar con el proyecto.}}{56}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Ejemplo de patr\'on MVC. \cite {jobeet}}}{63}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Estructura de mensaje SOAP de Silver Spoon Sokpop.}}{65}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Captura del response de una petici\'on rss en Google News.}}{69}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Factores que miden la prioridad de una historia.}}{78}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Divisi\'on de una historia de usuario en varias tareas.}}{83}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Ciclo de vida de una iteraci\'on. Propiedad de LIFE}}{88}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Pantalla de acceso.}}{92}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Diagrama de Burndown. Sprint 1.}}{93}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Pantalla que muestra un listado de anuncios }}{104}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Pantalla que muestra el detalle de un anuncio}}{105}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Pantalla para la creaci\'on de un nuevo anuncio}}{106}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Relaci\'on entre clases de las operaciones b\'asicas con comunicados.}}{108}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Diagrama de Burndown. Sprint 2.}}{109}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Pantalla para responder a un comunicado}}{113}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Pantalla para administrar un comunicado}}{115}
+\contentsline {figure}{\numberline {9.11}{\ignorespaces Relaci\'on entre clases de las operaciones de cambio de estado de comunicados.}}{117}
+\contentsline {figure}{\numberline {9.12}{\ignorespaces Relaci\'on entre clases de la operaci\'on de respuesta de comunicados.}}{118}
+\contentsline {figure}{\numberline {9.13}{\ignorespaces Diagrama de Burndown. Sprint 3.}}{119}
+\contentsline {figure}{\numberline {9.14}{\ignorespaces Wsdl de Comunic@.}}{124}
+\contentsline {figure}{\numberline {9.15}{\ignorespaces Petici\'on REST de anuncios}}{125}
+\contentsline {figure}{\numberline {9.16}{\ignorespaces Relaci\'on entre clases de las operaciones de publicaci\'on por SW.}}{127}
+\contentsline {figure}{\numberline {9.17}{\ignorespaces Diagrama de Burndown. Sprint 4.}}{128}
+\contentsline {figure}{\numberline {9.18}{\ignorespaces Emulador de Android.}}{130}
+\contentsline {figure}{\numberline {9.19}{\ignorespaces Eclipse con plugin de Android.}}{131}
+\contentsline {figure}{\numberline {9.20}{\ignorespaces Pantalla inicial de la aplicaci\'on.}}{133}
+\contentsline {figure}{\numberline {9.21}{\ignorespaces Listado de Anuncios en Comunic@ndroide.}}{135}
+\contentsline {figure}{\numberline {9.22}{\ignorespaces Comunic@ndroide en funcionamiento.}}{137}
+\contentsline {figure}{\numberline {9.23}{\ignorespaces Relaci\'on entre clases de las operaciones lectura de comunicados para Android.}}{138}
+\contentsline {figure}{\numberline {9.24}{\ignorespaces Diagrama de Burndown. Sprint 5.}}{139}
+\contentsline {figure}{\numberline {9.25}{\ignorespaces B\'usqueda de comunicados}}{142}
+\contentsline {figure}{\numberline {9.26}{\ignorespaces Relaci\'on entre clases de las operaciones de b\'usqueda de comunicados.}}{144}
+\contentsline {figure}{\numberline {9.27}{\ignorespaces Diagrama de Burndown. Sprint 6.}}{145}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Pantalla de inicio}}{162}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Alta de Usuario}}{164}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Men\'u de inicio, usuario}}{165}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Subir fichero, usuario}}{166}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces B\'usqueda Comunicados, usuario}}{167}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Listado Comunicados, usuario}}{169}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Detalle Comunicado, usuario}}{171}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Nuevo Comunicado, usuario}}{172}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Nuevo Men\'u Inicio, administraci\'on}}{174}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Men\'u de administraci\'on de usuarios}}{175}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Alta Administrador, administraci\'on}}{176}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Barra de Herramientas del Administrador, administraci\'on}}{178}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Respuesta a un comunicado, administraci\'on}}{180}
+\addvspace {10\p@ }

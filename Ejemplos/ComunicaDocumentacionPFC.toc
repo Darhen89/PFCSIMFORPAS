@@ -1,0 +1,124 @@
+\select@language {spanish}
+\contentsline {part}{I\hspace {1em}Prefacio}{3}
+\contentsline {chapter}{\numberline {1}Introducci\'on}{5}
+\contentsline {section}{\numberline {1.1}Motivaci\'on}{7}
+\contentsline {section}{\numberline {1.2}Objetivos del proyecto}{8}
+\contentsline {subsection}{\numberline {1.2.1}Objetivos orientados a la metodolog\IeC {\'\i }a}{8}
+\contentsline {subsection}{\numberline {1.2.2}Objetivos orientados a la t\'ecnica}{9}
+\contentsline {subsection}{\numberline {1.2.3}Objetivos personales}{10}
+\contentsline {section}{\numberline {1.3}Estructura del documento}{10}
+\contentsline {part}{II\hspace {1em}Conceptos b\'asicos}{13}
+\contentsline {chapter}{\numberline {2}Introducci\'on a las metodolog\IeC {\'\i }as \'agiles}{15}
+\contentsline {section}{\numberline {2.1}El Manifiesto \'Agil}{19}
+\contentsline {chapter}{\numberline {3}C\'omo ser \'agil. }{23}
+\contentsline {section}{\numberline {3.1}\IeC {\textquestiondown }Qu\'e es el Behaviour-Driven Development (BDD)?}{23}
+\contentsline {section}{\numberline {3.2}Programaci\'on por parejas}{27}
+\contentsline {section}{\numberline {3.3}\IeC {\textquestiondown }Qu\'e es el Scrum?}{28}
+\contentsline {subsection}{\numberline {3.3.1}Principios de Scrum}{29}
+\contentsline {subsection}{\numberline {3.3.2}Artefactos de Scrum}{29}
+\contentsline {subsubsection}{Roles}{29}
+\contentsline {subsubsection}{Pila de productos o Backlog}{30}
+\contentsline {subsubsection}{Historias de usuario}{31}
+\contentsline {subsubsection}{Diagrama de BurnDown}{32}
+\contentsline {subsection}{\numberline {3.3.3}Reuniones en Scrum}{33}
+\contentsline {subsubsection}{Planificaci\'on del sprint}{33}
+\contentsline {paragraph}{Duraci\'on de un sprint}{34}
+\contentsline {paragraph}{Meta de un sprint}{35}
+\contentsline {paragraph}{Decisi\'on de qu\'e historias se pasan de la pila de productos a la pila de sprint}{35}
+\contentsline {paragraph}{Hora y lugar del Scrum diario}{36}
+\contentsline {paragraph}{Comunicaci\'on del estado de sprint}{36}
+\contentsline {subsubsection}{Scrum diarios}{37}
+\contentsline {subsubsection}{Demo del sprint}{37}
+\contentsline {subsubsection}{Retrospectivas del sprint}{37}
+\contentsline {section}{\numberline {3.4}Principios S.O.L.I.D.}{38}
+\contentsline {subsection}{\numberline {3.4.1}Principio de una sola responsabilidad}{39}
+\contentsline {subsection}{\numberline {3.4.2}Principio de abierto/cerrado}{39}
+\contentsline {subsection}{\numberline {3.4.3}Principio de substituci\'on de Liskov}{39}
+\contentsline {subsection}{\numberline {3.4.4}Principio de la segregaci\'on de la interfaz}{40}
+\contentsline {subsection}{\numberline {3.4.5}Principio de inversi\'on de dependencias}{40}
+\contentsline {section}{\numberline {3.5}Integraci\'on Continua}{40}
+\contentsline {subsection}{\numberline {3.5.1}Conceptos}{41}
+\contentsline {subsection}{\numberline {3.5.2}Empezando con IC}{41}
+\contentsline {chapter}{\numberline {4}Agilismo en Comunic@}{43}
+\contentsline {part}{III\hspace {1em}Sistema a desarrollar}{47}
+\contentsline {chapter}{\numberline {5}Planificaci\'on temporal y costes}{49}
+\contentsline {section}{\numberline {5.1}Planificaci\'on temporal y costes en Scrum}{49}
+\contentsline {section}{\numberline {5.2}Planificaci\'on temporal y costes en Comunic@}{55}
+\contentsline {subsection}{\numberline {5.2.1}Planificaci\'on inicial}{55}
+\contentsline {subsection}{\numberline {5.2.2}Desviaciones con respecto a la planificaci\'on}{57}
+\contentsline {chapter}{\numberline {6}Arquitectura b\'asica}{59}
+\contentsline {section}{\numberline {6.1}Patr\'on Modelo-Vista-Controlador}{60}
+\contentsline {section}{\numberline {6.2}Patr\'on DAO}{63}
+\contentsline {section}{\numberline {6.3}Servicios Web. Arquitectura orientada a servicios.}{64}
+\contentsline {subsection}{\numberline {6.3.1}RPC}{64}
+\contentsline {subsection}{\numberline {6.3.2}REST}{67}
+\contentsline {chapter}{\numberline {7}Historias de usuario}{71}
+\contentsline {chapter}{\numberline {8}Planificaci\'on y generaci\'on de la pila de productos}{77}
+\contentsline {section}{\numberline {8.1}Sprint Inicial}{77}
+\contentsline {chapter}{\numberline {9}Dise\~no e implementaci\'on del sistema}{85}
+\contentsline {section}{\numberline {9.1}Desarrollo iterativo}{85}
+\contentsline {section}{\numberline {9.2}Primer modulo: Preparaci\'on y gesti\'on de usuarios}{88}
+\contentsline {subsection}{\numberline {9.2.1}Historias realizadas en este m\'odulo}{90}
+\contentsline {subsubsection}{Historia 8000 - Despliegue de aplicativo}{90}
+\contentsline {subsubsection}{7900 - Autenticaci\'on en el sistema}{90}
+\contentsline {subsection}{\numberline {9.2.2}Diagrama de Burndown}{92}
+\contentsline {section}{\numberline {9.3}Segundo modulo: Operaciones con comunicados}{93}
+\contentsline {subsection}{\numberline {9.3.1}Historias realizadas en este m\'odulo}{100}
+\contentsline {subsubsection}{Historia 7800 - Insertar Comunicado.}{100}
+\contentsline {subsubsection}{Historia 7700 - Leer Comunicados}{102}
+\contentsline {subsection}{\numberline {9.3.2}Dise\~no de Clases}{106}
+\contentsline {subsection}{\numberline {9.3.3}Diagrama de Burndown}{108}
+\contentsline {section}{\numberline {9.4}Tercer modulo: Administraci\'on de comunicados}{109}
+\contentsline {subsection}{\numberline {9.4.1}Historias realizadas en este m\'odulo}{110}
+\contentsline {subsubsection}{Historia 7400 - Responder comunicados}{110}
+\contentsline {subsubsection}{Historia 7300 - Estados de comunicados.}{113}
+\contentsline {subsection}{\numberline {9.4.2}Dise\~no de Clases}{115}
+\contentsline {subsection}{\numberline {9.4.3}Diagrama de Burndown}{119}
+\contentsline {section}{\numberline {9.5}Cuarto modulo: Comunicaciones mediante Servicios Web}{119}
+\contentsline {subsection}{\numberline {9.5.1}Historias realizadas en este m\'odulo}{120}
+\contentsline {subsubsection}{Historia 8400 - Publicaci\'on Web Services}{120}
+\contentsline {subsection}{\numberline {9.5.2}Dise\~no de Clases}{126}
+\contentsline {subsection}{\numberline {9.5.3}Diagrama de Burndown}{127}
+\contentsline {section}{\numberline {9.6}Quinto modulo: Aplicaci\'on de Android}{128}
+\contentsline {subsection}{\numberline {9.6.1}Historias realizadas en este m\'odulo}{129}
+\contentsline {subsubsection}{8350 - Aplicaci\'on lectora de comunicados Android}{129}
+\contentsline {subsection}{\numberline {9.6.2}Dise\~no de Clases}{137}
+\contentsline {subsection}{\numberline {9.6.3}Diagrama de Burndown}{138}
+\contentsline {section}{\numberline {9.7}Sexto m\'odulo: Notificaci\'on, paginaci\'on y b\'usqueda de comunicados}{139}
+\contentsline {subsection}{\numberline {9.7.1}Historias realizadas en este m\'odulo}{140}
+\contentsline {subsubsection}{Historia 9000 - Borrar comunicado por email}{140}
+\contentsline {subsubsection}{Historia 7000 - B\'usqueda de comunicados}{141}
+\contentsline {subsubsection}{Historia 6500 - Paginar comunicados}{142}
+\contentsline {subsection}{\numberline {9.7.2}Dise\~no de Clases}{143}
+\contentsline {subsection}{\numberline {9.7.3}Diagrama de Burndown}{144}
+\contentsline {section}{\numberline {9.8}Pruebas de Integraci\'on}{145}
+\contentsline {part}{IV\hspace {1em}Conclusiones}{149}
+\contentsline {chapter}{\numberline {10}Retrospectiva final de proyecto}{151}
+\contentsline {chapter}{\numberline {11}Objetivos cumplidos}{155}
+\contentsline {section}{\numberline {11.1}Objetivos orientados a la metodolog\IeC {\'\i }a}{155}
+\contentsline {section}{\numberline {11.2}Objetivos orientados a la t\'ecnica}{156}
+\contentsline {section}{\numberline {11.3}Objetivos personales}{156}
+\contentsline {part}{V\hspace {1em}Ap\'endices}{159}
+\contentsline {chapter}{\numberline {A}Manual de usuario}{161}
+\contentsline {section}{\numberline {A.1}Perfil Usuario}{161}
+\contentsline {subsection}{\numberline {A.1.1}Alta de Usuarios}{161}
+\contentsline {subsection}{\numberline {A.1.2}Men\'u de Inicio}{164}
+\contentsline {subsection}{\numberline {A.1.3} Editar Perfil}{165}
+\contentsline {subsection}{\numberline {A.1.4} Subir un fichero}{166}
+\contentsline {subsection}{\numberline {A.1.5} Comunicados: Anuncios y Sugerencias}{166}
+\contentsline {subsubsection}{B\'usqueda de Comunicados}{167}
+\contentsline {subsubsection}{Visualizaci\'on del listado de Comunicados}{168}
+\contentsline {subsubsection}{Visualizaci\'on del detalle de un Comunicado}{171}
+\contentsline {subsubsection}{Nuevo Comunicado}{171}
+\contentsline {subsection}{\numberline {A.1.6}Salir}{172}
+\contentsline {section}{\numberline {A.2}Perfil Administrador}{173}
+\contentsline {subsection}{\numberline {A.2.1}Men\'u de inicio de administraci\'on}{173}
+\contentsline {subsection}{\numberline {A.2.2}Ver lista de usuarios}{174}
+\contentsline {subsubsection}{A\~nadir un nuevo usuario}{175}
+\contentsline {subsubsection}{Modificar un usuario}{177}
+\contentsline {subsection}{\numberline {A.2.3}Usuario Conectados}{177}
+\contentsline {subsection}{\numberline {A.2.4}Comunicados: Anuncios y Sugerencias}{178}
+\contentsline {subsubsection}{Barra de herramientas del Administrador}{178}
+\contentsline {subsection}{\numberline {A.2.5}Responder un comunicado}{180}
+\contentsline {chapter}{\numberline {B}Glosario de Terminos}{183}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{185}
