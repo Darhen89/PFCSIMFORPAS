@@ -948,13 +948,16 @@ Quitando el modelo incorporado al autopiloto el resto del sistema es exactamente
 
 \imgCentrada{fig.1.27}{img/autopilotocatec.eps}{Autopiloto integrado en el Locomove.}
 
+
+%%%%%%%%%%%%%%%%%%%%%PARTE 2 SISTEMA A DESARROLLAR%%%%%%%%%%%%%%%%%%%%
+
+
 \part{Sistema a desarrollar}
 \chapter{Planificación inicial}
 \section{Lanzamiento del proyecto}
 
 \lettrine{A}{} principios del mes de Octubre de 2013 se reúne el equipo de desarrollo del proyecto SIMFORPAS formado por Irene Alejo, Jaime Rey, Manuel Mateos y Yamnia Rodríguez junto con Pablo Morillas desarrollado de la GCS en carácter de experto sobre comunicaciones entre GCS y UAV y manejo de la GCS. Ésta reunión constituye la primera etapa del desarrollo incremental guiado por Scrum, en ella se definirán los roles existentes y se pondrán en común las historias de usuario necesarias para la consecución de los objetivos del proyecto.
 
-\newpage
 \subsection{Definición de roles}
 
 \lettrine{S}{e} ponen en común los posibles roles que participarán en el desarrollo entre los que salen el cliente, que comprará la aplicación, los usuarios que serán el instructor y el alumno, el equipo de desarrollo y el instalador del sistema. Estos actores tendrán sus requerimientos sobre el sistema y sus exigencias sobre la funcionalidad que tiene que darse en él para su beneficio. Por tanto haremos una descripción de la función de cada uno y después los usaremos para definir las historias de usuarios.
@@ -976,13 +979,189 @@ El instructor necesitará herramientas que le permitan evaluar los conocimientos 
 
 \end{itemize}
 
+\subsection{Historias de usuario}
+
+\lettrine{A}{} partir de los actores del proyecto se definirán las historias de usuario. Una historia de usuario es una representación de un requisito de software escrito en una o dos frases utilizando el lenguaje común del usuario. Éstas historias de usuario son utilizadas en la metodología Scrum para la especificación de requisitos. Cada historia de usuario debe ser limitada, esta debería poderse escribir sobre una nota adhesiva pequeña. Son una forma rápida de administrar los requisitos de los usuarios sin tener que elaborar gran cantidad de documentos formales y sin requerir de mucho tiempo para administrarlos. Las historias de usuario permiten responder rápidamente a los requisitos cambiantes. Vamos a enumerar características que deben cumplir las historias de usuario.
+
+Deben ser:
+
+\begin{itemize}
+\item\textbf{Independientes unas de otras:} De ser necesario, combinar las historias dependientes o buscar otra forma de dividir las historias de manera que resulten independientes.
+
+\item\textbf{Negociables:} La historia en si misma no es lo suficientemente explícita como para considerarse un contrato, la discusión con los usuarios debe permitir esclarecer su alcance y éste debe dejarse explícito bajo la forma de pruebas de validación.
+
+\item\textbf{Valoradas por los clientes o usuarios:} Los intereses de los clientes y de los usuarios no siempre coinciden, pero en todo caso, cada historia debe ser importante para alguno de ellos más que para el desarrollador.
+
+\item\textbf{Estimables:} Un resultado de la discusión de una historia de usuario es la estimación del tiempo que tomará completarla. Esto permite estimar el tiempo total del proyecto.
+
+\item\textbf{Pequeñas:} Las historias muy largas son difíciles de estimar e imponen restricciones sobre la planificación de un desarrollo iterativo. Generalmente se recomienda la consolidación de historias muy cortas en una sola historia.
+
+\item\textbf{Verificables:} Las historias de usuario cubren requerimientos funcionales, por lo que generalmente son verificables. Cuando sea posible, la verificación debe automatizarse, de manera que pueda ser verificada en cada entrega del proyecto.
+
+\end{itemize}
+
+Después de definir todas las historias de usuario hay que valorar la dificultad de cada una de las historias de usuario para hacer una estimación del tiempo necesario para llevarlas a cabo.  El siguiente paso consiste en darles a cada una una prioridad basada en la necesidad que tenemos de que se realicen primero o de la importancia que tengan en el sistema. Ahora enumeraremos las historias de usuario propuestas durante la reunión de lanzamiento del proyecto y la importancia que se le dio a cada uno, a mayor número junto a la historia de usuario mayor importancia tendrá, también añadiremos el grado de dificultad de cada historia, para dar una imagen global de como usar los puntos, un grupo de trabajo de cuatro personas tiene una velocidad aproximada de 20 puntos por semana.
+
+\begin{itemize}
+
+\item Como cliente quiero que el desarrollo del simulador se lleve usando las herramientas y metodologías necesarias para augurar el éxito en el desarrollo del proyecto.
+\\
+\textbf{Dificultad: }2
+\\
+\textbf{Prioridad: }9990
+
+\item Como desarrollador quiero tener bien definida la arquitectura básica a alto nivel y las herramientas principales que se van a utilizar para no perder la vista del objetivo principal del proyecto.
+\\
+\textbf{Dificultad: }2
+\\
+\textbf{Prioridad: }9980
+\item Como instructor quiero que las comunicaciones entre los sistemas se realice en tiempo real como uno de los puntos para garantizar el entrenamiento veraz.
+\\
+\textbf{Dificultad: }3
+\\
+\textbf{Prioridad: }9890
+\item Como desarrollador quiero poder insertar un modelo simple de UAV en el simulador para ayudar a definir el método de carga de modelos físicos.
+\\
+\textbf{Dificultad: }3
+\\
+\textbf{Prioridad: }9880
+\item Como desarrollador quiero un módulo central capaz de cambiar y monitorizar el estado del modelo.
+\\
+\textbf{Dificultad: }5
+\\
+\textbf{Prioridad: }9790
+\item Como desarrollador quiero un módulo que emule las GCS en el envío y recepción de datos para no depender de las GCS a la hora de desarrollar el resto de módulos y tener así el bucle completo cerrado GCS-SIMCore-SIMModel.
+\\
+\textbf{Dificultad: }3
+\\
+\textbf{Prioridad: }9780
+\item Como cliente quiero que el modelo contemple la carga de los datos de misión utilizados en el protocolo Mavlink.
+\\
+\textbf{Dificultad: }5
+\\
+\textbf{Prioridad: }9785
+\item Como desarrollador quiero que el módulo central esté sincronizado con el modelo para asegurar que los datos son coherentes.
+\\
+\textbf{Dificultad: }8
+\\
+\textbf{Prioridad: }9775
+\item Como instructor quiero que las GCS visualicen la telemetría del UAV simulado para tener control de la misión.
+\\
+\textbf{Dificultad: }5
+\\
+\textbf{Prioridad: }9770
+\item Como instructor quiero que el modelo del UAV sea lo más real posible para garantizar los conocimiento del alumno.
+\\
+\textbf{Dificultad: }8
+\\
+\textbf{Prioridad: }9760
+\item Como cliente quiero que el desarrollo del puesto de instructor se lleve usando las herramientas y metodologías necesarias para augurar el éxito en el desarrollo del proyecto.
+\\
+\textbf{Dificultad: }2
+\\
+\textbf{Prioridad: }9755
+\item Como instructor quiero usar el autopiloto real para realizar el entrenamiento y examen.
+\\
+\textbf{Dificultad: }8
+\\
+\textbf{Prioridad: }9754
+\item Como instructor quiero que las GCS establezcan un plan de vuelo para la misión simulada.
+\\
+\textbf{Dificultad: }8
+\\
+\textbf{Prioridad: }9750
+\item Como instructor quiero poder iniciar la simulación para tener control de la misión.
+\\
+\textbf{Dificultad: }8
+\\
+\textbf{Prioridad: }9680
+\item Como instructor quiero poder parar la simulación para tener control de la misión.
+\\
+\textbf{Dificultad: }5
+\\
+\textbf{Prioridad: }9670
+\item Como instructor quiero poder pausar la simulación para tener control de la misión.
+\\
+\textbf{Dificultad: }5
+\\
+\textbf{Prioridad: }9660
+\item Como instructor quiero introducir fallos de pérdida total de comunicación para poner a prueba al alumno.
+\\
+\textbf{Dificultad: }8
+\\
+\textbf{Prioridad: }9650
+\item Como instructor quiero visualizar las GCS para tener controlado al alumno.
+\\
+\textbf{Dificultad: }5
+\\
+\textbf{Prioridad: }9590
+\item Como instructor quiero crear misiones para tener una batería de exámenes.
+\\
+\textbf{Dificultad: }2
+\\
+\textbf{Prioridad: }9580
+\item Como instructor quiero grabar misiones que he generado en las GCS para poner a prueba al alumno en diferentes contextos.
+\\
+\textbf{Dificultad: }5
+\\
+\textbf{Prioridad: }9570
+\item Como instructor quiero cargar misiones que he generado en las GCS para poner a prueba al alumno en diferentes contextos.
+\\
+\textbf{Dificultad: }2
+\\
+\textbf{Prioridad: }9560
+\item Como instalador quiero que el sistema completo sea sencillo de administrar en instalar.
+\\
+\textbf{Dificultad: }1
+\\
+\textbf{Prioridad: }9490
+\item Como Instructor, quiero tener acceso a información que me indique, paso a paso, el funcionamiento del puesto de instructor.
+\\
+\textbf{Dificultad: }1
+\\
+\textbf{Prioridad: }9480
+\item Como instructor quiero que el modelo del UAV sea lo más real posible para garantizar los conocimiento del alumno.
+\\
+\textbf{Dificultad: }20
+\\
+\textbf{Prioridad: }8990
+\item Como instructor quiero cambiar las condiciones del entorno (lluvia, viento?) para poner a prueba al alumno.
+\\
+\textbf{Dificultad: }20
+\\
+\textbf{Prioridad: }8980
+\item Como instructor quiero elegir un UAV para la misión con el objetivo de evaluar al alumno en un UAV concreto.
+\\
+\textbf{Dificultad: }8
+\\
+\textbf{Prioridad: }8970
+\item Como Instructor quiero almacenar/ consultar resultados de las pruebas para posterior evaluación o consulta a histórico del alumno.
+\\
+\textbf{Dificultad: }5
+\\
+\textbf{Prioridad: }8960
+\item Como instructor quiero tomar y guardar anotaciones sobre el examen de un alumno para posterior evaluación.
+\\
+\textbf{Dificultad: }3
+\\
+\textbf{Prioridad: }8950
+
+\end{itemize}
+
+Una vez tenemos todos estos datos podemos realizar el documento de backlog, un documento de alto nivel para todo el proyecto. Éste documento va a ir incluyendo gráficas que representan la evolución del proyecto en cada sprint.
+
+\imgCentradaGrande{fig.2.1}{img/documentobacklog.eps}{Ejemplo del documento de backlog.}
+
+
+%%%%%%%%%%%%%%%%%%%%%SPRINTS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \newpage
 
-\subsection{Iteraciones: Sprints de desarrollo}
+\section{Iteraciones: Sprints de desarrollo}
 
-\subsubsection{Sprint 1: Set Up del proyecto}
+\subsection{Sprint 1: Set Up del proyecto}
 
-\lettrine{E}{n} la reunión se define también la estructura del sistema. Se necesitará una serie de módulos que tengan una función definida cada uno de ellos con el fin de hacer el sistema lo más escalable posible de manera que si en algún momento hay que realizar un cambio grande no afecte al resto de componentes, cada módulo será un proyecto independiente para descentralizar el desarrollo, así se determina la necesidad de disponer de los siguientes elementos:
+\lettrine{E}{n} la reunión se definió también la estructura del sistema. Se necesitará una serie de módulos que tengan una función definida cada uno de ellos con el fin de hacer el sistema lo más escalable posible de manera que si en algún momento hay que realizar un cambio grande no afecte al resto de componentes, cada módulo será un proyecto independiente para descentralizar el desarrollo, así se determina la necesidad de disponer de los siguientes elementos:
 
 \begin{itemize}
 \item\textbf{Control:} Recibe un comando de control (Waypoint, velocidad, acción de algún sensor, etc) y calcula qué cambios hay que realizar en el modelo para alcanzarlo. El autopiloto puede ser parte del módulo de control.
@@ -1001,14 +1180,17 @@ Es necesario un elemento central que controle el flujo en información entre el r
 
 Al final la arquitectura queda dispuesta de la siguiente manera, comunicándose todos los módulos mediante ANIMO DDS:
 
-\imgCentrada{fig.2.1}{img/arquitectura.eps}{Arquitectura del sistema, con las relaciones físicas entre subsistemas.}
+\imgCentrada{fig.2.2}{img/arquitectura.eps}{Arquitectura del sistema, con las relaciones físicas entre subsistemas.}
 
 Como podemos observar en el diagrama de arquitectura, el proyecto se dividirá en módulos que se encargarán de una función específica. Para realizar la interconexión entre los diferentes módulos usaremos el Framework de comunicaciones ANIMO para garantizar que las comunicaciones se establecen en tiempo real.
-El módulo del modelo y el control serán desarrollados con Matlab-Simulink. Para el simulador se usarán tecnologías web y servicios web para comunicarse con él (haciendo uso de ANIMO).
-En el caso de las bases de datos necesarias para guardar información sobre modelos de UAV, de entorno y misiones se hará uso de bases de datos no relacionales debido a que son más fáciles de diseñar, administrar y proveen de una mejora sustancial en la velocidad del sistema.
-La GCS permitirá al usuario crear, modificar e incluso cargar misiones y modelos desde un archivo externo al sistema, el código que gestiona el funcionamiento de la GCS estará desarrollado en C++ y la parte encargada de la interfaz de usuario se realizará usando las bibliotecas QT.
+
+El módulo del modelo y el control serán desarrollados con Matlab-Simulink. Para el simulador se usarán tecnologías web y servicios web para comunicarse con él (haciendo uso de ANIMO).
+
+En el caso de las bases de datos necesarias para guardar información sobre modelos de UAV, de entorno y misiones se hará uso de bases de datos no relacionales debido a que son más fáciles de diseñar, administrar y proveen de una mejora sustancial en la velocidad del sistema.
+
+La GCS permitirá al usuario crear, modificar e incluso cargar misiones y modelos desde un archivo externo al sistema, el código que gestiona el funcionamiento de la GCS estará desarrollado en C++ y la parte encargada de la interfaz de usuario se realizará usando las bibliotecas QT.
 
 \newpage
-\subsubsection{Sprint 2: Creación de la capa de comunicación}
+\subsection{Sprint 2: Creación de la capa de comunicación}
 
 \end{document}
