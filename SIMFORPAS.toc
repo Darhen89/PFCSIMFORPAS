@@ -1,48 +1,77 @@
 \select@language {spanish}
 \contentsline {part}{I\hspace {1em}Introducci\'on}{1}
-\contentsline {section}{\numberline {0.1}Motivaci\'on}{4}
-\contentsline {section}{\numberline {0.2}Objetivos del proyecto}{5}
-\contentsline {subsection}{\numberline {0.2.1}Objetivos orientados a la metodolog\IeC {\'\i }a}{5}
-\contentsline {subsection}{\numberline {0.2.2}Objetivos orientados a la t\'ecnica}{5}
-\contentsline {subsection}{\numberline {0.2.3}Objetivos personales}{6}
-\contentsline {section}{\numberline {0.3}Estructura del documento}{7}
-\contentsline {part}{II\hspace {1em}Conceptos b\'asicos}{9}
-\contentsline {chapter}{\numberline {1}Metodolog\IeC {\'\i }as usadas}{11}
-\contentsline {section}{\numberline {1.1}Metodolog\IeC {\'\i }as \'agiles}{11}
-\contentsline {subsection}{\numberline {1.1.1}Manifiesto \'agil}{12}
-\contentsline {subsubsection}{VALORES:}{12}
-\contentsline {subsubsection}{PRINCIPIOS:}{13}
-\contentsline {subsection}{\numberline {1.1.2}Desarrollo iterativo incremental con Scrum}{13}
-\contentsline {subsubsection}{Introducci\'on}{13}
-\contentsline {subsubsection}{Roles}{14}
-\contentsline {subsubsection}{Desarrollo del proyecto con Scrum}{14}
-\contentsline {subsection}{\numberline {1.1.3}Test Driven Development}{16}
-\contentsline {subsection}{\numberline {1.1.4}Pair programming}{17}
-\contentsline {section}{\numberline {1.2}Tecnolog\IeC {\'\i }as}{18}
-\contentsline {subsection}{\numberline {1.2.1}Programaci\'on orientada a objetos}{18}
-\contentsline {subsubsection}{Caracter\IeC {\'\i }sticas de la POO}{18}
-\contentsline {subsubsection}{Principios S.O.L.I.D.}{21}
-\contentsline {subsection}{\numberline {1.2.2}C++}{22}
-\contentsline {subsection}{\numberline {1.2.3}Java}{23}
-\contentsline {subsection}{\numberline {1.2.4}Patrones de dise\~no}{24}
-\contentsline {subsection}{\numberline {1.2.5}Bibliotecas}{25}
-\contentsline {subsection}{\numberline {1.2.6}Ubuntu 12.04}{26}
-\contentsline {subsection}{\numberline {1.2.7}Qt Creator}{27}
-\contentsline {subsection}{\numberline {1.2.8}Eclipse}{28}
-\contentsline {subsection}{\numberline {1.2.9}Control de versiones}{28}
-\contentsline {subsubsection}{Mercurial}{30}
-\contentsline {subsubsection}{Bitbucket}{31}
-\contentsline {subsubsection}{TortoiseHg}{31}
-\contentsline {subsection}{\numberline {1.2.10}Pruebas unitarias}{32}
-\contentsline {paragraph}{Encuentra problemas a tiempo:}{32}
-\contentsline {paragraph}{Facilita los cambios:}{32}
-\contentsline {paragraph}{Simplifica la integraci\'on:}{32}
-\contentsline {paragraph}{Aporta documentaci\'on:}{32}
-\contentsline {paragraph}{Mejora el dise\~no:}{32}
-\contentsline {subsubsection}{Google Test}{33}
-\contentsline {subsubsection}{JUnit}{33}
-\contentsline {subsection}{\numberline {1.2.11}Mocks}{33}
-\contentsline {subsubsection}{GMock}{34}
-\contentsline {subsubsection}{JMock}{34}
-\contentsline {subsection}{\numberline {1.2.12}CMake}{34}
-\contentsline {subsection}{\numberline {1.2.13}Maven}{36}
+\contentsline {section}{\numberline {0.1}Motivaci\'on}{6}
+\contentsline {section}{\numberline {0.2}Objetivos del proyecto}{7}
+\contentsline {subsection}{\numberline {0.2.1}Objetivos orientados a la metodolog\IeC {\'\i }a}{7}
+\contentsline {subsection}{\numberline {0.2.2}Objetivos orientados a la t\'ecnica}{7}
+\contentsline {subsection}{\numberline {0.2.3}Objetivos personales}{8}
+\contentsline {section}{\numberline {0.3}Estructura del documento}{9}
+\contentsline {part}{II\hspace {1em}Conceptos b\'asicos}{11}
+\contentsline {chapter}{\numberline {1}Metodolog\IeC {\'\i }as usadas}{13}
+\contentsline {section}{\numberline {1.1}Metodolog\IeC {\'\i }as \'agiles}{13}
+\contentsline {subsection}{\numberline {1.1.1}Manifiesto \'agil}{14}
+\contentsline {subsubsection}{VALORES:}{14}
+\contentsline {subsubsection}{PRINCIPIOS:}{15}
+\contentsline {subsection}{\numberline {1.1.2}Desarrollo iterativo incremental con Scrum}{15}
+\contentsline {subsubsection}{Introducci\'on}{15}
+\contentsline {subsubsection}{Roles}{16}
+\contentsline {subsubsection}{Desarrollo del proyecto con Scrum}{16}
+\contentsline {subsection}{\numberline {1.1.3}Test Driven Development}{18}
+\contentsline {subsection}{\numberline {1.1.4}Pair programming}{19}
+\contentsline {section}{\numberline {1.2}Tecnolog\IeC {\'\i }as}{20}
+\contentsline {subsection}{\numberline {1.2.1}Programaci\'on orientada a objetos}{20}
+\contentsline {subsubsection}{Caracter\IeC {\'\i }sticas de la POO}{20}
+\contentsline {subsubsection}{Principios S.O.L.I.D.}{23}
+\contentsline {subsection}{\numberline {1.2.2}C++}{24}
+\contentsline {subsection}{\numberline {1.2.3}Java}{25}
+\contentsline {subsection}{\numberline {1.2.4}Patrones de dise\~no}{26}
+\contentsline {subsection}{\numberline {1.2.5}Bibliotecas}{27}
+\contentsline {subsection}{\numberline {1.2.6}Ubuntu 12.04}{28}
+\contentsline {subsection}{\numberline {1.2.7}Qt Creator}{29}
+\contentsline {subsection}{\numberline {1.2.8}Eclipse}{30}
+\contentsline {subsection}{\numberline {1.2.9}Control de versiones}{30}
+\contentsline {subsubsection}{Mercurial}{32}
+\contentsline {subsubsection}{Bitbucket}{33}
+\contentsline {subsubsection}{TortoiseHg}{33}
+\contentsline {subsection}{\numberline {1.2.10}Pruebas unitarias}{34}
+\contentsline {paragraph}{Encuentra problemas a tiempo:}{34}
+\contentsline {paragraph}{Facilita los cambios:}{34}
+\contentsline {paragraph}{Simplifica la integraci\'on:}{34}
+\contentsline {paragraph}{Aporta documentaci\'on:}{34}
+\contentsline {paragraph}{Mejora el dise\~no:}{34}
+\contentsline {subsubsection}{Google Test}{35}
+\contentsline {subsubsection}{JUnit}{35}
+\contentsline {subsection}{\numberline {1.2.11}Mocks}{35}
+\contentsline {subsubsection}{GMock}{36}
+\contentsline {subsubsection}{JMock}{36}
+\contentsline {subsection}{\numberline {1.2.12}CMake}{36}
+\contentsline {subsection}{\numberline {1.2.13}Maven}{38}
+\contentsline {subsection}{\numberline {1.2.14}ANIMO DDS}{40}
+\contentsline {subsection}{\numberline {1.2.15}Spring}{41}
+\contentsline {subsubsection}{Ventajas de la Inyecci\'on de Dependencias}{41}
+\contentsline {paragraph}{Se reduce el c\'odigo pegamento: }{41}
+\contentsline {paragraph}{Se externalizan dependencias: }{41}
+\contentsline {paragraph}{Las dependencias se manejan en un solo lugar: }{41}
+\contentsline {paragraph}{Hace que las pruebas sean m\'as f\'aciles: }{41}
+\contentsline {subsubsection}{M\'odulos de Spring}{42}
+\contentsline {paragraph}{IoC Container: }{42}
+\contentsline {paragraph}{Acceso a Datos / Integraci\'on: }{42}
+\contentsline {paragraph}{WEB: }{42}
+\contentsline {paragraph}{Programaci\'on Orientada a Aspectos: }{42}
+\contentsline {subsection}{\numberline {1.2.16}Struts 2}{43}
+\contentsline {subsubsection}{Interceptors}{43}
+\contentsline {subsubsection}{Actions}{43}
+\contentsline {subsubsection}{Results}{44}
+\contentsline {subsection}{\numberline {1.2.17}Hibernate}{45}
+\contentsline {subsection}{\numberline {1.2.18}Valgrind}{46}
+\contentsline {subsection}{\numberline {1.2.19}Mavlink}{48}
+\contentsline {subsubsection}{Escritura de misi\'on con el protocolo Mavlink}{49}
+\contentsline {subsection}{\numberline {1.2.20}GCS}{50}
+\contentsline {subsection}{\numberline {1.2.21}Locomove}{52}
+\contentsline {subsection}{\numberline {1.2.22}Autopiloto}{53}
+\contentsline {part}{III\hspace {1em}Sistema a desarrollar}{55}
+\contentsline {chapter}{\numberline {2}Planificaci\'on inicial}{57}
+\contentsline {section}{\numberline {2.1}Lanzamiento del proyecto}{57}
+\contentsline {subsection}{\numberline {2.1.1}Definici\'on de roles}{58}
+\contentsline {subsection}{\numberline {2.1.2}M\'odulos del sistema}{59}
+\contentsline {subsection}{\numberline {2.1.3}}{61}
