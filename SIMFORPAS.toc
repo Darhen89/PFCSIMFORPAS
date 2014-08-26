@@ -76,4 +76,9 @@
 \contentsline {subsection}{\numberline {2.1.2}Historias de usuario}{58}
 \contentsline {section}{\numberline {2.2}Iteraciones: Sprints de desarrollo}{63}
 \contentsline {subsection}{\numberline {2.2.1}Sprint 1: Set Up del proyecto}{63}
-\contentsline {subsection}{\numberline {2.2.2}Sprint 2: Creaci\'on de la capa de comunicaci\'on}{65}
+\contentsline {subsubsection}{M\'odulos del sistema}{63}
+\contentsline {subsubsection}{Estructura del sistema}{64}
+\contentsline {subsubsection}{Diagramas de secuencia}{65}
+\contentsline {subsubsection}{Diagrama de comunicaciones}{69}
+\contentsline {subsubsection}{Entradas y salidas de los m\'odulos}{71}
+\contentsline {subsection}{\numberline {2.2.2}Sprint 2: Creaci\'on de la capa de comunicaci\'on}{74}

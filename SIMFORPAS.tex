@@ -21,6 +21,7 @@
 \usepackage{amsmath}%%%Macros AMS%%%
 \usepackage{amsthm}%%%Macros AMS para teoremas%%%
 \usepackage{amsfonts}%%%Permite usar fuentes AMS%%%
+\usepackage{amssymb}
 %\usepackage[dvips]{epsfig} %%%Inclusión de figuras postscript% con
 %visualización posterior%%%\usepackage{indentfirst}%%%Espaciado de
 \usepackage[dvips]{graphicx}
@@ -34,6 +35,7 @@
 \usepackage{ifthen}
 \usepackage{type1cm}
 \usepackage{times}
+
 
 
 %Código java%
@@ -1152,6 +1154,8 @@ Una vez tenemos todos estos datos podemos realizar el documento de backlog, un d
 
 \imgCentradaGrande{fig.2.1}{img/documentobacklog.eps}{Ejemplo del documento de backlog.}
 
+Se concretan las acciones para el primer sprint, que consistirán en realizar documentación sobre la estructura que tendrá el proyecto, estudio de interfaces y set up de los entornos de trabajo.
+
 
 %%%%%%%%%%%%%%%%%%%%%SPRINTS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1161,7 +1165,11 @@ Una vez tenemos todos estos datos podemos realizar el documento de backlog, un d
 
 \subsection{Sprint 1: Set Up del proyecto}
 
-\lettrine{E}{n} la reunión se definió también la estructura del sistema. Se necesitará una serie de módulos que tengan una función definida cada uno de ellos con el fin de hacer el sistema lo más escalable posible de manera que si en algún momento hay que realizar un cambio grande no afecte al resto de componentes, cada módulo será un proyecto independiente para descentralizar el desarrollo, así se determina la necesidad de disponer de los siguientes elementos:
+\lettrine{U}{na} vez estudiados los requisitos del sistema a partir de las historias de usuario pasaremos a desarrollar la estructura global del sistema y a documentarlo todo. 
+
+\subsubsection{Módulos del sistema}
+
+Se necesitará una serie de módulos que tengan una función definida cada uno de ellos con el fin de hacer el sistema lo más escalable posible de manera que si en algún momento hay que realizar un cambio grande no afecte al resto de componentes, cada módulo será un proyecto independiente para descentralizar el desarrollo, así se determina la necesidad de disponer de los siguientes elementos:
 
 \begin{itemize}
 \item\textbf{Control:} Recibe un comando de control (Waypoint, velocidad, acción de algún sensor, etc) y calcula qué cambios hay que realizar en el modelo para alcanzarlo. El autopiloto puede ser parte del módulo de control.
@@ -1178,9 +1186,11 @@ Una vez tenemos todos estos datos podemos realizar el documento de backlog, un d
 
 Es necesario un elemento central que controle el flujo en información entre el resto de módulos y los sincronice para que no se produzcan situaciones de pérdidas de datos o de desfases de tiempo entre los distintos módulos que puedan provocar errores. Otro de los elementos necesarios será el llamado modelo del avión, éste modelo en una primera instancia deberá de disponer de un sistema de guiado y de tratamiento de acciones como la de la carga y gestión de la misión de forma que nos pueda devolver datos de telemetría actualizados según las condiciones globales del sistema. También se dispondrá de un puesto de instructor que permitirá a un examinador monitorizar la misión del alumno y de modificar las condiciones para comprobar su reacción. Por último haremos uso de la GCS ya implementada por Catec para que el alumno maneje el simulador.
 
+\subsubsection{Estructura del sistema}
+
 Al final la arquitectura queda dispuesta de la siguiente manera, comunicándose todos los módulos mediante ANIMO DDS:
 
-\imgCentrada{fig.2.2}{img/arquitectura.eps}{Arquitectura del sistema, con las relaciones físicas entre subsistemas.}
+\imgCentradaGrande{fig.2.2}{img/arquitectura.eps}{Arquitectura del sistema, con las relaciones físicas entre subsistemas.}
 
 Como podemos observar en el diagrama de arquitectura, el proyecto se dividirá en módulos que se encargarán de una función específica. Para realizar la interconexión entre los diferentes módulos usaremos el Framework de comunicaciones ANIMO para garantizar que las comunicaciones se establecen en tiempo real.
 
@@ -1190,7 +1200,200 @@ En el caso de las bases de datos necesarias para guardar información sobre model
 
 La GCS permitirá al usuario crear, modificar e incluso cargar misiones y modelos desde un archivo externo al sistema, el código que gestiona el funcionamiento de la GCS estará desarrollado en C++ y la parte encargada de la interfaz de usuario se realizará usando las bibliotecas QT.
 
+\subsubsection{Diagramas de secuencia}
+
+Una vez estudiados los elementos necesarios haremos una lista de las interfaces u objetos que necesitaremos manejar durante la ejecución de nuestro programa. Para ello tuvimos una reunión con el equipo que trabaja en el desarrollo de la estación de control para saber qué datos manejan ellos, conocer las entradas y salidas de su aplicación, los pasos de ejecución etcétera. Como nosotros debemos simular el comportamiento de la aeronave vamos a definir una serie de diagramas de secuencias donde se definan las distintas acciones que implementaremos en nuestra aplicación.
+
+\begin{itemize}
+\item\textbf{Funcionamiento básico durante la ejecución de una misión}
+
+\imgCentradaGrande{fig.2.3}{img/funcionamientobasicomision.eps}{Diagrama de secuencia de la ejecución de una misión.}
+
+En el primer paso la GCS envía una señal de inicio de ejecución de una misión al simulador que reenvía al control. El control envía el estado inicial al modelo que responde con el estado actualizado que más tarde se envía al simulador para mostrarlo en la GCS.
+A continuación se inicia el bucle principal de la misión, el cual acabará cuando se hayan alcanzado todos los Waypoints. El control envía un Waypoint al modelo, que responde con su estado el cual se envía al simulador para mostrarlo en la GCS. Una vez alcanzado este Waypoint el control procedera? a enviar el siguiente. Cuando se hayan alcanzado todos los Waypoints ha acabado la misión y el simulador envía un mensaje a la GCS.
+
+\item\textbf{Carga de la misión en el simulador y en control}
+
+\imgCentradaGrande{fig.2.4}{img/cargamision.eps}{Diagrama de secuencia de la carga de una misión en el simulador y el control.}
+
+El método de carga de la misión está basado en el protocolo MAVLINK. La GCS envía el número de Waypoints de la misión al simulador, que hace de puente de comunicación entre el control y la GCS, el control pide uno a uno los waypoint y la GCS se los va mandando. Cuando recibe el último waypoint el control envía un mensaje de fin de carga de la misión. En el protocolo de escritura de misiones en el UAV de MAVLINK cuando se envía un mensaje que espera respuesta se inicia un timer si se consume ese tiempo sin respuesta se realiza otra vez la petición, esta acción la realizará el simulador.
+
+\item\textbf{Inicio, parada y pausa de la simulación}
+
+\imgCentradaGrande{fig.2.5}{img/iniciopausaparada.eps}{Diagrama de secuencia con los comandos desde el puesto de instructor para iniciar, parar o pausar una ejecución.}
+
+El primer comando es enviado por el puesto de instructor al simulador para que éste establezca las comunicaciones con cada uno de los módulos para iniciar la ejecución.El segundo comando muestra el flujo de información al cargar el modelo desde el puesto de instructor. El instructor selecciona el modelo a cargar (tanto del entorno como del UAV), el simulador recibe ese modelo y lo carga en el módulo ?Modelo? y se envía un mensaje al simulador mostrando si ha ocurrido algún error durante la carga.El tercer comando muestra al alumno cargando (o creando) una misión, la cual enviará al simulador y éste le devolverá un mensaje con el resultado de la carga.El cuarto es la operación anterior pero realizada desde el puesto de instructor, carga la misión en el simulador, la inicializa en la GCS y se envía el correspondiente mensaje de errores.Los dos últimos comandos muestran el funcionamiento de las órdenes de parada y reanudación, las cuales se realizarán sobre el módulo de control.
+
+\item\textbf{Introducción de fallos en el modelo}
+
+\imgCentradaGrande{fig.2.6}{img/introduccionfallos.eps}{Diagrama de secuencia para la introducción de fallos.}
+
+El diagrama muestra el intercambio de datos cuando el instructor desea introducir errores en el sistema con el fin de comprobar la reacción del alumno. Se selecciona el error a introducir en el puesto de instructor y se notifica al simulador, se procesa el error y se actualiza el modelo, el modelo realiza los cambios necesarios y para finalizar el simulador envía el nuevo estado del modelo a la GCS.
+En otra posible solución el control es el que detecta el fallo una vez se ha introducido en el modelo y genera el mensaje de error que envía al simulador para que se lo comunique a la GCS.
+
+\item\textbf{Cambios en la misión}
+
+\imgCentradaGrande{fig.2.7}{img/cambiosmision.eps}{Diagrama de secuencia para hacer cambios en la misión.}
+
+Estas transacciones explican el intercambio de información en el caso en que se introdujeran cambios en la misión durante el vuelo (introducción de un nuevo Waypoint o cambios en el modelo de UAV como velocidad etc). La GCS introduce o modifica un Waypoint o modifica algún parámetro en el UAV y se lo comunica al simulador que es donde está almacenada la misión, el simulador le envía el nuevo Waypoint o parámetro al control cuando se lo pida.
+
+\end{itemize}
+
+\subsubsection{Diagrama de comunicaciones}
+
+Una vez tenemos las acciones que va seguir nuestro programa podemos hacer un diagrama de cómo se van a comunicar los distintos módulos y de esta manera simplificar la información que obtuvimos anteriormente.
+
+\imgCentradaGrande{fig.2.8}{img/relacionescomunicacion.eps}{Diagrama de las relaciones a la hora de comunicarse de los distintos módulos.}
+
+De esta forma se puede observar de un vistazo que el simulador será el centro de las comunicaciones del sistema, el control se comunicará con el simulador para recibir los comandos cuya interpretación pasará al modelo y devolverá al simulador el nuevo estado de éste. El puesto de instructor enviará las acciones al simulador que será el encargado de redirigirlas hacia el puesto del alumno, el control o de hacer la comunicación con la base de datos. El puesto del alumno se conectará al simulador y desde ahí manejará el control y el modelo. El puesto de instructor podrá comunicarse con el puesto del alumno para monitorizar las acciones de éste y poder evaluarle luego.
+
+\newpage
+\subsubsection{Entradas y salidas de los módulos}
+
+Una vez sabemos qué datos se van a enviar entre los diferentes módulos podemos agrupar cada transacción según sean entradas o salidas de cada uno de los módulos de la siguiente manera:
+
+
+\begin{enumerate}
+\item Puesto de instructor
+\\
+\textbf{Salidas}
+
+\begin{itemize}
+
+\item Orden de inicio del sistema (tipo Command) $\rightarrow$ Simulador
+\item Identificador del modelo (tipo Command) $\rightarrow$ Simulador
+\item Misión (tipo Mission) $\rightarrow$ Simulador
+\item Orden de parada (tipo Command) $\rightarrow$ Simulador
+\item Orden de reanudación (tipo Command) $\rightarrow$ Simulador
+\item Fallo en el sistema (tipo Error) $\rightarrow$ Simulador
+
+\end{itemize}
+
+\item Simulador
+\\
+\textbf{Entradas}
+
+\begin{itemize}
+
+\item Orden de inicio (tipo Command) $\leftarrow$ Puesto del instructor
+\item Identificador del modelo (tipo Command) $\leftarrow$ Simulador
+\item Confirmación de carga (tipo Error) $\leftarrow$ Modelo
+\item Misión (creadas en la GCS) (tipo Mission) $\leftarrow$ GCS
+\item Identificador de la misión (tipo Mission) $\leftarrow$ Puesto del instructor
+\item Confirmación de recepción de misión (cuando el instructor carga una misión en el simulador la GCS debe darse cuenta) (tipo Error) $\leftarrow$ GCS
+\item Orden de parada (tipo Command) $\leftarrow$ Puesto del instructor
+\item Orden de reanudación (tipo Command) $\leftarrow$ Puesto del instructor
+\item Orden de inicio de misión (tipo Command) $\leftarrow$ GCS
+\item Nuevo estado del modelo (Al inicio, tipos PosWgs , Rotation y VelEarth) $\leftarrow$ Modelo
+\item Nuevo estado del modelo (En el bucle, tipos PosWgs , Rotation y VelEarth) $\leftarrow$ Modelo
+\item Fallo en el sistema (tipo Error) $\leftarrow$ Puesto de instructor
+\item Nuevo estado del modelo (después del error, tipos PosWgs , Rotation y VelEarth) $\leftarrow$ Modelo
+\item Correcciones del alumno (después del error, tipo Command) $\leftarrow$ GCS
+
+
+\end{itemize}
+
+\textbf{Salidas}
+
+\begin{itemize}
+\item Carga modelo (tipos PosWgs , Rotation y VelEarth) $\rightarrow$ Modelo
+\item Dato de confirmación (tipo Error) $\rightarrow$ GCS
+\item Misión (tipo Mission) $\rightarrow$ GCS
+\item Orden de parada (tipo Command) $\rightarrow$ Control
+\item Orden de reanudación (tipo Command) $\rightarrow$ Control
+\item Estado inicial del UAV (tipos PosWgs, Rotation y VelEarth) $\rightarrow$ Modelo
+\item Waypoint (tipo FlightPlan) $\rightarrow$ Control
+\item Introducción de error (tipo Command) $\rightarrow$ Modelo
+\item Aviso de error (tipo ?Error) $\rightarrow$ GCS
+
+\end{itemize}
+
+\item GCS
+\\
+\textbf{Entradas}
+
+\begin{itemize}
+
+\item Orden de inicio (tipo Command) $\leftarrow$ Simulador
+\item Confirmación de carga de la misión (tipo Error) $\leftarrow$ Simulador
+\item Misión cargada por el instructor en el simulador (tipo Mission) $\leftarrow$ Simulador
+\item Estado del modelo (tipos PosWgs , Rotation y VelEarth) $\leftarrow$ Simulador
+\item Aviso finalización (tipo Error) $\leftarrow$ Simulador
+\item Aviso de error (tipo Error) $\leftarrow$ Simulador
+
+\end{itemize}
+
+\textbf{Salidas}
+
+\begin{itemize}
+
+\item Misión (tipo Mission) $\rightarrow$ Simulador
+\item Confirmación de recepción de misión (tipo Error) $\rightarrow$ Simulador
+\item Orden de inicio de misión (tipo Command) $\rightarrow$ Simulador
+\item Reacción ante un problema (tipo Command) $\rightarrow$ Simulador
+
+\end{itemize}
+
+\item Modelo
+\\
+\textbf{Entradas}
+
+\begin{itemize}
+
+\item Orden de inicio (tipo Command) $\leftarrow$ Simulador
+\item Tipo de dato modelo (tipos PosWgs , Rotation y VelEarth) $\leftarrow$ Simulador
+\item Estado inicial del UAV (tipos PosWgs , Rotation y VelEarth) $\leftarrow$ Simulador
+\item Consulta estado del modelo (tipos PosWgs , Rotation y VelEarth) $\leftarrow$ Control
+\item Actualiza el modelo (tipos PosWgs , Rotation y VelEarth) $\leftarrow$ Control
+\item Actualiza modelo con el error (tipos PosWgs , Rotation y VelEarth) $\leftarrow$ Modelo
+
+\end{itemize}
+
+\textbf{Salidas}
+
+\begin{itemize}
+
+\item Confirmación de carga (tipo Error) $\rightarrow$ Simulador
+\item Comunica el estado inicial (tipos PosWgs , Rotation y VelEarth) $\rightarrow$ Simulador
+\item Publica estado actual (tipos PosWgs , Rotation y VelEarth) $\rightarrow$ Control
+\item Comunica nuevo estado del modelo (tipos PosWgs , Rotation y VelEarth) $\rightarrow$ Simulador
+\item Actualiza el nuevo estado (después de error, tipos PosWgs , Rotation y VelEarth) $\rightarrow$ Simulador
+
+\end{itemize}
+
+\item Control
+\\
+\textbf{Entradas}
+
+\begin{itemize}
+
+\item Orden de inicio (tipo Command) $\leftarrow$ Simulador
+\item Orden de parada (tipo Command) $\leftarrow$ Simulador
+\item Orden de reanudación (tipo Command) $\leftarrow$ Simulador
+\item Waypoint (tipo FlightPlan) $\leftarrow$ Simulador
+\item Estado actual del modelo (tipos PosWgs , Rotation y VelEarth) $\leftarrow$ Modelo
+
+\end{itemize}
+
+\textbf{Salidas}
+
+\begin{itemize}
+
+\item Consulta estado del modelo (tipo Command) $\rightarrow$ Modelo
+\item Actualiza el modelo (tipos PosWgs , Rotation y VelEarth) $\rightarrow$ Modelo
+
+\end{itemize}
+
+\end{enumerate}
+
+\subsubsection{}
+
+
 \newpage
 \subsection{Sprint 2: Creación de la capa de comunicación}
+
+
+
+
 
 \end{document}
