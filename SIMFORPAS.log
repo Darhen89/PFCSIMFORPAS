@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  25 AUG 2014 22:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  26 AUG 2014 21:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -316,6 +316,10 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 (./SIMFORPAS.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
+
+
+LaTeX Warning: Label `fig.2.10' multiply defined.
+
 )
 \openout1 = `SIMFORPAS.aux'.
 
@@ -333,8 +337,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 256.
 LaTeX Font Info:    ... okay on input line 256.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 256.
 
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -476,8 +479,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 ] (./SIMFORPAS.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
  [5
 
 ])
@@ -489,8 +492,11 @@ LaTeX Info: Redefining \% on input line 319.
  [6] (./SIMFORPAS.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+
+Underfull \vbox (badness 1629) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
  [7
 
 ])
@@ -499,13 +505,15 @@ LaTeX Info: Redefining \% on input line 39.
 
 LaTeX Info: Redefining \. on input line 321.
 LaTeX Info: Redefining \% on input line 321.
- [8]
+
+[8]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 325.
  [1
 
 
 ] [2]
+Cap\'{\i }tulo 1.
 Package epstopdf Info: Source file: <img/incendio.eps>
 (epstopdf)                    date: 2014-05-15 19:36:04
 (epstopdf)                    size: 1074848 bytes
@@ -516,7 +524,6 @@ Package epstopdf Info: Source file: <img/incendio.eps>
 -to.pdf img/incendio.eps>
 (epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
-
 <img/incendio-eps-converted-to.pdf, id=39, 637.38126pt x 278.03876pt>
 File: img/incendio-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -544,6 +551,8 @@ File: img/predator-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/predator-eps-converted-to.pdf used on input line 3
 47.
 (pdftex.def)             Requested size: 341.43306pt x 230.46591pt.
+LaTeX Info: Redefining \. on input line 350.
+LaTeX Info: Redefining \% on input line 350.
  [4 <./img/predator-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/predatorgcs.eps>
 (epstopdf)                    date: 2014-08-18 18:34:30
@@ -567,18 +576,23 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 357.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 357.
+LaTeX Info: Redefining \. on input line 367.
+LaTeX Info: Redefining \% on input line 367.
  [6]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 376.
 LaTeX Info: Redefining \. on input line 407.
 LaTeX Info: Redefining \% on input line 407.
- [7] [8]
+ [7]
+LaTeX Info: Redefining \. on input line 434.
+LaTeX Info: Redefining \% on input line 434.
+ [8]
 LaTeX Info: Redefining \. on input line 449.
 LaTeX Info: Redefining \% on input line 449.
  [9] [10
 
 ] [11] [12]
-Cap\'{\i }tulo 1.
+Cap\'{\i }tulo 2.
 Package epstopdf Info: Source file: <img/manifest.eps>
 (epstopdf)                    date: 2014-05-21 18:42:54
 (epstopdf)                    size: 3638351 bytes
@@ -1193,7 +1207,7 @@ LaTeX Info: Redefining \% on input line 957.
  [54 <./img/autopilotocatec-eps-converted-to.pdf>] [55
 
 ] [56]
-Cap\'{\i }tulo 2.
+Cap\'{\i }tulo 3.
 [57
 
 ]
@@ -1235,9 +1249,10 @@ LaTeX Info: Redefining \% on input line 1155.
 LaTeX Info: Redefining \. on input line 1162.
 LaTeX Info: Redefining \% on input line 1162.
  [62 <./img/documentobacklog-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 1188.
-LaTeX Info: Redefining \% on input line 1188.
- [63]
+Cap\'{\i }tulo 4.
+[63
+
+]
 Package epstopdf Info: Source file: <img/arquitectura.eps>
 (epstopdf)                    date: 2014-08-24 14:18:55
 (epstopdf)                    size: 7879068 bytes
@@ -1261,8 +1276,8 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 1193--1193
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 1201.
-LaTeX Info: Redefining \% on input line 1201.
+LaTeX Info: Redefining \. on input line 1197.
+LaTeX Info: Redefining \% on input line 1197.
 [64 <./img/arquitectura-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/funcionamientobasicomision.eps>
 (epstopdf)                    date: 2014-08-25 20:12:16
@@ -1289,9 +1304,12 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 1210--1210
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 1213.
-LaTeX Info: Redefining \% on input line 1213.
-[65 <./img/funcionamientobasicomision-eps-converted-to.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1211.
+LaTeX Info: Redefining \% on input line 1211.
+ [65]
 Package epstopdf Info: Source file: <img/cargamision.eps>
 (epstopdf)                    date: 2014-08-25 20:11:50
 (epstopdf)                    size: 2368562 bytes
@@ -1303,7 +1321,7 @@ ted-to.pdf img/cargamision.eps>
 (epstopdf)             \includegraphics on input line 1218.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/cargamision-eps-converted-to.pdf, id=374, 722.7pt x 542.025pt>
+<img/cargamision-eps-converted-to.pdf, id=371, 722.7pt x 542.025pt>
 File: img/cargamision-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/cargamision-eps-converted-to.pdf>
@@ -1315,9 +1333,12 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 1218--1218
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 1222.
-LaTeX Info: Redefining \% on input line 1222.
-[66 <./img/cargamision-eps-converted-to.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1219.
+LaTeX Info: Redefining \% on input line 1219.
+ [66 <./img/funcionamientobasicomision-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/iniciopausaparada.eps>
 (epstopdf)                    date: 2014-08-25 20:12:50
 (epstopdf)                    size: 2368562 bytes
@@ -1330,7 +1351,7 @@ converted-to.pdf img/iniciopausaparada.eps>
 (epstopdf)             \includegraphics on input line 1224.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/iniciopausaparada-eps-converted-to.pdf, id=381, 722.7pt x 542.025pt>
+<img/iniciopausaparada-eps-converted-to.pdf, id=378, 722.7pt x 542.025pt>
 File: img/iniciopausaparada-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/iniciopausaparada-eps-converted-to.pdf>
@@ -1342,6 +1363,12 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 1224--1224
  [] 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1225.
+LaTeX Info: Redefining \% on input line 1225.
+ [67 <./img/cargamision-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/introduccionfallos.eps>
 (epstopdf)                    date: 2014-08-25 20:13:27
 (epstopdf)                    size: 2368562 bytes
@@ -1353,7 +1380,8 @@ f>
 -converted-to.pdf img/introduccionfallos.eps>
 (epstopdf)             \includegraphics on input line 1234.
 Package epstopdf Info: Output file is already uptodate.
-<img/introduccionfallos-eps-converted-to.pdf, id=382, 722.7pt x 542.025pt>
+
+<img/introduccionfallos-eps-converted-to.pdf, id=385, 722.7pt x 542.025pt>
 File: img/introduccionfallos-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/introduccionfallos-eps-converted-to.pdf>
@@ -1365,9 +1393,12 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 1234--1234
  [] 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 1235.
 LaTeX Info: Redefining \% on input line 1235.
-[67 <./img/iniciopausaparada-eps-converted-to.pdf>]
+ [68 <./img/iniciopausaparada-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/cambiosmision.eps>
 (epstopdf)                    date: 2014-08-25 20:10:03
 (epstopdf)                    size: 2368562 bytes
@@ -1379,7 +1410,7 @@ erted-to.pdf img/cambiosmision.eps>
 (epstopdf)             \includegraphics on input line 1242.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/cambiosmision-eps-converted-to.pdf, id=389, 722.7pt x 542.025pt>
+<img/cambiosmision-eps-converted-to.pdf, id=392, 722.7pt x 542.025pt>
 File: img/cambiosmision-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/cambiosmision-eps-converted-to.pdf>
@@ -1396,7 +1427,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 1243.
 LaTeX Info: Redefining \% on input line 1243.
- [68 <./img/introduccionfallos-eps-converted-to.pdf>]
+ [69 <./img/introduccionfallos-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/relacionescomunicacion.eps>
 (epstopdf)                    date: 2014-08-25 20:51:21
 (epstopdf)                    size: 2368562 bytes
@@ -1409,7 +1440,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 1252.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/relacionescomunicacion-eps-converted-to.pdf, id=396, 722.7pt x 542.025pt>
+<img/relacionescomunicacion-eps-converted-to.pdf, id=399, 722.7pt x 542.025pt>
 File: img/relacionescomunicacion-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/relacionescomunicacion-eps-converted-to.pdf>
@@ -1426,42 +1457,104 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 1253.
 LaTeX Info: Redefining \% on input line 1253.
- [69 <./img/cambiosmision-eps-converted-to.pdf>]
+ [70 <./img/cambiosmision-eps-converted-to.pdf>]
 LaTeX Info: Redefining \. on input line 1256.
 LaTeX Info: Redefining \% on input line 1256.
- [70 <./img/relacionescomunicacion-eps-converted-to.pdf>]
+ [71 <./img/relacionescomunicacion-eps-converted-to.pdf>]
 LaTeX Info: Redefining \. on input line 1306.
 LaTeX Info: Redefining \% on input line 1306.
- [71]
+ [72]
 LaTeX Info: Redefining \. on input line 1364.
 LaTeX Info: Redefining \% on input line 1364.
- [72]
-LaTeX Info: Redefining \. on input line 1398.
-LaTeX Info: Redefining \% on input line 1398.
  [73]
-LaTeX Info: Redefining \. on input line 1405.
-LaTeX Info: Redefining \% on input line 1405.
- [74] (./SIMFORPAS.aux
+Package epstopdf Info: Source file: <img/definicioninterfaces.eps>
+(epstopdf)                    date: 2014-08-26 19:24:44
+(epstopdf)                    size: 4038792 bytes
+(epstopdf)             Output file: <img/definicioninterfaces-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2014-08-26 19:25:56
+(epstopdf)                    size: 279935 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/definicioninterfaces-e
+ps-converted-to.pdf img/definicioninterfaces.eps>
+(epstopdf)             \includegraphics on input line 1399.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/definicioninterfaces-eps-converted-to.pdf, id=419, 671.50874pt x 995.72pt>
+File: img/definicioninterfaces-eps-converted-to.pdf Graphic file (type pdf)
+<use img/definicioninterfaces-eps-converted-to.pdf>
+Package pdftex.def Info: img/definicioninterfaces-eps-converted-to.pdf used on 
+input line 1399.
+(pdftex.def)             Requested size: 455.24408pt x 675.04472pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1399--1399
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1400.
+LaTeX Info: Redefining \% on input line 1400.
+ [74]
+Overfull \vbox (28.8123pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1400.
+LaTeX Info: Redefining \% on input line 1400.
+
+[75 <./img/definicioninterfaces-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1408.
+LaTeX Info: Redefining \% on input line 1408.
+ [76]
+LaTeX Info: Redefining \. on input line 1414.
+LaTeX Info: Redefining \% on input line 1414.
+ [77]
+LaTeX Info: Redefining \. on input line 1420.
+LaTeX Info: Redefining \% on input line 1420.
+ [78]
+LaTeX Info: Redefining \. on input line 1426.
+LaTeX Info: Redefining \% on input line 1426.
+ [79]
+LaTeX Info: Redefining \. on input line 1432.
+LaTeX Info: Redefining \% on input line 1432.
+
+[80]
+LaTeX Info: Redefining \. on input line 1438.
+LaTeX Info: Redefining \% on input line 1438.
+ [81]
+LaTeX Info: Redefining \. on input line 1444.
+LaTeX Info: Redefining \% on input line 1444.
+ [82]
+LaTeX Info: Redefining \. on input line 1450.
+LaTeX Info: Redefining \% on input line 1450.
+ [83] [84
+
+] [85] [86] [87
+
+] [88] (./SIMFORPAS.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-) ) 
+)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6792 strings out of 493315
- 95931 string characters out of 6137904
- 174718 words of memory out of 5000000
- 10060 multiletter control sequences out of 15000+600000
+ 6826 strings out of 493315
+ 96432 string characters out of 6137904
+ 174786 words of memory out of 5000000
+ 10093 multiletter control sequences out of 15000+600000
  32524 words of font info for 62 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,13n,56p,1441b,672s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/
-texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-di
-st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SIMFORPAS.pdf (82 pages, 5308129 bytes).
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SIMFORPAS.pdf (96 pages, 5594385 bytes).
 PDF statistics:
- 441 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
+ 490 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 196 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

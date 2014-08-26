@@ -1,41 +1,44 @@
 \select@language {spanish}
-\contentsline {figure}{\numberline {1}{\ignorespaces Soporte a\'ereo en el control de incendios.}}{3}
-\contentsline {figure}{\numberline {2}{\ignorespaces UAV tipo Predator en vuelo.}}{4}
-\contentsline {figure}{\numberline {3}{\ignorespaces GCS usada para el UAV Predator.}}{5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Manifiesto \'agil.}}{14}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Ciclo metodolog\IeC {\'\i }a Scrum.}}{17}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Ciclo TDD.}}{18}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Pair programming.}}{19}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Pilares de la POO.}}{22}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Ilustraci\'on c++11.}}{24}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Logo Java.}}{25}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Diagrama MVC.}}{26}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Logo Ubuntu.}}{28}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Logo Qt Creator.}}{29}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Logo Eclipse.}}{30}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Logo Mercurial.}}{32}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Logo Bitbucket.}}{33}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Ejemplo CMakeLists.txt.}}{37}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Ejemplo POM.xml.}}{39}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Logo de RTI.}}{40}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Logo Spring.}}{42}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces Logo Struts 2.}}{44}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces Logo Hibernate.}}{45}
-\contentsline {figure}{\numberline {1.20}{\ignorespaces Logo Valgrind.}}{46}
-\contentsline {figure}{\numberline {1.21}{\ignorespaces Resltado Valgrind.}}{47}
-\contentsline {figure}{\numberline {1.22}{\ignorespaces Logo Mavlink.}}{48}
-\contentsline {figure}{\numberline {1.23}{\ignorespaces Protocolo de escritura de misi\'on en Mavlink.}}{49}
-\contentsline {figure}{\numberline {1.24}{\ignorespaces QGroundControl, gcs de Mavlink.}}{50}
-\contentsline {figure}{\numberline {1.25}{\ignorespaces GCA de Catec.}}{51}
-\contentsline {figure}{\numberline {1.26}{\ignorespaces UAV de Catec, Locomove.}}{52}
-\contentsline {figure}{\numberline {1.27}{\ignorespaces Autopiloto integrado en el Locomove.}}{54}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Soporte a\'ereo en el control de incendios.}}{3}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces UAV tipo Predator en vuelo.}}{4}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces GCS usada para el UAV Predator.}}{5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Ejemplo del documento de backlog.}}{62}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Arquitectura del sistema, con las relaciones f\IeC {\'\i }sicas entre subsistemas.}}{64}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de secuencia de la ejecuci\'on de una misi\'on.}}{65}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagrama de secuencia de la carga de una misi\'on en el simulador y el control.}}{66}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagrama de secuencia con los comandos desde el puesto de instructor para iniciar, parar o pausar una ejecuci\'on.}}{67}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagrama de secuencia para la introducci\'on de fallos.}}{68}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Diagrama de secuencia para hacer cambios en la misi\'on.}}{69}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagrama de las relaciones a la hora de comunicarse de los distintos m\'odulos.}}{70}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Manifiesto \'agil.}}{14}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ciclo metodolog\IeC {\'\i }a Scrum.}}{17}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ciclo TDD.}}{18}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Pair programming.}}{19}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Pilares de la POO.}}{22}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Ilustraci\'on c++11.}}{24}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Logo Java.}}{25}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagrama MVC.}}{26}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Logo Ubuntu.}}{28}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Logo Qt Creator.}}{29}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Logo Eclipse.}}{30}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Logo Mercurial.}}{32}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Logo Bitbucket.}}{33}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Ejemplo CMakeLists.txt.}}{37}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Ejemplo POM.xml.}}{39}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Logo de RTI.}}{40}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Logo Spring.}}{42}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Logo Struts 2.}}{44}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Logo Hibernate.}}{45}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Logo Valgrind.}}{46}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Resltado Valgrind.}}{47}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Logo Mavlink.}}{48}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Protocolo de escritura de misi\'on en Mavlink.}}{49}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces QGroundControl, gcs de Mavlink.}}{50}
+\contentsline {figure}{\numberline {2.25}{\ignorespaces GCA de Catec.}}{51}
+\contentsline {figure}{\numberline {2.26}{\ignorespaces UAV de Catec, Locomove.}}{52}
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Autopiloto integrado en el Locomove.}}{54}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Ejemplo del documento de backlog.}}{62}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura del sistema, con las relaciones f\IeC {\'\i }sicas entre subsistemas.}}{64}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagrama de secuencia de la ejecuci\'on de una misi\'on.}}{66}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagrama de secuencia de la carga de una misi\'on en el simulador y el control.}}{67}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagrama de secuencia con los comandos desde el puesto de instructor para iniciar, parar o pausar una ejecuci\'on.}}{68}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de secuencia para la introducci\'on de fallos.}}{69}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de secuencia para hacer cambios en la misi\'on.}}{70}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Diagrama de las relaciones a la hora de comunicarse de los distintos m\'odulos.}}{71}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Definici\'on de interfaces.}}{75}
