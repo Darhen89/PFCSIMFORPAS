@@ -84,19 +84,31 @@
 \contentsline {subsection}{\numberline {4.1.5}Entradas y salidas de los m\'odulos}{72}
 \contentsline {subsection}{\numberline {4.1.6}Definici\'on de interfaces}{74}
 \contentsline {subsection}{\numberline {4.1.7}Diagrama de burndown}{76}
-\contentsline {section}{\numberline {4.2}Sprint 2: Creaci\'on de la capa de comunicaci\'on}{77}
-\contentsline {subsection}{\numberline {4.2.1}Diagrama de burndown}{77}
-\contentsline {section}{\numberline {4.3}Sprint 3: Creaci\'on del SIMCORE}{78}
-\contentsline {subsection}{\numberline {4.3.1}Diagrama de burndown}{78}
-\contentsline {section}{\numberline {4.4}Sprint 4: Implementaci\'on del modelo de Locomove}{79}
-\contentsline {subsection}{\numberline {4.4.1}Diagrama de burndown}{79}
-\contentsline {section}{\numberline {4.5}Sprint 5: Gesti\'on de carga de la misi\'on}{80}
-\contentsline {subsection}{\numberline {4.5.1}Diagrama de burndown}{80}
-\contentsline {section}{\numberline {4.6}Sprint 6: Puesto de instructor}{81}
-\contentsline {subsection}{\numberline {4.6.1}Diagrama de burndown}{81}
-\contentsline {section}{\numberline {4.7}Sprint 7: Primera versi\'on y cambios en el objetivo}{82}
-\contentsline {subsection}{\numberline {4.7.1}Diagrama de burndown}{82}
-\contentsline {section}{\numberline {4.8}Sprint 8: Cambios en el dise\~no}{83}
-\contentsline {subsection}{\numberline {4.8.1}Diagrama de burndown}{83}
-\contentsline {part}{IV\hspace {1em}Conclusiones}{85}
-\contentsline {part}{V\hspace {1em}Ap\'endices}{87}
+\contentsline {subsection}{\numberline {4.1.8}Diagrama de evoluci\'on}{77}
+\contentsline {section}{\numberline {4.2}Sprint 2: Creaci\'on de la capa de comunicaci\'on}{78}
+\contentsline {subsection}{\numberline {4.2.1}Set up del entorno de desarrollo}{78}
+\contentsline {subsubsection}{Entorno de desarrollo C++}{78}
+\contentsline {subsubsection}{Creaci\'on del repositorio y la estructura de carpetas}{78}
+\contentsline {subsubsection}{Instalaci\'on ANIMO DDS}{79}
+\contentsline {subsection}{\numberline {4.2.2}Implementaci\'on de la capa de comunicaci\'on}{80}
+\contentsline {subsubsection}{Contenedor}{80}
+\contentsline {subsubsection}{Listeners}{81}
+\contentsline {subsection}{\numberline {4.2.3}Implementaci\'on del modelo simple}{81}
+\contentsline {subsubsection}{Primera aproximaci\'on}{82}
+\contentsline {subsubsection}{Cambios para implementaci\'on en el sistema}{82}
+\contentsline {subsection}{\numberline {4.2.4}Diagrama de burndown}{84}
+\contentsline {subsection}{\numberline {4.2.5}Diagrama de evoluci\'on}{85}
+\contentsline {section}{\numberline {4.3}Sprint 3: Creaci\'on del SIMCORE}{86}
+\contentsline {subsection}{\numberline {4.3.1}Diagrama de burndown}{86}
+\contentsline {section}{\numberline {4.4}Sprint 4: Implementaci\'on del modelo de Locomove}{87}
+\contentsline {subsection}{\numberline {4.4.1}Diagrama de burndown}{87}
+\contentsline {section}{\numberline {4.5}Sprint 5: Gesti\'on de carga de la misi\'on}{88}
+\contentsline {subsection}{\numberline {4.5.1}Diagrama de burndown}{88}
+\contentsline {section}{\numberline {4.6}Sprint 6: Puesto de instructor}{89}
+\contentsline {subsection}{\numberline {4.6.1}Diagrama de burndown}{89}
+\contentsline {section}{\numberline {4.7}Sprint 7: Primera versi\'on y cambios en el objetivo}{90}
+\contentsline {subsection}{\numberline {4.7.1}Diagrama de burndown}{90}
+\contentsline {section}{\numberline {4.8}Sprint 8: Cambios en el dise\~no}{91}
+\contentsline {subsection}{\numberline {4.8.1}Diagrama de burndown}{91}
+\contentsline {part}{IV\hspace {1em}Conclusiones}{93}
+\contentsline {part}{V\hspace {1em}Ap\'endices}{95}

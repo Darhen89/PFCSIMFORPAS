@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  26 AUG 2014 21:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  28 AUG 2014 01:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -318,7 +318,7 @@ LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 
 
-LaTeX Warning: Label `fig.2.10' multiply defined.
+LaTeX Warning: Label `fig.4.11' multiply defined.
 
 )
 \openout1 = `SIMFORPAS.aux'.
@@ -487,9 +487,18 @@ LaTeX Info: Redefining \% on input line 66.
 \tf@toc=\write3
 \openout3 = `SIMFORPAS.toc'.
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 319.
 LaTeX Info: Redefining \% on input line 319.
- [6] (./SIMFORPAS.lof
+ [6]
+LaTeX Info: Redefining \. on input line 319.
+LaTeX Info: Redefining \% on input line 319.
+
+[7] [8
+
+] (./SIMFORPAS.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
@@ -497,16 +506,14 @@ Underfull \vbox (badness 1629) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 40.
 LaTeX Info: Redefining \% on input line 40.
- [7
-
-])
+ [9])
 \tf@lof=\write4
 \openout4 = `SIMFORPAS.lof'.
 
 LaTeX Info: Redefining \. on input line 321.
 LaTeX Info: Redefining \% on input line 321.
 
-[8]
+[10]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 325.
  [1
@@ -524,7 +531,7 @@ Package epstopdf Info: Source file: <img/incendio.eps>
 -to.pdf img/incendio.eps>
 (epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
-<img/incendio-eps-converted-to.pdf, id=39, 637.38126pt x 278.03876pt>
+<img/incendio-eps-converted-to.pdf, id=45, 637.38126pt x 278.03876pt>
 File: img/incendio-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/incendio-eps-converted-to.pdf>
@@ -544,7 +551,7 @@ Package epstopdf Info: Source file: <img/predator.eps>
 -to.pdf img/predator.eps>
 (epstopdf)             \includegraphics on input line 347.
 Package epstopdf Info: Output file is already uptodate.
- <img/predator-eps-converted-to.pdf, id=46, 562.1pt x 379.4175pt>
+ <img/predator-eps-converted-to.pdf, id=53, 562.1pt x 379.4175pt>
 File: img/predator-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/predator-eps-converted-to.pdf>
@@ -564,7 +571,7 @@ Package epstopdf Info: Source file: <img/predatorgcs.eps>
 ted-to.pdf img/predatorgcs.eps>
 (epstopdf)             \includegraphics on input line 351.
 Package epstopdf Info: Output file is already uptodate.
- <img/predatorgcs-eps-converted-to.pdf, id=53, 578.16pt x 376.40625pt>
+ <img/predatorgcs-eps-converted-to.pdf, id=60, 578.16pt x 376.40625pt>
 File: img/predatorgcs-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/predatorgcs-eps-converted-to.pdf>
@@ -603,7 +610,7 @@ Package epstopdf Info: Source file: <img/manifest.eps>
 -to.pdf img/manifest.eps>
 (epstopdf)             \includegraphics on input line 471.
 Package epstopdf Info: Output file is already uptodate.
-<img/manifest-eps-converted-to.pdf, id=85, 835.12pt x 405.515pt>
+<img/manifest-eps-converted-to.pdf, id=91, 835.12pt x 405.515pt>
 File: img/manifest-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/manifest-eps-converted-to.pdf>
@@ -633,7 +640,7 @@ Package epstopdf Info: Source file: <img/scrum.eps>
 (epstopdf)             \includegraphics on input line 550.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/scrum-eps-converted-to.pdf, id=101, 417.56pt x 231.86626pt>
+<img/scrum-eps-converted-to.pdf, id=108, 417.56pt x 231.86626pt>
 File: img/scrum-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/scrum-eps-converted-to.pdf>
@@ -657,7 +664,7 @@ df img/tdd.eps>
 (epstopdf)             \includegraphics on input line 560.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/tdd-eps-converted-to.pdf, id=109, 490.83376pt x 512.91624pt>
+<img/tdd-eps-converted-to.pdf, id=115, 490.83376pt x 512.91624pt>
 File: img/tdd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/tdd-eps-converted-to.pdf>
@@ -677,7 +684,7 @@ pdf img/pair.eps>
 (epstopdf)             \includegraphics on input line 574.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/pair-eps-converted-to.pdf, id=116, 578.16pt x 387.4475pt>
+<img/pair-eps-converted-to.pdf, id=122, 578.16pt x 387.4475pt>
 File: img/pair-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/pair-eps-converted-to.pdf>
@@ -710,7 +717,7 @@ Package epstopdf Info: Source file: <img/poo.eps>
 df img/poo.eps>
 (epstopdf)             \includegraphics on input line 603.
 Package epstopdf Info: Output file is already uptodate.
- <img/poo-eps-converted-to.pdf, id=129, 527.9725pt x 527.9725pt>
+ <img/poo-eps-converted-to.pdf, id=136, 527.9725pt x 527.9725pt>
 File: img/poo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/poo-eps-converted-to.pdf>
@@ -733,7 +740,7 @@ Package epstopdf Info: Source file: <img/cpp11.eps>
 .pdf img/cpp11.eps>
 (epstopdf)             \includegraphics on input line 627.
 Package epstopdf Info: Output file is already uptodate.
- <img/cpp11-eps-converted-to.pdf, id=140, 568.1225pt x 401.5pt>
+ <img/cpp11-eps-converted-to.pdf, id=146, 568.1225pt x 401.5pt>
 File: img/cpp11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/cpp11-eps-converted-to.pdf>
@@ -754,7 +761,7 @@ pdf img/java.eps>
 (epstopdf)             \includegraphics on input line 642.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/java-eps-converted-to.pdf, id=147, 246.9225pt x 184.69pt>
+<img/java-eps-converted-to.pdf, id=153, 246.9225pt x 184.69pt>
 File: img/java-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/java-eps-converted-to.pdf>
@@ -777,7 +784,7 @@ df img/mvc.eps>
 (epstopdf)             \includegraphics on input line 650.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/mvc-eps-converted-to.pdf, id=154, 619.31375pt x 441.65pt>
+<img/mvc-eps-converted-to.pdf, id=160, 619.31375pt x 441.65pt>
 File: img/mvc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/mvc-eps-converted-to.pdf>
@@ -800,7 +807,7 @@ Package epstopdf Info: Source file: <img/ubuntu.eps>
 o.pdf img/ubuntu.eps>
 (epstopdf)             \includegraphics on input line 666.
 Package epstopdf Info: Output file is already uptodate.
- <img/ubuntu-eps-converted-to.pdf, id=164, 301.125pt x 301.125pt>
+ <img/ubuntu-eps-converted-to.pdf, id=171, 301.125pt x 301.125pt>
 File: img/ubuntu-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/ubuntu-eps-converted-to.pdf>
@@ -821,7 +828,7 @@ d-to.pdf img/qtcreator.eps>
 (epstopdf)             \includegraphics on input line 675.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/qtcreator-eps-converted-to.pdf, id=171, 373.395pt x 368.37625pt>
+<img/qtcreator-eps-converted-to.pdf, id=179, 373.395pt x 368.37625pt>
 File: img/qtcreator-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/qtcreator-eps-converted-to.pdf>
@@ -841,7 +848,7 @@ Package epstopdf Info: Source file: <img/eclipse.eps>
 to.pdf img/eclipse.eps>
 (epstopdf)             \includegraphics on input line 682.
 Package epstopdf Info: Output file is already uptodate.
- <img/eclipse-eps-converted-to.pdf, id=180, 513.92pt x 513.92pt>
+ <img/eclipse-eps-converted-to.pdf, id=186, 513.92pt x 513.92pt>
 File: img/eclipse-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/eclipse-eps-converted-to.pdf>
@@ -864,7 +871,7 @@ Package epstopdf Info: Source file: <img/mercurial.eps>
 d-to.pdf img/mercurial.eps>
 (epstopdf)             \includegraphics on input line 714.
 Package epstopdf Info: Output file is already uptodate.
- <img/mercurial-eps-converted-to.pdf, id=190, 501.875pt x 610.28pt>
+ <img/mercurial-eps-converted-to.pdf, id=196, 501.875pt x 610.28pt>
 File: img/mercurial-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/mercurial-eps-converted-to.pdf>
@@ -884,7 +891,7 @@ Package epstopdf Info: Source file: <img/bitbucket.eps>
 d-to.pdf img/bitbucket.eps>
 (epstopdf)             \includegraphics on input line 721.
 Package epstopdf Info: Output file is already uptodate.
- <img/bitbucket-eps-converted-to.pdf, id=197, 513.92pt x 513.92pt>
+ <img/bitbucket-eps-converted-to.pdf, id=203, 513.92pt x 513.92pt>
 File: img/bitbucket-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/bitbucket-eps-converted-to.pdf>
@@ -914,7 +921,7 @@ ed-to.pdf img/cmakelists.eps>
 (epstopdf)             \includegraphics on input line 773.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/cmakelists-eps-converted-to.pdf, id=214, 547.04375pt x 752.8125pt>
+<img/cmakelists-eps-converted-to.pdf, id=220, 547.04375pt x 752.8125pt>
 File: img/cmakelists-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/cmakelists-eps-converted-to.pdf>
@@ -937,7 +944,7 @@ Package epstopdf Info: Source file: <img/pom.eps>
 df img/pom.eps>
 (epstopdf)             \includegraphics on input line 786.
 Package epstopdf Info: Output file is already uptodate.
- <img/pom-eps-converted-to.pdf, id=224, 394.47375pt x 957.5775pt>
+ <img/pom-eps-converted-to.pdf, id=230, 394.47375pt x 957.5775pt>
 File: img/pom-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/pom-eps-converted-to.pdf>
@@ -957,7 +964,7 @@ df img/rti.eps>
 (epstopdf)             \includegraphics on input line 794.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/rti-eps-converted-to.pdf, id=231, 421.575pt x 388.45125pt>
+<img/rti-eps-converted-to.pdf, id=238, 421.575pt x 388.45125pt>
 File: img/rti-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/rti-eps-converted-to.pdf>
@@ -980,7 +987,7 @@ Package epstopdf Info: Source file: <img/spring.eps>
 o.pdf img/spring.eps>
 (epstopdf)             \includegraphics on input line 824.
 Package epstopdf Info: Output file is already uptodate.
- <img/spring-eps-converted-to.pdf, id=242, 252.945pt x 150.5625pt>
+ <img/spring-eps-converted-to.pdf, id=248, 252.945pt x 150.5625pt>
 File: img/spring-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/spring-eps-converted-to.pdf>
@@ -1004,7 +1011,7 @@ Package epstopdf Info: Source file: <img/struts2.eps>
 to.pdf img/struts2.eps>
 (epstopdf)             \includegraphics on input line 857.
 Package epstopdf Info: Output file is already uptodate.
- <img/struts2-eps-converted-to.pdf, id=252, 92.345pt x 31.11626pt>
+ <img/struts2-eps-converted-to.pdf, id=258, 92.345pt x 31.11626pt>
 File: img/struts2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/struts2-eps-converted-to.pdf>
@@ -1024,7 +1031,7 @@ Package epstopdf Info: Source file: <img/hibernate.eps>
 d-to.pdf img/hibernate.eps>
 (epstopdf)             \includegraphics on input line 870.
 Package epstopdf Info: Output file is already uptodate.
- <img/hibernate-eps-converted-to.pdf, id=259, 199.74625pt x 184.69pt>
+ <img/hibernate-eps-converted-to.pdf, id=265, 199.74625pt x 184.69pt>
 File: img/hibernate-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/hibernate-eps-converted-to.pdf>
@@ -1044,7 +1051,7 @@ Package epstopdf Info: Source file: <img/valgrind.eps>
 -to.pdf img/valgrind.eps>
 (epstopdf)             \includegraphics on input line 876.
 Package epstopdf Info: Output file is already uptodate.
- <img/valgrind-eps-converted-to.pdf, id=265, 473.77pt x 279.0425pt>
+ <img/valgrind-eps-converted-to.pdf, id=272, 473.77pt x 279.0425pt>
 File: img/valgrind-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/valgrind-eps-converted-to.pdf>
@@ -1064,7 +1071,7 @@ Package epstopdf Info: Source file: <img/valgrindreport.eps>
 verted-to.pdf img/valgrindreport.eps>
 (epstopdf)             \includegraphics on input line 885.
 Package epstopdf Info: Output file is already uptodate.
- <img/valgrindreport-eps-converted-to.pdf, id=272, 552.0625pt x 228.855pt>
+ <img/valgrindreport-eps-converted-to.pdf, id=279, 552.0625pt x 228.855pt>
 File: img/valgrindreport-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/valgrindreport-eps-converted-to.pdf>
@@ -1084,7 +1091,7 @@ Package epstopdf Info: Source file: <img/mavlink.eps>
 to.pdf img/mavlink.eps>
 (epstopdf)             \includegraphics on input line 892.
 Package epstopdf Info: Output file is already uptodate.
- <img/mavlink-eps-converted-to.pdf, id=280, 401.5pt x 96.36pt>
+ <img/mavlink-eps-converted-to.pdf, id=286, 401.5pt x 96.36pt>
 File: img/mavlink-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/mavlink-eps-converted-to.pdf>
@@ -1109,7 +1116,7 @@ ps-converted-to.pdf img/mavlinkwaypointwrite.eps>
 (epstopdf)             \includegraphics on input line 907.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/mavlinkwaypointwrite-eps-converted-to.pdf, id=287, 433.62pt x 361.35pt>
+<img/mavlinkwaypointwrite-eps-converted-to.pdf, id=293, 433.62pt x 361.35pt>
 File: img/mavlinkwaypointwrite-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/mavlinkwaypointwrite-eps-converted-to.pdf>
@@ -1130,7 +1137,7 @@ verted-to.pdf img/qgroundcontrol.eps>
 (epstopdf)             \includegraphics on input line 914.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/qgroundcontrol-eps-converted-to.pdf, id=294, 1106.1325pt x 722.7pt>
+<img/qgroundcontrol-eps-converted-to.pdf, id=300, 1106.1325pt x 722.7pt>
 File: img/qgroundcontrol-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/qgroundcontrol-eps-converted-to.pdf>
@@ -1151,7 +1158,7 @@ Package epstopdf Info: Source file: <img/gcscatec.eps>
 (epstopdf)             \includegraphics on input line 922.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/gcscatec-eps-converted-to.pdf, id=301, 1861.95625pt x 1180.41pt>
+<img/gcscatec-eps-converted-to.pdf, id=307, 1861.95625pt x 1180.41pt>
 File: img/gcscatec-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/gcscatec-eps-converted-to.pdf>
@@ -1171,7 +1178,7 @@ Package epstopdf Info: Source file: <img/locomove.eps>
 -to.pdf img/locomove.eps>
 (epstopdf)             \includegraphics on input line 932.
 Package epstopdf Info: Output file is already uptodate.
- <img/locomove-eps-converted-to.pdf, id=308, 703.62875pt x 514.92375pt>
+ <img/locomove-eps-converted-to.pdf, id=315, 703.62875pt x 514.92375pt>
 File: img/locomove-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/locomove-eps-converted-to.pdf>
@@ -1195,7 +1202,7 @@ nverted-to.pdf img/autopilotocatec.eps>
 (epstopdf)             \includegraphics on input line 951.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/autopilotocatec-eps-converted-to.pdf, id=319, 2448.14626pt x 1844.8925pt>
+<img/autopilotocatec-eps-converted-to.pdf, id=325, 2448.14626pt x 1844.8925pt>
 File: img/autopilotocatec-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/autopilotocatec-eps-converted-to.pdf>
@@ -1232,7 +1239,7 @@ onverted-to.pdf img/documentobacklog.eps>
 (epstopdf)             \includegraphics on input line 1155.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/documentobacklog-eps-converted-to.pdf, id=345, 1914.15125pt x 964.60374pt>
+<img/documentobacklog-eps-converted-to.pdf, id=352, 1914.15125pt x 964.60374pt>
 File: img/documentobacklog-eps-converted-to.pdf Graphic file (type pdf)
 <use img/documentobacklog-eps-converted-to.pdf>
 Package pdftex.def Info: img/documentobacklog-eps-converted-to.pdf used on inpu
@@ -1264,7 +1271,7 @@ rted-to.pdf img/arquitectura.eps>
 (epstopdf)             \includegraphics on input line 1193.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/arquitectura-eps-converted-to.pdf, id=359, 631.35875pt x 476.78125pt>
+<img/arquitectura-eps-converted-to.pdf, id=366, 631.35875pt x 476.78125pt>
 File: img/arquitectura-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/arquitectura-eps-converted-to.pdf>
@@ -1291,7 +1298,7 @@ sion-eps-converted-to.pdf img/funcionamientobasicomision.eps>
 (epstopdf)             \includegraphics on input line 1210.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/funcionamientobasicomision-eps-converted-to.pdf, id=366, 722.7pt x 542.025
+<img/funcionamientobasicomision-eps-converted-to.pdf, id=373, 722.7pt x 542.025
 pt>
 File: img/funcionamientobasicomision-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1321,7 +1328,7 @@ ted-to.pdf img/cargamision.eps>
 (epstopdf)             \includegraphics on input line 1218.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/cargamision-eps-converted-to.pdf, id=371, 722.7pt x 542.025pt>
+<img/cargamision-eps-converted-to.pdf, id=377, 722.7pt x 542.025pt>
 File: img/cargamision-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/cargamision-eps-converted-to.pdf>
@@ -1351,7 +1358,7 @@ converted-to.pdf img/iniciopausaparada.eps>
 (epstopdf)             \includegraphics on input line 1224.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/iniciopausaparada-eps-converted-to.pdf, id=378, 722.7pt x 542.025pt>
+<img/iniciopausaparada-eps-converted-to.pdf, id=384, 722.7pt x 542.025pt>
 File: img/iniciopausaparada-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/iniciopausaparada-eps-converted-to.pdf>
@@ -1381,7 +1388,7 @@ f>
 (epstopdf)             \includegraphics on input line 1234.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/introduccionfallos-eps-converted-to.pdf, id=385, 722.7pt x 542.025pt>
+<img/introduccionfallos-eps-converted-to.pdf, id=391, 722.7pt x 542.025pt>
 File: img/introduccionfallos-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/introduccionfallos-eps-converted-to.pdf>
@@ -1410,7 +1417,7 @@ erted-to.pdf img/cambiosmision.eps>
 (epstopdf)             \includegraphics on input line 1242.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/cambiosmision-eps-converted-to.pdf, id=392, 722.7pt x 542.025pt>
+<img/cambiosmision-eps-converted-to.pdf, id=398, 722.7pt x 542.025pt>
 File: img/cambiosmision-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/cambiosmision-eps-converted-to.pdf>
@@ -1440,7 +1447,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 1252.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/relacionescomunicacion-eps-converted-to.pdf, id=399, 722.7pt x 542.025pt>
+<img/relacionescomunicacion-eps-converted-to.pdf, id=406, 722.7pt x 542.025pt>
 File: img/relacionescomunicacion-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/relacionescomunicacion-eps-converted-to.pdf>
@@ -1479,7 +1486,7 @@ ps-converted-to.pdf img/definicioninterfaces.eps>
 (epstopdf)             \includegraphics on input line 1399.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/definicioninterfaces-eps-converted-to.pdf, id=419, 671.50874pt x 995.72pt>
+<img/definicioninterfaces-eps-converted-to.pdf, id=425, 671.50874pt x 995.72pt>
 File: img/definicioninterfaces-eps-converted-to.pdf Graphic file (type pdf)
 <use img/definicioninterfaces-eps-converted-to.pdf>
 Package pdftex.def Info: img/definicioninterfaces-eps-converted-to.pdf used on 
@@ -1502,35 +1509,155 @@ LaTeX Info: Redefining \. on input line 1400.
 LaTeX Info: Redefining \% on input line 1400.
 
 [75 <./img/definicioninterfaces-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/diagvelocidad1.eps>
+(epstopdf)                    date: 2014-08-26 20:14:33
+(epstopdf)                    size: 2534031 bytes
+(epstopdf)             Output file: <img/diagvelocidad1-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-08-26 21:18:43
+(epstopdf)                    size: 9864 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/diagvelocidad1-eps-con
+verted-to.pdf img/diagvelocidad1.eps>
+(epstopdf)             \includegraphics on input line 1406.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/diagvelocidad1-eps-converted-to.pdf, id=436, 771.88374pt x 543.02875pt>
+File: img/diagvelocidad1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/diagvelocidad1-eps-converted-to.pdf>
+Package pdftex.def Info: img/diagvelocidad1-eps-converted-to.pdf used on input 
+line 1406.
+(pdftex.def)             Requested size: 455.24408pt x 320.26817pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1406--1406
+ [] 
+ []
+
 LaTeX Info: Redefining \. on input line 1408.
 LaTeX Info: Redefining \% on input line 1408.
- [76]
-LaTeX Info: Redefining \. on input line 1414.
-LaTeX Info: Redefining \% on input line 1414.
- [77]
-LaTeX Info: Redefining \. on input line 1420.
-LaTeX Info: Redefining \% on input line 1420.
+[76 <./img/diagvelocidad1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/diagevolucion1.eps>
+(epstopdf)                    date: 2014-08-28 01:35:16
+(epstopdf)                    size: 2530743 bytes
+(epstopdf)             Output file: <img/diagevolucion1-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-08-28 01:35:33
+(epstopdf)                    size: 15192 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/diagevolucion1-eps-con
+verted-to.pdf img/diagevolucion1.eps>
+(epstopdf)             \includegraphics on input line 1413.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/diagevolucion1-eps-converted-to.pdf, id=443, 770.88pt x 543.02875pt>
+File: img/diagevolucion1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/diagevolucion1-eps-converted-to.pdf>
+Package pdftex.def Info: img/diagevolucion1-eps-converted-to.pdf used on input 
+line 1413.
+(pdftex.def)             Requested size: 455.24408pt x 320.68246pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1413--1413
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 1416.
+LaTeX Info: Redefining \% on input line 1416.
+[77 <./img/diagevolucion1-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1436.
+LaTeX Info: Redefining \% on input line 1436.
  [78]
-LaTeX Info: Redefining \. on input line 1426.
-LaTeX Info: Redefining \% on input line 1426.
+LaTeX Info: Redefining \. on input line 1449.
+LaTeX Info: Redefining \% on input line 1449.
  [79]
-LaTeX Info: Redefining \. on input line 1432.
-LaTeX Info: Redefining \% on input line 1432.
-
-[80]
-LaTeX Info: Redefining \. on input line 1438.
-LaTeX Info: Redefining \% on input line 1438.
+LaTeX Info: Redefining \. on input line 1464.
+LaTeX Info: Redefining \% on input line 1464.
+ [80]
+LaTeX Info: Redefining \. on input line 1486.
+LaTeX Info: Redefining \% on input line 1486.
  [81]
-LaTeX Info: Redefining \. on input line 1444.
-LaTeX Info: Redefining \% on input line 1444.
+LaTeX Info: Redefining \. on input line 1506.
+LaTeX Info: Redefining \% on input line 1506.
  [82]
-LaTeX Info: Redefining \. on input line 1450.
-LaTeX Info: Redefining \% on input line 1450.
- [83] [84
+LaTeX Info: Redefining \. on input line 1511.
+LaTeX Info: Redefining \% on input line 1511.
 
-] [85] [86] [87
+[83]
+Package epstopdf Info: Source file: <img/diagvelocidad2.eps>
+(epstopdf)                    date: 2014-08-28 01:39:11
+(epstopdf)                    size: 2534031 bytes
+(epstopdf)             Output file: <img/diagvelocidad2-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-08-28 01:40:58
+(epstopdf)                    size: 19418 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/diagvelocidad2-eps-con
+verted-to.pdf img/diagvelocidad2.eps>
+(epstopdf)             \includegraphics on input line 1516.
+Package epstopdf Info: Output file is already uptodate.
 
-] [88] (./SIMFORPAS.aux
+<img/diagvelocidad2-eps-converted-to.pdf, id=469, 771.88374pt x 543.02875pt>
+File: img/diagvelocidad2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/diagvelocidad2-eps-converted-to.pdf>
+Package pdftex.def Info: img/diagvelocidad2-eps-converted-to.pdf used on input 
+line 1516.
+(pdftex.def)             Requested size: 455.24408pt x 320.26817pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1516--1516
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 1518.
+LaTeX Info: Redefining \% on input line 1518.
+[84 <./img/diagvelocidad2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/diagevolucion2.eps>
+(epstopdf)                    date: 2014-08-28 01:38:56
+(epstopdf)                    size: 2530743 bytes
+(epstopdf)             Output file: <img/diagevolucion2-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=img/diagevolucion2-eps-con
+verted-to.pdf img/diagevolucion2.eps>
+(epstopdf)             \includegraphics on input line 1520.
+runsystem(repstopdf --outfile=img/diagevolucion2-eps-converted-to.pdf img/diage
+volucion2.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/diagevolucion2-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-08-28 01:42:51
+(epstopdf)                    size: 17537 bytes.
+
+<img/diagevolucion2-eps-converted-to.pdf, id=476, 770.88pt x 543.02875pt>
+File: img/diagevolucion2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/diagevolucion2-eps-converted-to.pdf>
+Package pdftex.def Info: img/diagevolucion2-eps-converted-to.pdf used on input 
+line 1520.
+(pdftex.def)             Requested size: 455.24408pt x 320.68246pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1520--1520
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 1522.
+LaTeX Info: Redefining \% on input line 1522.
+[85 <./img/diagevolucion2-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1528.
+LaTeX Info: Redefining \% on input line 1528.
+ [86]
+LaTeX Info: Redefining \. on input line 1534.
+LaTeX Info: Redefining \% on input line 1534.
+ [87]
+LaTeX Info: Redefining \. on input line 1540.
+LaTeX Info: Redefining \% on input line 1540.
+ [88]
+LaTeX Info: Redefining \. on input line 1546.
+LaTeX Info: Redefining \% on input line 1546.
+ [89]
+LaTeX Info: Redefining \. on input line 1552.
+LaTeX Info: Redefining \% on input line 1552.
+ [90]
+LaTeX Info: Redefining \. on input line 1558.
+LaTeX Info: Redefining \% on input line 1558.
+
+[91] [92
+
+] [93] [94] [95
+
+] [96] (./SIMFORPAS.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -1539,11 +1666,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6826 strings out of 493315
- 96432 string characters out of 6137904
- 174786 words of memory out of 5000000
- 10093 multiletter control sequences out of 15000+600000
- 32524 words of font info for 62 fonts, out of 8000000 for 9000
+ 6830 strings out of 493315
+ 97084 string characters out of 6137904
+ 174809 words of memory out of 5000000
+ 10092 multiletter control sequences out of 15000+600000
+ 34109 words of font info for 64 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,13n,56p,1441b,672s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1551,10 +1678,10 @@ exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SIMFORPAS.pdf (96 pages, 5594385 bytes).
+Output written on SIMFORPAS.pdf (106 pages, 5669439 bytes).
 PDF statistics:
- 490 PDF objects out of 1000 (max. 8388607)
- 306 compressed objects within 4 object streams
+ 538 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

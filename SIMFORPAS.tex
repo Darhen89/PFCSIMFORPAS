@@ -1398,18 +1398,126 @@ A la hora de empezar a programar nuestra aplicación necesitamos conocer qué clas
 
 \imgCentradaGrande{fig.4.8}{img/definicioninterfaces.eps}{Definición de interfaces.}
 
+\newpage
 \subsection{Diagrama de burndown}
 
 Para el primer sprint se esperaba realizar el documento de análisis inicial con un valor de dificultad de dos puntos y la definición de interfaces con otros dos puntos. Al haber realizado las dos acciones finalizamos el sprint con un total de 4 puntos en la evolución de velocidad de la iteración que plasmaremos en el siguiente diagrama de velocidad.
 
-%\imgCentradaGrande{fig.4.9}{img/diagvelocidad1.eps}{Diagrama de velocidad para el primer sprint.}
+\imgCentradaGrande{fig.4.9}{img/diagvelocidad1.eps}{Diagrama de velocidad para el primer sprint.}
+
+\newpage
+\subsection{Diagrama de evolución}
+
+El diagrama de evolución nos muestra las historias de usuario que hemos realizado frente a las totales del proyecto, lo que nos da una idea aproximada de lo que nos queda para finalizar.
+
+\imgCentradaGrande{fig.4.10}{img/diagevolucion1.eps}{Diagrama de evolución para el primer sprint.}
 
 
 \newpage
 \section{Sprint 2: Creación de la capa de comunicación}
 
+\lettrine{E}{ste} sprint lo dividiremos en tres partes, en un principio explicaremos los pasos necesarios para poner a punto las herramientas que usaremos durante el desarrollo del proyecto, entornos de programación, librerías necesarias, etcétera. En la segunda parte explicaremos cómo se implementó la capa de comunicación de los distintos módulos para realizar el intercambio de datos entre ellos, parte muy importante en el proyecto, también explicaremos como se usa ANIMO DDS. Para terminar realizaremos una primera integración del simulador con un modelo simple que acepta una trayectoria tomando un camino rectilíneo de un punto a otro de la misión.
+
+\subsection{Set up del entorno de desarrollo}
+
+\lettrine{E}{l} primer paso a la hora de iniciar el desarrollo del proyecto debe ser el de disponer de un entorno de desarrollo con todas las herramientas necesarias a la hora de llevar a cabo la programación de nuestro sistema, para ello haremos un recuento de las tecnologías que vamos a usar e instalaremos las correspondientes herramientas que faciliten el uso de éstas tecnologías.
+
+\subsubsection{Entorno de desarrollo C++}
+
+Ya que la mayor parte del proyecto va a ser desarrollado en el lenguaje de programación C++ debemos disponer de un entorno de programación adecuado. Decidimos hacer uso de la herramienta de generación de proyectos en C++ Cmake, la cual nos resultará muy útil a la hora de crear varios proyectos que tengan las mismas características y usen las mismas tecnologías. Al decidir hacer uso de CMake nos decantamos por trabajar con el entorno de desarrollo integrado o \emph{IDE} (Integrated Development Enviroment) QtCreator ya que éste tenía una mejor integración con CMake sobre la otra opción que tuvimos que era usar el entorno Eclipse adaptado a C++ que, a parte de ser más lento al ejecutarse en la máquina virtual de Java, disponía de herramientas útiles a la hora de trabajar con CMake y con las librerías de C++ Qt de las que haremos uso más adelante.
+
+Tanto la última versión de Qt como el entorno de desarrollo QtCreator lo podemos encontrar en la página del proyecto \emph{http://qt-project.org}.
+
+Una vez disponemos de este entorno de desarrollo ya podemos crear nuestro primer proyecto con C++.
+
+\subsubsection{Creación del repositorio y la estructura de carpetas}
+
+Ahora que tenemos el proyecto creado nos creamos un repositorio, usamos bitbucket ya que es el más usado por el departamento de Simulación y Software de Catec. Mediante la herramienta TortoiseHG podremos manejar nuestro repositorio desde el escritorio. La metodología de trabajo será la siguiente: nos crearemos un \emph{fork} del repositorio principal, subiremos todas las modificaciones que realicemos a ese fork, y cada vez que tengamos una versión estable del sistema haremos una petición de unión con el repositorio principal o \emph{pull request}. Para la estructura de carpetas se definió que la ruta principal tendría dos carpetas, una destinada al código y otra a la documentación, dentro de la carpeta código la estructura sería crear una carpeta por cada módulo o proyecto que se necesite en el sistema.
+
+\subsubsection{Instalación ANIMO DDS}
+
+El primer paso que tomamos una vez pudimos empezar a generar nuestro código en C++ fue el de instalarnos las librerías de ANIMO proporcionadas por Catec e integrarlas en un proyecto de prueba que consistía en dos aplicaciones, una que permitía tomar datos de un joystick conectado por USB al ordenador, enviar éstos datos por ANIMO y recibirlos en otra aplicación que dibujaba un punto sobre una ventana representando el movimiento del joystick.
+
+El primer paso es descargarse las librerías de RTI DDS, las podemos encontrar en la siguiente url \emph{http://www.rti.com/downloads/connext-files.html/}, una vez tenemos el archivo de instalación debemos darle permisos de ejecución y ejecutarlo, aceptar las condiciones de uso y seleccionar el directorio de instalación. Antes de ejecutarlo debemos revisar algunas dependencias que tienen estas librerías, debemos tener instaladas en nuestro sistema las librerías \emph{libtiff3} y \emph{libjpeg62}. Una vez termine la instalación de RTI DDS debemos de hacernos con un archivo de licencia, en nuestro caso fue provisto por Catec, y lo copiamos en la carpeta de instalación de RTI.
+
+Lo siguiente es instalar el paquete debian creado por el equipo de desarrollo de ANIMO DDS de Catec, el cual se instalará con el correspondiente comando desde nuestra terminal de Ubuntu.
+
+Una vez tenemos todas las librerías instaladas correctamente podemos hacer la implementación de nuestra primera prueba de comunicaciones mediante ANIMO DDS.
+
+\textbf{Uso de las librerías de ANIMO DDS: }El uso es bastante sencillo, sólo basta con inicializar ANIMO obteniendo una instancia del framework a partir de un archivo de configuración en el que se indica el dominio o "canal" por el que se van a transmitir los datos, las calidades de servicios, la ruta del fichero donde se encuentran la definición de calidades, la ruta del log y el identificador del log. A partir de este objeto crearemos dos instancias de los llamados "Acces Points" que son los objetos que usaremos para publicar y subscribirnos. La dinámica de funcionamiento del patrón publicador subscriptor es muy sencilla, una aplicación publica un dato bajo un tópico y éste dato es recibido por todas las aplicaciones que estén subscritas a ese dato con ese tópico, así mediante el tópico podemos decidir qué datos vanos a recibir y cuales no, en nuestra aplicación asignaremos como tópico el identificador correspondiente al programa que ha enviado ese dato, por tanto el resto de módulos se subscribirán al identificador correspondiente a los módulos que envían información que él necesita. Entonces nos crearemos un objeto AccessPointForSending y otro objeto AccessPointForReceiving.
+
+A la hora de enviar un dato lo único que necesitamos hacer es tomar la instancia de nuestro AccessPointForSending y llamar a su método sendInterfaceData(data) donde "data" es cualquier objeto que herede de la clase "I\_Data" de ANIMO DDS. La recepción del dato se hará mediante listeners, un listener es un objeto que tendrá un método process el cuál será llamado cuando haya llegado un dato que esté destinado a ese listener proporcionándole el dato. Para que ese listener reciba ese dato debemos registrarlo mediante el framework de ANIMO, más concretamente haciendo uso del AccessPointForReceiving el cual tiene dos métodos, uno llamado registerInterface(Type, listener) el cual recibe un enumerado con el tipo de dato que se va a recibir en ese listener y un listener que debe heredar del tipo de ANIMO I\_DataListener el cual posee un método process que es el que recibirá el dato.
+
+Los tipos que pueden ser enviados mediante ANIMO debemos definirlos antes y, haciendo uso de las herramientas de generación de código de ANIMO DDS, recoger sus propiedades dentro de un archivo de configuración a partir del cual ANIMO automáticamente generará las clases necesarias para el envío de ese dato por DDS y hará las modificaciones pertinentes en el framework, incluido el añadir al enumerado de tipos que se pueden enviar por ANIMO el nuevo dato, enumerado que necesitaremos en el AccessPointForReceiving. Después de esto debemos generar los paquetes debían de nuevo mediante un script incluido en el proyecto ANIMO DDS y volver a instalarlos.
+
+El siguiente paso es indicarle AccessPointForReceiving que va a recibir datos de un tópico para empezar a escuchar, por tanto se llamará a su método starDevice(Type, Topic) donde "Type" volverá a ser el enumerado con valor correspondiente al tipo de dato que vamos a recibir y "Topic" será el tópico bajo el que se va a enviar ese dato.
+
+Así pues en el process del listener se define qué es lo que se va a hacer con ese dato. En nuestro caso la acción era modificar la posición de un punto en nuestra ventana según el valor de movimiento que nos hubiera mandado el joystick.
+
+\subsection{Implementación de la capa de comunicación}
+
+\lettrine{D}{espués} de la implementación del proyecto de prueba de comunicaciones con ANIMO se definió una estructura a seguir para el tratamiento de los datos. Según ésta estructura se definiría una clase contenedor para todos los elementos referentes a las comunicaciones y un tipo de listener especial para nuestro proyecto. A continuación explicaremos cómo están formados estos elementos.
+
+\subsubsection{Contenedor}
+
+El contenedor es la clase principal de nuestras comunicaciones mediante ANIMO, ésta estará encargada de establecer los elementos necesarios para iniciar las comunicaciones (creación de los Access Points, registros, etcétera...), crear los listeners que nos harán falta, almacenarlos y proveer al resto del proyecto de los métodos necesarios tanto para realizar un envío de un dato mediante DDS como para acceder a los datos que nos han llegado.
+
+El constructor del container tiene como parámetros de entrada el archivo de configuración necesario para la inicialización de ANIMO y el dominio, ambos archivos los incluiremos en el archivo de configuración general de la aplicación que tendrá los parámetros característicos de cada módulo a parte de las configuraciones necesarias para las comunicaciones a través de ANIMO. También será encargado de inicializar el framework de ANIMO y de crear los Access Points, tanto el de subscriptor como el de publicador. Y por último inicializará los listeners necesarios para nuestro proyecto.
+
+Uno de los métodos necesarios es el de subscribe(), el cual a partir de la lista de listeners que hemos creado y el tópico identificador para el módulo que estamos implementando subscribirá cada uno de los listeners para poder iniciar la recepción de datos.
+
+También dispondrá de un método de envío que recibirá un dato de ANIMO a publicar y hará la llamada al AccessPointForSending que realizará el envío.
+
+Por último, esta clase dispondrá de una serie de métodos observadores que devolverán cada uno de los datos a los que nos hemos suscrito.
+
+\subsubsection{Listeners}
+
+Debido a que queremos mantener un control sobre el flujo de datos entre los sistemas de que disponemos y sobre la ejecución de la simulación tenemos que marcar unas pautas que definan qué se va a hacer con los mensajes cuando nos llegan. Una opción consiste en hacer en el process del listener la llamada a la clase que vaya a usar ese dato o un controlador de datos que lo redirija al objeto en el que va a ser usado, esto podría darnos problemas y complicar mucho el flujo de ejecución elevando el riesgo de que se entre en condiciones de carrera, etcétera.
+
+La segunda opción, por la que finalmente optamos fue la de almacenar dentro del listener los datos nuevos cuando llegan, por lo que los listeners tienen un atributo del tipo del dato que están esperando recibir, el cual se actualiza en el momento en que se comprueba en el process que el dato es el que queremos, almacenándose en ese atributo.
+
+El listener nos permite la visualización de ese dato almacenado mediante un método get que devuelve el tipo correspondiente al listener.
+
+Así cuando durante la ejecución de nuestra aplicación necesitemos alguno de los datos, solo tenemos que realizar una espera activa comprobando si tenemos algún dato nuevo en el listener correspondiente al objeto que necesitamos, al que podemos acceder mediante los métodos provistos en la clase contenedor de comunicaciones.
+
+\subsection{Implementación del modelo simple}
+
+\lettrine{D}{bebemos} trabajar haciendo uso de un modelo que simule el comportamiento de una aeronave no tripulada, la estructura de ésta aeronave simulada será por un lado un control que hará de autopiloto, y por otro lado un modelo en Matlab Simulink que será el que haga las veces de sensores y respuestas del avión. Para familiarizarnos con el comportamiento y uso de éstas tecnologías vamos a implementar un llamado \emph{modelo bicicleta} o modelo simple.
+
+\subsubsection{Primera aproximación}
+
+Simulink nos autogenera un código en C++ con el modelo y una serie de métodos para introducir los parámetros de entrada del modelo y un método para ejecutar un paso de simulación. La entra de este modelo simple es el \emph{waypoint} o coordenada al que debe dirigirse y como salida irá mostrando su posición.
+
+Para ésta prueba se realizó un nuevo proyecto que creaba una envoltura al código generado por Simulink, de manera que se le proporcionaba una serie de waypoints y un módulo secuenciador era el encargado de modificar el waypoint objetivo al modelo, ejecutar los pasos de simulación y enviarle el siguiente waypoint cuando hubiera llegado al anterior.
+
+Una vez tuvimos éste sistema funcionando ampliados su funcionamiento para poder usar órdenes externas a través de ánimo, de forma que el control de la ejecución del paso de simulación fuera activada exteriormente, así como la información de la misión que debía realizar.
+
+\subsubsection{Cambios para implementación en el sistema}
+
+La envoltura que se realizó fue una clase llamada AircraftContainer la cual creaba e inicializaba las clases autogeneradas por Matlab Simulink y se encargaba de almacenar los objetos necesarios para el manejo de éste modelo, como por ejemplo el contenedor de comunicaciones, el controlador de ejecución, la clase encargada de secuencia los waypoints al modelo, el controlador de la posición y la encargada del manejo de la carga de misión en nuestro proyecto.
+
+Tiene un método para ejecutar el step del modelo, de forma que primero comprueba si se ha enviado una odre de ejecución desde fuera ya que la ejecución será controlada desde otro módulo. Cuando nos llega una orden de ejecución del paso de simulación, llamamos a la ejecución del controlador de posición que se encargará de modificar el estado de la aeronave y de llamar al guiado que en última instancia será el que compruebe si hemos llegado al waypoint y luego, el controlador de posición llamará a la ejecución del modelo.
+
+Otro método llamado checkMissionRequest comprueba que haya una petición de inicio de carga de misión, el cuál comprobará que no se haya terminado de cargar una misión en curso, y, si se dan las condiciones, inicializar el control de posición.
+
+Por último, checkMissionStartCommand comprueba si ha llegado un comando de inicio de misión, en cuyo caso devolverá verdadero.
+
+La carga de misión se realizará siguiendo el proceso de carga definido por el protocolo Mavlink y será gestionado por la clase MissionLoader, la cual será ejecutada por el contenedor de la aeronave.
+
+Así pues, a cada paso de ejecución, si no hay una misión cargada y llega una solicitud de carga de misión se inicia el proceso de petición de waypoints, una vez está cargada la misión se espera a que se envía una señal de inicio de misión, cuando se cumplen estas dos premisas se comienza la ejecución del modelo cuyos datos recibe mediante el módulo de guiado.
+
+El siguiente paso que realizaremos será el de crear la primera versión del módulo central de control de la simulación, el cuál enviará el paso de simulación y mediante un programa de prueba que haremos podrá validar el funcionamiento de la implementación del modelo simple.
+
+\newpage
 \subsection{Diagrama de burndown}
-%\imgCentradaGrande{fig.4.10}{img/diagvelocidad2.eps}{Diagrama de velocidad para el segundo sprint.}
+
+Para este sprint se estimaron 8 puntos, de los cuales se han realizado 11, debido a que una historia de usuario que tenía 3 puntos, concretamente la de set up del entorno se ha realizado en este segundo sprint.
+
+\imgCentradaGrande{fig.4.11}{img/diagvelocidad2.eps}{Diagrama de velocidad para el segundo sprint.}
+
+\newpage
+\subsection{Diagrama de evolución}
+\imgCentradaGrande{fig.4.11}{img/diagevolucion2.eps}{Diagrama de evolución para el segundo sprint.}
 
 \newpage
 \section{Sprint 3: Creación del SIMCORE}
