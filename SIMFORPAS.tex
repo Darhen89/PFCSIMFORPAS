@@ -1517,43 +1517,155 @@ Para este sprint se estimaron 8 puntos, de los cuales se han realizado 11, debid
 
 \newpage
 \subsection{Diagrama de evolución}
-\imgCentradaGrande{fig.4.11}{img/diagevolucion2.eps}{Diagrama de evolución para el segundo sprint.}
+\imgCentradaGrande{fig.4.12}{img/diagevolucion2.eps}{Diagrama de evolución para el segundo sprint.}
 
 \newpage
 \section{Sprint 3: Creación del SIMCORE}
 
+\lettrine{D}{durante} este sprint hemos realizado el desarrollo del módulo central de simulación, proyecto que se encargará de administrar el funcionamiento del resto de módulos, y de crear un proyecto desde el que podamos manejar el envío de datos como si fuera la GCS y que nos sirva para poder realizar pruebas de funcionamiento de una primera versión del sistema de simulación completo.
+
+\subsubsection{SIMCORE}
+
+\lettrine{U}{na} que hemos creado el módulo de manejo de la aeronave y hemos adaptado su funcionamiento a la recepción de datos externos mediante ANIMO DDS haremos una primera versión del módulo central de simulación que el cual se encargará de hacer de puente en el envío de datos entre los diferentes módulos, de asegurarse de que el fluye de datos se está manteniendo bien y de gestionar el envío del paso de ejecución definido por una velocidad en hercios dados por el archivo de configuración del proyecto.
+
+La función de la clase principal del núcleo debe ser la de reenviar los mensajes nuevos recibidos por ánimo, para esto guardará en un atributo de la clase la marca de tiempo que tienen todos los mensajes enviados por ANIMO en un mapa, cada tipo de dato que reciba el simulador tendrá un valor de marca de tiempo guardado en esa variable, de esta manera cuando llegue un dato cuya marca de tiempo difiera de la anterior registrada para ese tipo se reenviará este dato al destinatario correspondiente. En cada paso de iteración el simulador comprobará la marca de tiempo de los datos guardados en los listeners de la capa de comunicación y los cotejará con las guardadas en nuestro mapa de últimas marcas de tiempo de forma que si alguna ha cambiado reenviará el dato.
+
+El tiempo de duración del paso de simulación viene dado por un método que calcula cuánto tiempo debe durar el paso de simulación según los hercios a los que se tenga que ejecutar el simulador, dato que se modifica en el archivo de configuración del proyecto, y cuánto tiempo ha tardado la ejecución de la iteración del simulador de forma que después se pausará un tiempo igual a la diferencia entre el tiempo total que debe durar la ejecución de una iteración y el tiempo que le llevó ejecutar un paso. De esta forma nos aseguramos que todos los pasos de ejecución duran el mismo tiempo y podemos sincronizar el envío y la recepción de datos entre módulos sin que se produzcan errores.
+
+\subsubsection{GCS para pruebas}
+
+Antes de implementar los cambios en la GCS de Catec para que sea posible su comunicación con el resto de módulos mediante ANIMO, realizaremos una aplicación sencilla que se encargue de enviar los mensajes en una secuencia correcta para el sistema de forma que podamos comprobar si la respuesta dada por el simulador es la esperada o hay algún error durante la comunicación con la GCS.
+
+A esta aplicación se le hizo una interfaz a través de la línea de comandos que te permitía enviar varias órdenes. El funcionamiento básico consistía en enviar un comando de mission request en el que se indicaba el número de waypoints que se le iban a enviar y luego ir enviando waypoints generados aleatoriamente.
+
 \subsection{Diagrama de burndown}
-%\imgCentradaGrande{fig.4.11}{img/diagvelocidad3.eps}{Diagrama de velocidad para el tercer sprint.}
+
+En este sprint teníamos como objetivo crear la primera versión funcional del simulador y crear una herramienta que nos permitiera probar el sistema, que es la versión de prueba de la GCS. Las dos acciones fueron finalizadas en éste sprint por lo tanto se cumplieron los objetivos. Al final se realizó una prueba global de todo el sistema que confirmaba que todas sus partes funcionaban correctamente y terminamos una primera versión del sistema de simulación funcionando.
+
+\imgCentradaGrande{fig.4.13}{img/diagvelocidad3.eps}{Diagrama de velocidad para el tercer sprint.}
+
+\subsection{Diagrama de evolución}
+\imgCentradaGrande{fig.4.14}{img/diagevolucion3.eps}{Diagrama de evolución para el tercer sprint.}
+
 
 \newpage
 \section{Sprint 4: Implementación del modelo de Locomove}
 
+\lettrine{E}{l} siguiente paso que tomaremos será el de cambiar el modelo simple por el modelo del UAV de Catec Locomove que será el que usemos finalmente de forma que tengamos una respuesta fiable y exacta del comportamiento de la aeronave. El modelo simple que estábamos usando hasta ahora simplemente calculaba una trayectoria rectilínea entre el punto en que se encontraba en ese momento y el punto de destino que tenía que alcanzar y como salida iba actualizando su posición. Sin embargo el modelo del Locomove tiene más parámetros de entrada y en su salida nos da también más datos del estado de la aeronave. Hablaremos muy brevemente del uso de Simulink para la creación de un modelo de simulación y luego analizaremos los cambios realizados para la implementación de éste modelo.
+
+\subsection{Modelos de simulación en Matlab Simulink}
+
+\lettrine{E}{s} un entorno visual de programación que funciona sobre el sistema Matlab. La programación se realiza a un nivel más alto que el lenguaje de programación de Matlab en sí. Es una programación visual donde los componentes de control se incluyen mediante representaciones visuales y la configuración de un programa se realiza como si hiciésemos un mapa de un circuito. Podemos crear "cajas negras" que realizarán una función específica, como si fuesen clases de nuestro programa dentro de las cuales los elementos de entrada irán a parar a funciones que devolverán los parámetros de salida de esas mismas cajas. De esta forma se va formando nuestro programa. 
+
+Este modelo recibirá como parámetros de entrada un grupo de tres waypoints, siendo el primer el waypoint del que procede, el segundo el waypoint al que se debe dirigir y el último el siguiente waypoint que tiene que alcanzar. Como salida seremos capaces de obtener datos de posición, altitud, actitud que nos dirá en qué posición se encuentran los ejes centrales del avión e información sobre el estado de los componentes de la aeronave.
+
+\subsection{Modificaciones en el código para introducir el nuevo modelo}
+
+\lettrine{M}{atlab} Simulink nos genera, a partir del diagrama de cajas creado con su herramienta, un código en C++, el cual debemos integrar en nuestro sistema. El modelo era similar al que teníamos anteriormente hablando de estructura de clases, pero no en entradas y salidas, por lo que no funcionaba nada más implantarlo. Si en un futuro se quisiera modificar de forma sencilla el modelo de avión que se está simulando se debería diseñar unas condiciones estándar que debieran cumplir los modelos en cuestión de parámetros de entrada y salida para que no haya que realizar ninguna modificación en el resto de nuestro código. Una vez se adaptó el sistema de guiado al nuevo modelo, ya que el anterior solo recibía un valor de posición y este espera tres valores, y se subsanaron problemas con los parámetros de entrada de los waypoints, ya que éste simulador comprobaba que la recepción del dato hubiera sido correcta consultando uno de sus parámetros el cual no se había tenido en cuenta anteriormente, fuimos capaces de compilar el proyecto y empezar con las pruebas.
+
+También se modificó la capa de comunicación y, por tanto, se realizaron los cambios pertinentes en el simulador para que aceptase los nuevos tipos que surgieron al introducir el nuevo modelo de avión, ya que algunos parámetros de control no estaban hechos en ANIMO y hubo que añadirlos.
+
+Se realizó una modificación en la funcionalidad de la carga de misión que permitía introducir una nueva misión mientras estaba ejecutando una. De esta forma en pleno vuelo se puede cambiar la trayectoria del avión y darle nuevas órdenes como podría ser la de vuelta a casa o la optimización de la ruta dependiendo de las condiciones actuales del entorno. Por tanto cuando llega una nueva petición de carga de misión, el control de la aeronave guarda en un nuevo atributo la nueva misión cargada y cuando recibe la orden de iniciar dicha misión la sustituye dentro del sistema de guiado para que el avión siga la nueva ruta.
+
+Otro inconveniente a tener en cuenta fue el conflicto que surgió al modelar los tipos de datos de Mavlink a tipos de ANIMO, ya que dos tipos casi idénticos como eran el mission\_count y el mission\_request se modelaron en un mismo tipo de dato denominado mission\_command, este mission\_command se distinguía mediante el tópico que llevaba el dato al ser transportado, ya que por exigencias del protocolo de carga de misión el mission\_count siempre iba a enviarse bajo el tópico de la GCS y el mission\_request siempre lo iba a enviar el control de la aeronave. Por la estructura interna de ANIMO y DDS resulta que los dos datos llegaban a los dos listeners donde se podían discriminar dependiendo del lugar desde el que procedían, sin embargo, al publicarlos el simulador les ponía su propio tópico, ahí era cuando no se podían distinguir en los destinos qué tipo era el que estaba publicando el simulador y esto introducía incoherencias dentro de nuestro sistema. Para solucionar este problema se optó por modelar los datos de Mavlink en ANIMO por separado, al tratarse de dos tipos de datos distintos este problema dejó de darse.
+
 \subsection{Diagrama de burndown}
-%\imgCentradaGrande{fig.4.12}{img/diagvelocidad4.eps}{Diagrama de velocidad para el cuarto sprint.}
+
+En este sprint nos comprometimos a realizar la introducción del nuevo modelo y de implementar nuestro sistema con la GCS de Catec, al encontrarnos con muchos problemas a la hora de realizar la implementación de la envoltura del nuevo modelo de avión no pudimos completar todas las historias de usuario de este sprint lo cual se representa como una caída en el rendimiento de la velocidad del equipo de desarrollo.
+
+\imgCentradaGrande{fig.4.15}{img/diagvelocidad4.eps}{Diagrama de velocidad para el cuarto sprint.}
+
+\subsection{Diagrama de evolución}
+\imgCentradaGrande{fig.4.15}{img/diagevolucion4.eps}{Diagrama de evolución para el cuarto sprint.}
 
 \newpage
-\section{Sprint 5: Gestión de carga de la misión}
+\section{Sprint 5: Introducción de la GCS de Catec}
+
+\lettrine{E}{n} este sprint vamos a introducir en nuestro sistema la GCS de Catec, uno de los objetivos fundamentales consistía en que el alumno que fuera a usar nuestra plataforma con el fin de realizar prácticas de vuelo no tripulado debía de ser conocedor y de poder trabajar con la herramienta de control de aviones no tripulados de Catec o estación de control de tierra. Por ello después de las pruebas iniciales de funcionamiento del simulador nos dispondremos a integrar la herramienta real al sistema. Primero explicaremos el uso de una herramienta que nos aseguró que la aeronave estaba siguiendo las rutas correctamente.
+
+\subsection{Visualizador basado en Marble y problema de loiter}
+
+\lettrine{H}{asta} ahora la única forma que hemos tenido de visualizar el progreso de una misión en curso era imprimiendo en la salida estándar de nuestro sistema operativo la posición y los datos que nos eran relevantes y comprobar la dirección en la que se movían según las coordenadas o ver si se acercaba al punto que le indicábamos, pero esta es una forma muy poco intuitiva y no podemos ver potenciales errores en el movimiento de la aeronave, por ello y antes de introducir la GCS en el sistema creamos una herramienta de visualización basada en Marble.
+
+Marble es una aplicación geográfica desarrollada por KDE y distribuida bajo licencia GNU LGPL y nos provee herramientas parecidas a las de Google Maps, pudiendo representar sobre un mapa terrestre una posición dando sus coordenadas globales. Nuestra aplicación era muy simple y solo consistía en una ventana en la cual se representaba el mapa y sobre él la posición de la aeronave. 
+
+Para tomar estos datos nos subscribíamos por ANIMO DDS al dato de posición y lo actualizábamos según un ratio de refresco prefijado. Gracias al patrón publicador subscriptor nos fue muy sencillo realizar una aplicación de este estilo ya que únicamente sabiendo el tópico y el tipo de dato mediante una configuración sencilla de la herramienta de ANIMO pudimos recoger el dato actualizado y representarlo.
+
+Una vez usada ésta herramienta hicimos dos comprobaciones, la primera era que cuando se realiza una misión de un solo waypoint, según el comportamiento observado por los datos de posición pensábamos que el modelo del avión se quedaba girando en torno al waypoint, al poder observarlo en el mapa nos dimos cuenta de que no giraba en torno al waypoint sino que una vez llegado a él intentaba volver a alcanzarlo haciendo que se forzase la aeronave a realizar giros pronunciados, lo cual se debía corregir ya que podría producirse algún error por este motivo.
+
+La otra observación fue la del funcionamiento del waypoint tipo loiter. Los waypoints tienen una serie de atributos de comandos para indicar acciones cuando se llegue a ellos, una de estas acciones es la de hacer lioter, que consiste en girar con un radio dado por un parámetro en el mismo waypoint usando el waypoint como centro de la circunferencia a trazar.
+
+%COMPLETAR CON EXPLICACION DEL PROBLEMA DEL LOITER
+
+\subsection{Introducción de la GCS}
+
+\lettrine{A}{} la hora de introducir la GCS el primer paso consiste en realizar la instalación. La instalación requiere de una serie de dependencias y librerías que al ser ajenas al proyecto actual no voy a enumerar, pero requiere de tener instalados Qt5 principalmente ya que hace mucho uso de señales, de las cuales os hablaré en el último capítulo de este apartado. 
+
+El uso hasta ahora que se había hecho de la GCS usaba comunicaciones mediante el protocolo UDP, por tanto tanto el protocolo de Mavlink como la GCS están preparadas para comunicarse de esta manera. Pero por la forma en que está diseñada la GCS podemos aprovechar las señales que emite para conectarlas con una aplicación externa.
+
+Al estar la GCS basada en plugins podemos usar esta funcionalidad para crear una interfaz para las comunicaciones mediante DDS RTI con ANIMO. La funcionalidad de nuestro plugin será principalmente recoger los datos publicados por el simulador que van destinados hacia la GCS, realizar una traducción del dato de ANIMO a un dato de las interfaces de Mavlink (que son los datos que trabjan en la GCS) e introducirlos en el sistema de la GCS, recogiendo la respuesta de ésta, volviendo a realizar la traducción externa y publicar estos datos mediante ANIMO.
+
+Debido a que la clase que recoge los datos por UDP para tratarlos como la que los publica por este medio se une con estos sistemas mediante señales de Qt vamos a aprovecharnos de esta funcionalidad. Las señales de Qt con una herramienta mediante las que puedes unir dos métodos de dos clases cualesquiera, aunque no compartan dependencias ni relación de forma que puedas pasarle parámetros, un método emite una señal y esa señal se trata en un bucle específico de Qt y se envía al método con el que se haya realizado la conexión. De esta forma crearemos un nuevo tipo de listener que heredará de nuestro listener de ANIMO pero añadirá la funcionalidad de emitir señales de Qt cuando le haya llegado un nuevo dato. Así no tendremos que estar consultando el dato almacenado en el listener, sino que sabremos cuando ha llegado un dato nuevo. Cuando llega un dato nuevo se emite una señal que durante la instanciación del plugin ha sido conectada con el método de la GCS que se dedica a tratar los datos que provienen de fuera de la aplicación. De la misma forma cuando la GCS tiene que enviar un dato emite una señal, la cual conectaremos con la clase del plugin que realiza la publicación mediante ANIMO.
+
+Para finalizar se realizó una interfaz al plugin de forma que mediante un formulario se pudiera configurar los parámetros de ANIMO.
 
 \subsection{Diagrama de burndown}
-%\imgCentradaGrande{fig.4.13}{img/diagvelocidad5.eps}{Diagrama de velocidad para el quinto sprint.}
+
+Este sprint se dedicó al funcionamiento de la GCS casi en su totalidad, ya que no solo debimos instalarla sino averiguar su funcionamiento tras horas de lectura de su código y del estudio de Qt, por tanto nos llevó más tiempo del esperado y la integración de nuestro plugin no se terminó en este sprint sino en el siguiente, por eso las gráficas muestran que no ha habido una evolución en las historias de usuario.
+
+\imgCentradaGrande{fig.4.17}{img/diagvelocidad5.eps}{Diagrama de velocidad para el quinto sprint.}
+
+\subsection{Diagrama de evolución}
+\imgCentradaGrande{fig.4.18}{img/diagevolucion5.eps}{Diagrama de evolución para el quinto sprint.}
 
 \newpage
 \section{Sprint 6: Puesto de instructor}
 
+\lettrine{D}{durante} este sprint nos centraremos en realizar el diseño y set up del proyecto del puesto de instructor y de implementar las funcionalidades necesarias en el mismo. Haremos un repaso sobre qué componentes y tecnologías usa y luego enumeraremos sus distintas funcionalidades y como se han implementado.
+
+\subsubsection{Estructura y set up}
+
+\lettrine{A}{l} ser un proyecto web en Java podemos aprovechar la gran cantidad de frameworks, librerías y herramientas que existen para éste fin y que nos facilitan tanto el desarrollo como el futuro mantenimiento y posible cambio de la funcionalidad de la aplicación. Por supuesto haremos uso de la metodología de programación denominada inversión de control que nos permitirá más flexibilidad a la hora de implementar las dependencias, ya que todos los objetos son creados en un contenedor al cual podemos acceder llamando una instancia del mismo desde cualquier parte del código y que nos proveerá de los objetos que necesitemos sin que tengamos que estar encapsulando objetos unos en otros. Ésta técnica la implementaremos mediante el uso del framework Spring, el cual a parte de ésta funcionalidad nos provee de muchas más herramientas útiles, por ejemplo, a la hora de implementar la persistencia de datos.
+
+Para la vista web como para la implementación del Modelo-Vista-Controlador usaremos Struts 2 con Convention Plugin. Esto nos permitirá unir las acciones a la vista de forma sencilla e intuitiva, de forma que podamos unir nuestras clases java con las peticiones realizadas por el usuario desde el navegador.
+
+También implementamos la persistencia con Hibernate de forma que automáticamente nos crease una base de datos con las tablas que necesitásemos. El uso de esta base de datos aún no está implementado pero en un futuro si podrá funcionar con la implementación que realizamos.
+
+Todas las dependencias vienen gestionada mediante Maven, al tener tantas tecnologías trabajando juntas tenemos el problema que algunas de ellas comparten librerías por lo que puede haber errores a la hora de instalar las versiones de cada una de ellas, esto supuso un gran problema de manera que cuando conseguimos hacer funcionar todas nos creamos mediante Maven un arquetipo que nos permitiera guardar un set up de proyecto de forma que la próxima vez que se realizara un proyecto de éstas características tendríamos ya todo configurado.
+
+Los más complicado fue añadir DDS RTI al proyecto del puesto de instructor, ya que ANIMO no tiene librerías para Java, solo para C++, de forma que tuvimos que implementar directamente una envoltura para RTI DDS que funciona a mucho más bajo nivel, de forma que teníamos que gestionar las calidades de servicios, la creación de los participantes que son los objetos encargados del envío y recepción de datos por la red y de crear los objetos IDL para cada uno de los datos que teníamos que enviar. Todo esto lo hace ANIMO automáticamente pero al no poder usarlo hicimos una implementación manual de las librerías de RTI. Al adaptarlo el funcionamiento es parecido al del resto de módulos, tenemos una serie de listeners que almacenan el dato recibido.
+
+El último paso para tenerlo todo funcionando y probar es instalarnos Tomcat que lo usaremos en su versión 7. Tomcat es un contenedor de servlets e implementa las especificaciones de los servlets de JavaServer Pages (JSP) de Oracle, que usaremos para programar las vistas de nuestro puesto de instructor. Una vez instalado solo debemos crear nuestro paquete .war directamente desde el IDE de Java y desplegarlos sobre tomcat para tener nuestro servidor funcionando y poder acceder a la página web.
+
+\subsubsection{Funcionalidad del puesto de instructor}
+
+\lettrine{L}{a} funcionalidad principal del puesto de instructor se basa en dos puntos claves, por un lado monitorizar las acciones del alumno durante la misión de prácticas o de examen y por otra parte ser capaz de controlar los parámetros de la misión e introducir errores.
+
+El primer paso fue crear una serie de estados en el simulador que nos permitiera controlar el paso de ejecución de forma que se pausara y se pudiera reanudar. Para ello se crea una clase en el simulador que se dedica al tratamiento de los comandos de control de la misión, esta clase discrimina entre los diferentes comandos implementados y controla el envío del paso de simulación. Luego se implementaron una serie de botones en la vista que cuya función simplemente residía en enviar mediante ANIMO el mensaje correspondiente.
+
 \subsection{Diagrama de burndown}
-%\imgCentradaGrande{fig.4.14}{img/diagvelocidad6.eps}{Diagrama de velocidad para el sexto sprint.}
+
+Las tareas para este sprint fueron, a parte de acabar las que no se terminaron en el anterior, crear una primera versión del puesto de instructor, la cual se realizó satisfactoriamente ya que funcionaba bien con el resto de componentes.
+
+\imgCentradaGrande{fig.4.19}{img/diagvelocidad6.eps}{Diagrama de velocidad para el sexto sprint.}
+
+\subsection{Diagrama de evolución}
+
+\imgCentradaGrande{fig.4.20}{img/diagevolucion6.eps}{Diagrama de velocidad para el sexto sprint.}
 
 \newpage
 \section{Sprint 7: Primera versión y cambios en el objetivo}
 
+\lettrine{C}{uando} tuvimos la reunión de retrospectiva del sprint anterior analizamos el estado del proyecto y analizamos el funcionamiento y los cambios que se deberían realizar para mejorar la funcionalidad. Durante esta reunión decidimos que el mantenimiento y desarrollo de la aplicación de controlador y envoltura del modelo del UAV resultaba muy costoso y nos retrasaba mucho ya que cualquier cambio en el resto del sistema suponía tener que tocar la forma en que se interaccionaba con el modelo.
+
 \subsection{Diagrama de burndown}
-%\imgCentradaGrande{fig.4.15}{img/diagvelocidad7.eps}{Diagrama de velocidad para el séptimo sprint.}
+%\imgCentradaGrande{fig.4.21}{img/diagvelocidad7.eps}{Diagrama de velocidad para el séptimo sprint.}
 
 \newpage
 \section{Sprint 8: Cambios en el diseño}
 
 \subsection{Diagrama de burndown}
-%\imgCentradaGrande{fig.4.16}{img/diagvelocidad8.eps}{Diagrama de velocidad para el octavo sprint.}
+%\imgCentradaGrande{fig.4.23}{img/diagvelocidad8.eps}{Diagrama de velocidad para el octavo sprint.}
 
 \part{Conclusiones}
 

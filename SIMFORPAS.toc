@@ -99,16 +99,28 @@
 \contentsline {subsection}{\numberline {4.2.4}Diagrama de burndown}{84}
 \contentsline {subsection}{\numberline {4.2.5}Diagrama de evoluci\'on}{85}
 \contentsline {section}{\numberline {4.3}Sprint 3: Creaci\'on del SIMCORE}{86}
-\contentsline {subsection}{\numberline {4.3.1}Diagrama de burndown}{86}
-\contentsline {section}{\numberline {4.4}Sprint 4: Implementaci\'on del modelo de Locomove}{87}
-\contentsline {subsection}{\numberline {4.4.1}Diagrama de burndown}{87}
-\contentsline {section}{\numberline {4.5}Sprint 5: Gesti\'on de carga de la misi\'on}{88}
-\contentsline {subsection}{\numberline {4.5.1}Diagrama de burndown}{88}
-\contentsline {section}{\numberline {4.6}Sprint 6: Puesto de instructor}{89}
-\contentsline {subsection}{\numberline {4.6.1}Diagrama de burndown}{89}
-\contentsline {section}{\numberline {4.7}Sprint 7: Primera versi\'on y cambios en el objetivo}{90}
-\contentsline {subsection}{\numberline {4.7.1}Diagrama de burndown}{90}
-\contentsline {section}{\numberline {4.8}Sprint 8: Cambios en el dise\~no}{91}
-\contentsline {subsection}{\numberline {4.8.1}Diagrama de burndown}{91}
-\contentsline {part}{IV\hspace {1em}Conclusiones}{93}
-\contentsline {part}{V\hspace {1em}Ap\'endices}{95}
+\contentsline {subsubsection}{SIMCORE}{86}
+\contentsline {subsubsection}{GCS para pruebas}{86}
+\contentsline {subsection}{\numberline {4.3.1}Diagrama de burndown}{87}
+\contentsline {subsection}{\numberline {4.3.2}Diagrama de evoluci\'on}{88}
+\contentsline {section}{\numberline {4.4}Sprint 4: Implementaci\'on del modelo de Locomove}{89}
+\contentsline {subsection}{\numberline {4.4.1}Modelos de simulaci\'on en Matlab Simulink}{89}
+\contentsline {subsection}{\numberline {4.4.2}Modificaciones en el c\'odigo para introducir el nuevo modelo}{89}
+\contentsline {subsection}{\numberline {4.4.3}Diagrama de burndown}{90}
+\contentsline {subsection}{\numberline {4.4.4}Diagrama de evoluci\'on}{92}
+\contentsline {section}{\numberline {4.5}Sprint 5: Introducci\'on de la GCS de Catec}{93}
+\contentsline {subsection}{\numberline {4.5.1}Visualizador basado en Marble y problema de loiter}{93}
+\contentsline {subsection}{\numberline {4.5.2}Introducci\'on de la GCS}{94}
+\contentsline {subsection}{\numberline {4.5.3}Diagrama de burndown}{94}
+\contentsline {subsection}{\numberline {4.5.4}Diagrama de evoluci\'on}{96}
+\contentsline {section}{\numberline {4.6}Sprint 6: Puesto de instructor}{97}
+\contentsline {subsubsection}{Estructura y set up}{97}
+\contentsline {subsubsection}{Funcionalidad del puesto de instructor}{98}
+\contentsline {subsection}{\numberline {4.6.1}Diagrama de burndown}{98}
+\contentsline {subsection}{\numberline {4.6.2}Diagrama de evoluci\'on}{100}
+\contentsline {section}{\numberline {4.7}Sprint 7: Primera versi\'on y cambios en el objetivo}{101}
+\contentsline {subsection}{\numberline {4.7.1}Diagrama de burndown}{101}
+\contentsline {section}{\numberline {4.8}Sprint 8: Cambios en el dise\~no}{102}
+\contentsline {subsection}{\numberline {4.8.1}Diagrama de burndown}{102}
+\contentsline {part}{IV\hspace {1em}Conclusiones}{103}
+\contentsline {part}{V\hspace {1em}Ap\'endices}{105}
