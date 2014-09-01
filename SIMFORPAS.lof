@@ -1,56 +1,57 @@
 \select@language {spanish}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Soporte a\'ereo en el control de incendios.}}{3}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces UAV tipo Predator en vuelo.}}{4}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces GCS usada para el UAV Predator.}}{5}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Soporte a\'ereo en el control de incendios.}}{5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces UAV tipo Predator en vuelo.}}{6}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces GCS usada para el UAV Predator.}}{7}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Manifiesto \'agil.}}{14}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Ciclo metodolog\IeC {\'\i }a Scrum.}}{17}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ciclo metodolog\IeC {\'\i }\discretionary {-}{}{}a Scrum.}}{17}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Ciclo TDD.}}{18}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Pair programming.}}{19}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Pilares de la POO.}}{22}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Ilustraci\'on c++11.}}{24}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Logo Java.}}{25}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagrama MVC.}}{26}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Logo Ubuntu.}}{28}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Logo Qt Creator.}}{29}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Logo Eclipse.}}{30}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Logo Mercurial.}}{32}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Logo Bitbucket.}}{33}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Ejemplo CMakeLists.txt.}}{37}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Ejemplo POM.xml.}}{39}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Logo de RTI.}}{40}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Logo Spring.}}{42}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Logo Struts 2.}}{44}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Logo Hibernate.}}{45}
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Logo Valgrind.}}{46}
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Resltado Valgrind.}}{47}
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Logo Mavlink.}}{48}
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Protocolo de escritura de misi\'on en Mavlink.}}{49}
-\contentsline {figure}{\numberline {2.24}{\ignorespaces QGroundControl, gcs de Mavlink.}}{50}
-\contentsline {figure}{\numberline {2.25}{\ignorespaces GCA de Catec.}}{51}
-\contentsline {figure}{\numberline {2.26}{\ignorespaces UAV de Catec, Locomove.}}{52}
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Autopiloto integrado en el Locomove.}}{54}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Ejemplo del documento de backlog.}}{62}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Ejemplo del documento de backlog.}}{28}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Pilares de la POO.}}{31}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ilustraci\'on c++11.}}{32}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Logo Java.}}{33}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Logo de RTI.}}{34}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Logo Mavlink.}}{35}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Protocolo de escritura de misi\'on en Mavlink.}}{36}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces QGroundControl, gcs de Mavlink.}}{37}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces GCS de Catec.}}{38}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces UAV de Catec, Locomove.}}{39}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Autopiloto integrado en el Locomove.}}{41}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitectura del sistema, con las relaciones f\IeC {\'\i }sicas entre subsistemas.}}{64}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagrama de secuencia de la ejecuci\'on de una misi\'on.}}{66}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagrama de secuencia de la carga de una misi\'on en el simulador y el control.}}{67}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagrama de secuencia con los comandos desde el puesto de instructor para iniciar, parar o pausar una ejecuci\'on.}}{68}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de secuencia para la introducci\'on de fallos.}}{69}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de secuencia para hacer cambios en la misi\'on.}}{70}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Diagrama de las relaciones a la hora de comunicarse de los distintos m\'odulos.}}{71}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Definici\'on de interfaces.}}{75}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagrama de velocidad para el primer sprint.}}{76}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagrama de evoluci\'on para el primer sprint.}}{77}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagrama de velocidad para el segundo sprint.}}{84}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagrama de evoluci\'on para el segundo sprint.}}{85}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagrama de velocidad para el tercer sprint.}}{87}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagrama de evoluci\'on para el tercer sprint.}}{88}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagrama de velocidad para el cuarto sprint.}}{91}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagrama de evoluci\'on para el cuarto sprint.}}{92}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagrama de velocidad para el quinto sprint.}}{95}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagrama de evoluci\'on para el quinto sprint.}}{96}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagrama de velocidad para el sexto sprint.}}{99}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagrama de velocidad para el sexto sprint.}}{100}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrama MVC.}}{45}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo Ubuntu.}}{47}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Logo Qt Creator.}}{48}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Logo Eclipse.}}{49}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Logo Mercurial.}}{51}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Logo Bitbucket.}}{52}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Ejemplo CMakeLists.txt.}}{56}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ejemplo POM.xml.}}{58}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Logo Spring.}}{60}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Logo Struts 2.}}{62}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Logo Hibernate.}}{63}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Logo Valgrind.}}{64}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Resltado Valgrind.}}{65}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Arquitectura del sistema, con las relaciones f\IeC {\'\i }\discretionary {-}{}{}sicas entre subsistemas.}}{70}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de secuencia de la ejecuci\'on de una misi\'on.}}{72}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de secuencia de la carga de una misi\'on en el simulador y el control.}}{73}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagrama de secuencia con los comandos desde el puesto de instructor para iniciar, parar o pausar una ejecuci\'on.}}{74}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Diagrama de secuencia para la introducci\'on de fallos.}}{75}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Diagrama de secuencia para hacer cambios en la misi\'on.}}{76}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Diagrama de las relaciones a la hora de comunicarse de los distintos m\'odulos.}}{77}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Definici\'on de interfaces.}}{81}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Diagrama de velocidad para el primer sprint.}}{82}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Diagrama de evoluci\'on para el primer sprint.}}{83}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Diagrama de velocidad para el segundo sprint.}}{91}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Diagrama de evoluci\'on para el segundo sprint.}}{92}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Diagrama de velocidad para el tercer sprint.}}{94}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Diagrama de evoluci\'on para el tercer sprint.}}{95}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Diagrama de velocidad para el cuarto sprint.}}{98}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Diagrama de evoluci\'on para el cuarto sprint.}}{99}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Diagrama de velocidad para el quinto sprint.}}{102}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Diagrama de evoluci\'on para el quinto sprint.}}{103}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Diagrama de velocidad para el sexto sprint.}}{106}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Diagrama de velocidad para el sexto sprint.}}{107}
