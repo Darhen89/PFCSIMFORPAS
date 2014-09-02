@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  2 SEP 2014 00:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  2 SEP 2014 21:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -316,58 +316,25 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 (./SIMFORPAS.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-
-
-LaTeX Warning: Label `fig.1.1' multiply defined.
-
-
-LaTeX Warning: Label `fig.1.2' multiply defined.
-
-
-LaTeX Warning: Label `fig.1.3' multiply defined.
-
-
-LaTeX Warning: Label `fig.2.2' multiply defined.
-
-
-LaTeX Warning: Label `fig.2.4' multiply defined.
-
-
-LaTeX Warning: Label `fig.2.6' multiply defined.
-
-
-LaTeX Warning: Label `fig.2.23' multiply defined.
-
-
-LaTeX Warning: Label `fig.2.24' multiply defined.
-
-
-LaTeX Warning: Label `fig.2.26' multiply defined.
-
-
-LaTeX Warning: Label `fig.4.1' multiply defined.
-
-
-LaTeX Warning: Label `fig.4.15' multiply defined.
-
 )
 \openout1 = `SIMFORPAS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 256.
-LaTeX Font Info:    ... okay on input line 256.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 256.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 266.
+LaTeX Font Info:    ... okay on input line 266.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 266.
 
- (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -404,8 +371,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 256.
-LaTeX Info: Redefining \% on input line 256.
+LaTeX Info: Redefining \. on input line 266.
+LaTeX Info: Redefining \% on input line 266.
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -470,7 +437,7 @@ e
 )
 \c@lstlisting=\count124
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 262.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 272.
 Package epstopdf Info: Source file: <img/LOGO.eps>
 (epstopdf)                    date: 2014-05-07 17:20:29
 (epstopdf)                    size: 396046 bytes
@@ -479,28 +446,28 @@ Package epstopdf Info: Source file: <img/LOGO.eps>
 (epstopdf)                    size: 120861 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/LOGO-eps-converted-to.
 pdf img/LOGO.eps>
-(epstopdf)             \includegraphics on input line 264.
+(epstopdf)             \includegraphics on input line 274.
 Package epstopdf Info: Output file is already uptodate.
  <img/LOGO-eps-converted-to.pdf, id=1, 254.9525pt x 223.83624pt>
 File: img/LOGO-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/LOGO-eps-converted-to.pdf>
-Package pdftex.def Info: img/LOGO-eps-converted-to.pdf used on input line 264.
+Package pdftex.def Info: img/LOGO-eps-converted-to.pdf used on input line 274.
 (pdftex.def)             Requested size: 128.0387pt x 112.4165pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 278.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 288.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 280.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 290.
  [1
 
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/L
 OGO-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 314.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 324.
  [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 314.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 324.
  [3
 
 ]
@@ -509,35 +476,42 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 ] (./SIMFORPAS.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
  [5
 
 ]
-LaTeX Info: Redefining \. on input line 123.
-LaTeX Info: Redefining \% on input line 123.
- [6])
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+ [6]
+LaTeX Info: Redefining \. on input line 147.
+LaTeX Info: Redefining \% on input line 147.
+ [7])
 \tf@toc=\write3
 \openout3 = `SIMFORPAS.toc'.
 
-LaTeX Info: Redefining \. on input line 319.
-LaTeX Info: Redefining \% on input line 319.
- [7] [8
-
-] (./SIMFORPAS.lof
+LaTeX Info: Redefining \. on input line 343.
+LaTeX Info: Redefining \% on input line 343.
+ [8] (./SIMFORPAS.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
- [9])
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
+ [9
+
+])
 \tf@lof=\write4
 \openout4 = `SIMFORPAS.lof'.
 
-LaTeX Info: Redefining \. on input line 321.
-LaTeX Info: Redefining \% on input line 321.
- [10]
+LaTeX Info: Redefining \. on input line 345.
+LaTeX Info: Redefining \% on input line 345.
+
+[10]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 325.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 349.
  [1
 
 
@@ -547,9 +521,12 @@ Cap\'{\i }tulo 1.
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 330.
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 356.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 330.
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 356.
+LaTeX Info: Redefining \. on input line 376.
+LaTeX Info: Redefining \% on input line 376.
+ [4]
 Package epstopdf Info: Source file: <img/incendio.eps>
 (epstopdf)                    date: 2014-05-15 19:36:04
 (epstopdf)                    size: 1074848 bytes
@@ -558,18 +535,18 @@ Package epstopdf Info: Source file: <img/incendio.eps>
 (epstopdf)                    size: 88894 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/incendio-eps-converted
 -to.pdf img/incendio.eps>
-(epstopdf)             \includegraphics on input line 340.
+(epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
- <img/incendio-eps-converted-to.pdf, id=49, 637.38126pt x 278.03876pt>
+ <img/incendio-eps-converted-to.pdf, id=52, 637.38126pt x 278.03876pt>
 File: img/incendio-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/incendio-eps-converted-to.pdf>
 Package pdftex.def Info: img/incendio-eps-converted-to.pdf used on input line 3
-40.
+83.
 (pdftex.def)             Requested size: 341.43306pt x 148.93805pt.
-LaTeX Info: Redefining \. on input line 345.
-LaTeX Info: Redefining \% on input line 345.
- [4 <./img/incendio-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 389.
+LaTeX Info: Redefining \% on input line 389.
+ [5 <./img/incendio-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/predator.eps>
 (epstopdf)                    date: 2014-08-17 18:56:46
 (epstopdf)                    size: 1292218 bytes
@@ -578,18 +555,18 @@ Package epstopdf Info: Source file: <img/predator.eps>
 (epstopdf)                    size: 94106 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/predator-eps-converted
 -to.pdf img/predator.eps>
-(epstopdf)             \includegraphics on input line 350.
+(epstopdf)             \includegraphics on input line 393.
 Package epstopdf Info: Output file is already uptodate.
- <img/predator-eps-converted-to.pdf, id=56, 562.1pt x 379.4175pt>
+ <img/predator-eps-converted-to.pdf, id=59, 562.1pt x 379.4175pt>
 File: img/predator-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/predator-eps-converted-to.pdf>
 Package pdftex.def Info: img/predator-eps-converted-to.pdf used on input line 3
-50.
+93.
 (pdftex.def)             Requested size: 341.43306pt x 230.46591pt.
-LaTeX Info: Redefining \. on input line 353.
-LaTeX Info: Redefining \% on input line 353.
- [5 <./img/predator-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 396.
+LaTeX Info: Redefining \% on input line 396.
+ [6 <./img/predator-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/predatorgcs.eps>
 (epstopdf)                    date: 2014-08-18 18:34:30
 (epstopdf)                    size: 2538719 bytes
@@ -598,136 +575,75 @@ Package epstopdf Info: Source file: <img/predatorgcs.eps>
 (epstopdf)                    size: 188873 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/predatorgcs-eps-conver
 ted-to.pdf img/predatorgcs.eps>
-(epstopdf)             \includegraphics on input line 354.
+(epstopdf)             \includegraphics on input line 397.
 Package epstopdf Info: Output file is already uptodate.
- <img/predatorgcs-eps-converted-to.pdf, id=63, 578.16pt x 376.40625pt>
+ <img/predatorgcs-eps-converted-to.pdf, id=66, 578.16pt x 376.40625pt>
 File: img/predatorgcs-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/predatorgcs-eps-converted-to.pdf>
 Package pdftex.def Info: img/predatorgcs-eps-converted-to.pdf used on input lin
-e 354.
+e 397.
 (pdftex.def)             Requested size: 341.43306pt x 222.28452pt.
-LaTeX Info: Redefining \. on input line 359.
-LaTeX Info: Redefining \% on input line 359.
- [6 <./img/predatorgcs-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 382.
-LaTeX Info: Redefining \% on input line 382.
- [7]
-Package epstopdf Info: Source file: <img/incendio.eps>
-(epstopdf)                    date: 2014-05-15 19:36:04
-(epstopdf)                    size: 1074848 bytes
-(epstopdf)             Output file: <img/incendio-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-15 19:37:02
-(epstopdf)                    size: 88894 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/incendio-eps-converted
--to.pdf img/incendio.eps>
-(epstopdf)             \includegraphics on input line 384.
-Package epstopdf Info: Output file is already uptodate.
-File: img/incendio-eps-converted-to.pdf Graphic file (type pdf)
- <use img/incendio-eps-converted-to.pdf>
-Package pdftex.def Info: img/incendio-eps-converted-to.pdf used on input line 3
-84.
-(pdftex.def)             Requested size: 341.43306pt x 148.93805pt.
-LaTeX Info: Redefining \. on input line 393.
-LaTeX Info: Redefining \% on input line 393.
+LaTeX Info: Redefining \. on input line 406.
+LaTeX Info: Redefining \% on input line 406.
+ [7 <./img/predatorgcs-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 417.
+LaTeX Info: Redefining \% on input line 417.
  [8]
-Package epstopdf Info: Source file: <img/predator.eps>
-(epstopdf)                    date: 2014-08-17 18:56:46
-(epstopdf)                    size: 1292218 bytes
-(epstopdf)             Output file: <img/predator-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-17 18:58:05
-(epstopdf)                    size: 94106 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/predator-eps-converted
--to.pdf img/predator.eps>
-(epstopdf)             \includegraphics on input line 394.
-Package epstopdf Info: Output file is already uptodate.
-File: img/predator-eps-converted-to.pdf Graphic file (type pdf)
+LaTeX Info: Redefining \. on input line 430.
+LaTeX Info: Redefining \% on input line 430.
+ [9] [10
 
-<use img/predator-eps-converted-to.pdf>
-Package pdftex.def Info: img/predator-eps-converted-to.pdf used on input line 3
-94.
-(pdftex.def)             Requested size: 341.43306pt x 230.46591pt.
-Package epstopdf Info: Source file: <img/predatorgcs.eps>
-(epstopdf)                    date: 2014-08-18 18:34:30
-(epstopdf)                    size: 2538719 bytes
-(epstopdf)             Output file: <img/predatorgcs-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-18 19:59:36
-(epstopdf)                    size: 188873 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/predatorgcs-eps-conver
-ted-to.pdf img/predatorgcs.eps>
-(epstopdf)             \includegraphics on input line 398.
-Package epstopdf Info: Output file is already uptodate.
-File: img/predatorgcs-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/predatorgcs-eps-converted-to.pdf>
-Package pdftex.def Info: img/predatorgcs-eps-converted-to.pdf used on input lin
-e 398.
-(pdftex.def)             Requested size: 341.43306pt x 222.28452pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 399.
-LaTeX Info: Redefining \% on input line 399.
- [9]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 406.
-LaTeX Info: Redefining \. on input line 420.
-LaTeX Info: Redefining \% on input line 420.
-
-[10]
-LaTeX Info: Redefining \. on input line 449.
-LaTeX Info: Redefining \% on input line 449.
- [11]
-LaTeX Info: Redefining \. on input line 483.
-LaTeX Info: Redefining \% on input line 483.
- [12]
-LaTeX Info: Redefining \. on input line 490.
-LaTeX Info: Redefining \% on input line 490.
- [13] [14
-
-] [15] [16]
+] [11] [12]
 Cap\'{\i }tulo 2.
-[17
+[13
 
 ]
-LaTeX Info: Redefining \. on input line 515.
-LaTeX Info: Redefining \% on input line 515.
- [18] [19
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 453.
+LaTeX Info: Redefining \. on input line 479.
+LaTeX Info: Redefining \% on input line 479.
+ [14]
+LaTeX Info: Redefining \. on input line 482.
+LaTeX Info: Redefining \% on input line 482.
+ [15]
+LaTeX Info: Redefining \. on input line 522.
+LaTeX Info: Redefining \% on input line 522.
+ [16]
+Underfull \vbox (badness 1975) has occurred while \output is active []
 
-] [20]
-Cap\'{\i }tulo 3.
-[21
-
-]
-Package epstopdf Info: Source file: <img/manifest.eps>
-(epstopdf)                    date: 2014-05-21 18:42:54
-(epstopdf)                    size: 3638351 bytes
-(epstopdf)             Output file: <img/manifest-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-21 18:44:09
-(epstopdf)                    size: 246444 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/manifest-eps-converted
--to.pdf img/manifest.eps>
-(epstopdf)             \includegraphics on input line 542.
+LaTeX Info: Redefining \. on input line 546.
+LaTeX Info: Redefining \% on input line 546.
+ [17]
+Package epstopdf Info: Source file: <img/scrumsimforpas.eps>
+(epstopdf)                    date: 2014-09-02 19:20:14
+(epstopdf)                    size: 48562133 bytes
+(epstopdf)             Output file: <img/scrumsimforpas-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-09-02 19:38:57
+(epstopdf)                    size: 1844665 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/scrumsimforpas-eps-con
+verted-to.pdf img/scrumsimforpas.eps>
+(epstopdf)             \includegraphics on input line 552.
 Package epstopdf Info: Output file is already uptodate.
- <img/manifest-eps-converted-to.pdf, id=120, 835.12pt x 405.515pt>
-File: img/manifest-eps-converted-to.pdf Graphic file (type pdf)
 
-<use img/manifest-eps-converted-to.pdf>
-Package pdftex.def Info: img/manifest-eps-converted-to.pdf used on input line 5
-42.
-(pdftex.def)             Requested size: 341.43306pt x 165.79195pt.
-LaTeX Info: Redefining \. on input line 552.
-LaTeX Info: Redefining \% on input line 552.
- [22 <./img/manifest-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 577.
-LaTeX Info: Redefining \% on input line 577.
- [23]
-LaTeX Info: Redefining \. on input line 615.
-LaTeX Info: Redefining \% on input line 615.
- [24]
-LaTeX Info: Redefining \. on input line 638.
-LaTeX Info: Redefining \% on input line 638.
- [25]
+<img/scrumsimforpas-eps-converted-to.pdf, id=107, 3276.24pt x 2457.18pt>
+File: img/scrumsimforpas-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/scrumsimforpas-eps-converted-to.pdf>
+Package pdftex.def Info: img/scrumsimforpas-eps-converted-to.pdf used on input 
+line 552.
+(pdftex.def)             Requested size: 455.24408pt x 341.4158pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 552--552
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 553.
+LaTeX Info: Redefining \% on input line 553.
+ [18]
 Package epstopdf Info: Source file: <img/scrum.eps>
 (epstopdf)                    date: 2014-05-21 18:23:41
 (epstopdf)                    size: 1042784 bytes
@@ -736,45 +652,25 @@ Package epstopdf Info: Source file: <img/scrum.eps>
 (epstopdf)                    size: 14211 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/scrum-eps-converted-to
 .pdf img/scrum.eps>
-(epstopdf)             \includegraphics on input line 647.
+(epstopdf)             \includegraphics on input line 558.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/scrum-eps-converted-to.pdf, id=136, 417.56pt x 231.86626pt>
+<img/scrum-eps-converted-to.pdf, id=111, 417.56pt x 231.86626pt>
 File: img/scrum-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/scrum-eps-converted-to.pdf>
-Package pdftex.def Info: img/scrum-eps-converted-to.pdf used on input line 647.
-
-(pdftex.def)             Requested size: 341.43306pt x 189.60439pt.
-LaTeX Info: Redefining \. on input line 650.
-LaTeX Info: Redefining \% on input line 650.
- [26 <./img/scrum-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <img/scrum.eps>
-(epstopdf)                    date: 2014-05-21 18:23:41
-(epstopdf)                    size: 1042784 bytes
-(epstopdf)             Output file: <img/scrum-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-21 18:44:10
-(epstopdf)                    size: 14211 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/scrum-eps-converted-to
-.pdf img/scrum.eps>
-(epstopdf)             \includegraphics on input line 661.
-Package epstopdf Info: Output file is already uptodate.
-File: img/scrum-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/scrum-eps-converted-to.pdf>
-Package pdftex.def Info: img/scrum-eps-converted-to.pdf used on input line 661.
+Package pdftex.def Info: img/scrum-eps-converted-to.pdf used on input line 558.
 
 (pdftex.def)             Requested size: 341.43306pt x 189.60439pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 662.
-LaTeX Info: Redefining \% on input line 662.
- [27]
-LaTeX Info: Redefining \. on input line 672.
-LaTeX Info: Redefining \% on input line 672.
-
-[28]
+LaTeX Info: Redefining \. on input line 559.
+LaTeX Info: Redefining \% on input line 559.
+ [19 <./img/scrumsimforpas-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 570.
+LaTeX Info: Redefining \% on input line 570.
+ [20 <./img/scrum-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/tdd.eps>
 (epstopdf)                    date: 2014-05-21 21:33:10
 (epstopdf)                    size: 512417 bytes
@@ -783,17 +679,18 @@ Package epstopdf Info: Source file: <img/tdd.eps>
 (epstopdf)                    size: 22796 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/tdd-eps-converted-to.p
 df img/tdd.eps>
-(epstopdf)             \includegraphics on input line 676.
+(epstopdf)             \includegraphics on input line 571.
 Package epstopdf Info: Output file is already uptodate.
- <img/tdd-eps-converted-to.pdf, id=150, 490.83376pt x 512.91624pt>
+
+<img/tdd-eps-converted-to.pdf, id=124, 490.83376pt x 512.91624pt>
 File: img/tdd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/tdd-eps-converted-to.pdf>
-Package pdftex.def Info: img/tdd-eps-converted-to.pdf used on input line 676.
+Package pdftex.def Info: img/tdd-eps-converted-to.pdf used on input line 571.
 (pdftex.def)             Requested size: 256.0748pt x 267.60237pt.
-LaTeX Info: Redefining \. on input line 678.
-LaTeX Info: Redefining \% on input line 678.
- [29 <./img/tdd-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 575.
+LaTeX Info: Redefining \% on input line 575.
+ [21 <./img/tdd-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/pair.eps>
 (epstopdf)                    date: 2014-05-22 00:38:49
 (epstopdf)                    size: 2611642 bytes
@@ -802,104 +699,60 @@ Package epstopdf Info: Source file: <img/pair.eps>
 (epstopdf)                    size: 122818 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/pair-eps-converted-to.
 pdf img/pair.eps>
-(epstopdf)             \includegraphics on input line 695.
+(epstopdf)             \includegraphics on input line 586.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/pair-eps-converted-to.pdf, id=157, 578.16pt x 387.4475pt>
+<img/pair-eps-converted-to.pdf, id=132, 578.16pt x 387.4475pt>
 File: img/pair-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/pair-eps-converted-to.pdf>
-Package pdftex.def Info: img/pair-eps-converted-to.pdf used on input line 695.
+Package pdftex.def Info: img/pair-eps-converted-to.pdf used on input line 586.
 (pdftex.def)             Requested size: 256.0748pt x 171.6007pt.
+LaTeX Info: Redefining \. on input line 588.
+LaTeX Info: Redefining \% on input line 588.
+ [22 <./img/pair-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 598.
+LaTeX Info: Redefining \% on input line 598.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 696.
-LaTeX Info: Redefining \% on input line 696.
- [30]
-LaTeX Info: Redefining \. on input line 701.
-LaTeX Info: Redefining \% on input line 701.
-
-[31 <./img/pair-eps-converted-to.pdf>] [32
+[23] [24
 
 ]
-Cap\'{\i }tulo 4.
-[33]
-Package epstopdf Info: Source file: <img/pair.eps>
-(epstopdf)                    date: 2014-05-22 00:38:49
-(epstopdf)                    size: 2611642 bytes
-(epstopdf)             Output file: <img/pair-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-22 00:43:28
-(epstopdf)                    size: 122818 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/pair-eps-converted-to.
-pdf img/pair.eps>
-(epstopdf)             \includegraphics on input line 738.
-Package epstopdf Info: Output file is already uptodate.
-File: img/pair-eps-converted-to.pdf Graphic file (type pdf)
- <use img/pair-eps-converted-to.pdf>
-Package pdftex.def Info: img/pair-eps-converted-to.pdf used on input line 738.
-(pdftex.def)             Requested size: 256.0748pt x 171.6007pt.
-LaTeX Info: Redefining \. on input line 739.
-LaTeX Info: Redefining \% on input line 739.
- [34]
-LaTeX Info: Redefining \. on input line 753.
-LaTeX Info: Redefining \% on input line 753.
- [35]
-Overfull \hbox (37.97667pt too wide) in paragraph at lines 757--758
-\OT1/ptm/m/n/12 .[]gente.[]bstracto que pue-de rea-li-zar tra-ba-jo, in-for-mar
- y cam-biar su es-ta-do, y []omunicarse[]on
- []
+Cap\'{\i }tulo 3.
+[25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 763.
-LaTeX Info: Redefining \% on input line 763.
-[36]
-LaTeX Info: Redefining \. on input line 795.
-LaTeX Info: Redefining \% on input line 795.
- [37]
-LaTeX Info: Redefining \. on input line 817.
-LaTeX Info: Redefining \% on input line 817.
- [38]
-Package epstopdf Info: Source file: <img/cpp11.eps>
-(epstopdf)                    date: 2014-05-22 20:26:48
-(epstopdf)                    size: 1400840 bytes
-(epstopdf)             Output file: <img/cpp11-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-22 20:28:09
-(epstopdf)                    size: 83585 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/cpp11-eps-converted-to
-.pdf img/cpp11.eps>
-(epstopdf)             \includegraphics on input line 837.
-Package epstopdf Info: Output file is already uptodate.
- <img/cpp11-eps-converted-to.pdf, id=190, 568.1225pt x 401.5pt>
-File: img/cpp11-eps-converted-to.pdf Graphic file (type pdf)
+LaTeX Info: Redefining \. on input line 639.
+LaTeX Info: Redefining \% on input line 639.
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use img/cpp11-eps-converted-to.pdf>
-Package pdftex.def Info: img/cpp11-eps-converted-to.pdf used on input line 837.
+LaTeX Info: Redefining \. on input line 673.
+LaTeX Info: Redefining \% on input line 673.
+ [27]
+LaTeX Info: Redefining \. on input line 688.
+LaTeX Info: Redefining \% on input line 688.
 
-(pdftex.def)             Requested size: 256.0748pt x 180.97964pt.
-LaTeX Info: Redefining \. on input line 838.
-LaTeX Info: Redefining \% on input line 838.
- [39]
-LaTeX Info: Redefining \. on input line 854.
-LaTeX Info: Redefining \% on input line 854.
- [40 <./img/cpp11-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 872.
-LaTeX Info: Redefining \% on input line 872.
- [41]
-LaTeX Info: Redefining \. on input line 879.
-LaTeX Info: Redefining \% on input line 879.
- [42]
-LaTeX Info: Redefining \. on input line 897.
-LaTeX Info: Redefining \% on input line 897.
- [43]
-LaTeX Info: Redefining \. on input line 916.
-LaTeX Info: Redefining \% on input line 916.
- [44]
-LaTeX Info: Redefining \. on input line 970.
-LaTeX Info: Redefining \% on input line 970.
- [45]
-LaTeX Info: Redefining \. on input line 1025.
-LaTeX Info: Redefining \% on input line 1025.
- [46]
+[28]
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 711.
+LaTeX Info: Redefining \% on input line 711.
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 747.
+LaTeX Info: Redefining \% on input line 747.
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 787.
+LaTeX Info: Redefining \% on input line 787.
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 837.
+LaTeX Info: Redefining \% on input line 837.
+ [32]
 Package epstopdf Info: Source file: <img/documentobacklog.eps>
 (epstopdf)                    date: 2014-08-25 00:57:11
 (epstopdf)                    size: 11142593 bytes
@@ -909,34 +762,43 @@ Package epstopdf Info: Source file: <img/documentobacklog.eps>
 (epstopdf)                    size: 570418 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/documentobacklog-eps-c
 onverted-to.pdf img/documentobacklog.eps>
-(epstopdf)             \includegraphics on input line 1069.
+(epstopdf)             \includegraphics on input line 867.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/documentobacklog-eps-converted-to.pdf, id=220, 1914.15125pt x 964.60374pt>
+<img/documentobacklog-eps-converted-to.pdf, id=170, 1914.15125pt x 964.60374pt>
 File: img/documentobacklog-eps-converted-to.pdf Graphic file (type pdf)
 <use img/documentobacklog-eps-converted-to.pdf>
 Package pdftex.def Info: img/documentobacklog-eps-converted-to.pdf used on inpu
-t line 1069.
+t line 867.
 (pdftex.def)             Requested size: 455.24408pt x 229.40486pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 1069--1069
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 867--867
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 1070.
-LaTeX Info: Redefining \% on input line 1070.
-[47]
-LaTeX Info: Redefining \. on input line 1085.
-LaTeX Info: Redefining \% on input line 1085.
- [48 <./img/documentobacklog-eps-converted-to.pdf>]
-Overfull \hbox (37.97667pt too wide) in paragraph at lines 1090--1091
-\OT1/ptm/m/n/12 .[]gente.[]bstracto que pue-de rea-li-zar tra-ba-jo, in-for-mar
- y cam-biar su es-ta-do, y []omunicarse[]on
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 868.
+LaTeX Info: Redefining \% on input line 868.
+ [33]
+LaTeX Info: Redefining \. on input line 871.
+LaTeX Info: Redefining \% on input line 871.
+
+[34 <./img/documentobacklog-eps-converted-to.pdf>]
+Overfull \hbox (24.96239pt too wide) in paragraph at lines 887--888
+\OT1/ptm/m/n/12 sus com-por-ta-mien-tos. Ca-da ob-je-to en el sis-te-ma sir-ve 
+co-mo mo-de-lo de un .[]gente.[]bstracto
  []
 
-LaTeX Info: Redefining \. on input line 1096.
-LaTeX Info: Redefining \% on input line 1096.
-[49]
+LaTeX Info: Redefining \. on input line 888.
+LaTeX Info: Redefining \% on input line 888.
+[35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 894.
+LaTeX Info: Redefining \% on input line 894.
+ [36]
 Package epstopdf Info: Source file: <img/poo.eps>
 (epstopdf)                    date: 2014-05-22 18:10:52
 (epstopdf)                    size: 1687193 bytes
@@ -945,121 +807,31 @@ Package epstopdf Info: Source file: <img/poo.eps>
 (epstopdf)                    size: 11399 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/poo-eps-converted-to.p
 df img/poo.eps>
-(epstopdf)             \includegraphics on input line 1100.
+(epstopdf)             \includegraphics on input line 897.
 Package epstopdf Info: Output file is already uptodate.
- <img/poo-eps-converted-to.pdf, id=233, 527.9725pt x 527.9725pt>
+
+<img/poo-eps-converted-to.pdf, id=188, 527.9725pt x 527.9725pt>
 File: img/poo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/poo-eps-converted-to.pdf>
-Package pdftex.def Info: img/poo-eps-converted-to.pdf used on input line 1100.
+Package pdftex.def Info: img/poo-eps-converted-to.pdf used on input line 897.
 (pdftex.def)             Requested size: 256.0748pt x 256.0744pt.
+LaTeX Info: Redefining \. on input line 900.
+LaTeX Info: Redefining \% on input line 900.
+ [37 <./img/poo-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 911.
+LaTeX Info: Redefining \% on input line 911.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1101.
-LaTeX Info: Redefining \% on input line 1101.
- [50]
-LaTeX Info: Redefining \. on input line 1106.
-LaTeX Info: Redefining \% on input line 1106.
-
-[51 <./img/poo-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 1131.
-LaTeX Info: Redefining \% on input line 1131.
- [52]
-Package epstopdf Info: Source file: <img/cpp11.eps>
-(epstopdf)                    date: 2014-05-22 20:26:48
-(epstopdf)                    size: 1400840 bytes
-(epstopdf)             Output file: <img/cpp11-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-22 20:28:09
-(epstopdf)                    size: 83585 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/cpp11-eps-converted-to
-.pdf img/cpp11.eps>
-(epstopdf)             \includegraphics on input line 1135.
-Package epstopdf Info: Output file is already uptodate.
-File: img/cpp11-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/cpp11-eps-converted-to.pdf>
-Package pdftex.def Info: img/cpp11-eps-converted-to.pdf used on input line 1135
-.
-(pdftex.def)             Requested size: 256.0748pt x 180.97964pt.
-LaTeX Info: Redefining \. on input line 1143.
-LaTeX Info: Redefining \% on input line 1143.
- [53]
-Package epstopdf Info: Source file: <img/java.eps>
-(epstopdf)                    date: 2014-05-22 21:34:16
-(epstopdf)                    size: 4784951 bytes
-(epstopdf)             Output file: <img/java-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-22 21:34:56
-(epstopdf)                    size: 79459 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/java-eps-converted-to.
-pdf img/java.eps>
-(epstopdf)             \includegraphics on input line 1154.
-Package epstopdf Info: Output file is already uptodate.
-
-<img/java-eps-converted-to.pdf, id=250, 246.9225pt x 184.69pt>
-File: img/java-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/java-eps-converted-to.pdf>
-Package pdftex.def Info: img/java-eps-converted-to.pdf used on input line 1154.
-
-(pdftex.def)             Requested size: 256.0748pt x 191.54605pt.
-LaTeX Info: Redefining \. on input line 1158.
-LaTeX Info: Redefining \% on input line 1158.
- [54 <./img/java-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 1173.
-LaTeX Info: Redefining \% on input line 1173.
-
-[55]
-LaTeX Info: Redefining \. on input line 1184.
-LaTeX Info: Redefining \% on input line 1184.
- [56]
-Package epstopdf Info: Source file: <img/rti.eps>
-(epstopdf)                    date: 2014-08-19 20:18:08
-(epstopdf)                    size: 993598 bytes
-(epstopdf)             Output file: <img/rti-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-19 20:28:49
-(epstopdf)                    size: 25957 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/rti-eps-converted-to.p
-df img/rti.eps>
-(epstopdf)             \includegraphics on input line 1196.
-Package epstopdf Info: Output file is already uptodate.
- <img/rti-eps-converted-to.pdf, id=263, 421.575pt x 388.45125pt>
-File: img/rti-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/rti-eps-converted-to.pdf>
-Package pdftex.def Info: img/rti-eps-converted-to.pdf used on input line 1196.
-(pdftex.def)             Requested size: 256.0748pt x 235.95912pt.
-
-Underfull \vbox (badness 1024) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1197.
-LaTeX Info: Redefining \% on input line 1197.
- [57]
-LaTeX Info: Redefining \. on input line 1198.
-LaTeX Info: Redefining \% on input line 1198.
-
-[58 <./img/rti-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <img/mavlink.eps>
-(epstopdf)                    date: 2014-08-23 18:50:42
-(epstopdf)                    size: 239203 bytes
-(epstopdf)             Output file: <img/mavlink-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-23 18:51:15
-(epstopdf)                    size: 23945 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/mavlink-eps-converted-
-to.pdf img/mavlink.eps>
-(epstopdf)             \includegraphics on input line 1207.
-Package epstopdf Info: Output file is already uptodate.
-
-<img/mavlink-eps-converted-to.pdf, id=274, 401.5pt x 96.36pt>
-File: img/mavlink-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/mavlink-eps-converted-to.pdf>
-Package pdftex.def Info: img/mavlink-eps-converted-to.pdf used on input line 12
-07.
-(pdftex.def)             Requested size: 341.43306pt x 81.949pt.
-LaTeX Info: Redefining \. on input line 1218.
-LaTeX Info: Redefining \% on input line 1218.
- [59 <./img/mavlink-eps-converted-to.pdf>]
+[38]
+LaTeX Info: Redefining \. on input line 920.
+LaTeX Info: Redefining \% on input line 920.
+ [39]
+LaTeX Info: Redefining \. on input line 927.
+LaTeX Info: Redefining \% on input line 927.
+ [40]
+LaTeX Info: Redefining \. on input line 944.
+LaTeX Info: Redefining \% on input line 944.
+ [41]
 Package epstopdf Info: Source file: <img/mavlinkwaypointwrite.eps>
 (epstopdf)                    date: 2014-08-23 20:41:57
 (epstopdf)                    size: 1686014 bytes
@@ -1069,21 +841,19 @@ pdf>
 (epstopdf)                    size: 40205 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/mavlinkwaypointwrite-e
 ps-converted-to.pdf img/mavlinkwaypointwrite.eps>
-(epstopdf)             \includegraphics on input line 1232.
+(epstopdf)             \includegraphics on input line 945.
 Package epstopdf Info: Output file is already uptodate.
- <img/mavlinkwaypointwrite-eps-converted-to.pdf, id=281, 433.62pt x 361.35pt>
+
+<img/mavlinkwaypointwrite-eps-converted-to.pdf, id=208, 433.62pt x 361.35pt>
 File: img/mavlinkwaypointwrite-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/mavlinkwaypointwrite-eps-converted-to.pdf>
 Package pdftex.def Info: img/mavlinkwaypointwrite-eps-converted-to.pdf used on 
-input line 1232.
+input line 945.
 (pdftex.def)             Requested size: 341.43306pt x 284.54257pt.
-LaTeX Info: Redefining \. on input line 1233.
-LaTeX Info: Redefining \% on input line 1233.
- [60]
-LaTeX Info: Redefining \. on input line 1234.
-LaTeX Info: Redefining \% on input line 1234.
- [61 <./img/mavlinkwaypointwrite-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 947.
+LaTeX Info: Redefining \% on input line 947.
+ [42 <./img/mavlinkwaypointwrite-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/qgroundcontrol.eps>
 (epstopdf)                    date: 2014-08-23 21:00:27
 (epstopdf)                    size: 4827541 bytes
@@ -1092,19 +862,19 @@ Package epstopdf Info: Source file: <img/qgroundcontrol.eps>
 (epstopdf)                    size: 451452 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/qgroundcontrol-eps-con
 verted-to.pdf img/qgroundcontrol.eps>
-(epstopdf)             \includegraphics on input line 1240.
+(epstopdf)             \includegraphics on input line 952.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/qgroundcontrol-eps-converted-to.pdf, id=291, 1106.1325pt x 722.7pt>
+<img/qgroundcontrol-eps-converted-to.pdf, id=215, 1106.1325pt x 722.7pt>
 File: img/qgroundcontrol-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/qgroundcontrol-eps-converted-to.pdf>
 Package pdftex.def Info: img/qgroundcontrol-eps-converted-to.pdf used on input 
-line 1240.
+line 952.
 (pdftex.def)             Requested size: 341.43306pt x 223.07529pt.
-LaTeX Info: Redefining \. on input line 1247.
-LaTeX Info: Redefining \% on input line 1247.
- [62 <./img/qgroundcontrol-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 956.
+LaTeX Info: Redefining \% on input line 956.
+ [43 <./img/qgroundcontrol-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/gcscatec.eps>
 (epstopdf)                    date: 2014-08-23 21:22:41
 (epstopdf)                    size: 13262551 bytes
@@ -1113,19 +883,19 @@ Package epstopdf Info: Source file: <img/gcscatec.eps>
 (epstopdf)                    size: 863515 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/gcscatec-eps-converted
 -to.pdf img/gcscatec.eps>
-(epstopdf)             \includegraphics on input line 1248.
+(epstopdf)             \includegraphics on input line 960.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/gcscatec-eps-converted-to.pdf, id=298, 1861.95625pt x 1180.41pt>
+<img/gcscatec-eps-converted-to.pdf, id=222, 1861.95625pt x 1180.41pt>
 File: img/gcscatec-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/gcscatec-eps-converted-to.pdf>
-Package pdftex.def Info: img/gcscatec-eps-converted-to.pdf used on input line 1
-248.
+Package pdftex.def Info: img/gcscatec-eps-converted-to.pdf used on input line 9
+60.
 (pdftex.def)             Requested size: 341.43306pt x 216.44519pt.
-LaTeX Info: Redefining \. on input line 1257.
-LaTeX Info: Redefining \% on input line 1257.
- [63 <./img/gcscatec-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 962.
+LaTeX Info: Redefining \% on input line 962.
+ [44 <./img/gcscatec-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/locomove.eps>
 (epstopdf)                    date: 2014-08-23 21:37:03
 (epstopdf)                    size: 2191195 bytes
@@ -1134,24 +904,21 @@ Package epstopdf Info: Source file: <img/locomove.eps>
 (epstopdf)                    size: 47875 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/locomove-eps-converted
 -to.pdf img/locomove.eps>
-(epstopdf)             \includegraphics on input line 1265.
+(epstopdf)             \includegraphics on input line 970.
 Package epstopdf Info: Output file is already uptodate.
- <img/locomove-eps-converted-to.pdf, id=306, 703.62875pt x 514.92375pt>
+ <img/locomove-eps-converted-to.pdf, id=229, 703.62875pt x 514.92375pt>
 File: img/locomove-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/locomove-eps-converted-to.pdf>
-Package pdftex.def Info: img/locomove-eps-converted-to.pdf used on input line 1
-265.
+Package pdftex.def Info: img/locomove-eps-converted-to.pdf used on input line 9
+70.
 (pdftex.def)             Requested size: 341.43306pt x 249.86342pt.
-LaTeX Info: Redefining \. on input line 1267.
-LaTeX Info: Redefining \% on input line 1267.
- [64 <./img/locomove-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 1283.
-LaTeX Info: Redefining \% on input line 1283.
- [65]
-LaTeX Info: Redefining \. on input line 1287.
-LaTeX Info: Redefining \% on input line 1287.
- [66]
+LaTeX Info: Redefining \. on input line 972.
+LaTeX Info: Redefining \% on input line 972.
+ [45 <./img/locomove-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 986.
+LaTeX Info: Redefining \% on input line 986.
+ [46]
 Package epstopdf Info: Source file: <img/autopilotocatec.eps>
 (epstopdf)                    date: 2014-08-23 22:10:15
 (epstopdf)                    size: 27248003 bytes
@@ -1160,29 +927,22 @@ Package epstopdf Info: Source file: <img/autopilotocatec.eps>
 (epstopdf)                    size: 825875 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/autopilotocatec-eps-co
 nverted-to.pdf img/autopilotocatec.eps>
-(epstopdf)             \includegraphics on input line 1291.
+(epstopdf)             \includegraphics on input line 989.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/autopilotocatec-eps-converted-to.pdf, id=319, 2448.14626pt x 1844.8925pt>
+<img/autopilotocatec-eps-converted-to.pdf, id=240, 2448.14626pt x 1844.8925pt>
 File: img/autopilotocatec-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/autopilotocatec-eps-converted-to.pdf>
 Package pdftex.def Info: img/autopilotocatec-eps-converted-to.pdf used on input
- line 1291.
+ line 989.
 (pdftex.def)             Requested size: 341.43306pt x 257.29791pt.
-LaTeX Info: Redefining \. on input line 1295.
-LaTeX Info: Redefining \% on input line 1295.
- [67 <./img/autopilotocatec-eps-converted-to.pdf>] [68
+LaTeX Info: Redefining \. on input line 993.
+LaTeX Info: Redefining \% on input line 993.
+ [47 <./img/autopilotocatec-eps-converted-to.pdf>] [48
 
-]
-Cap\'{\i }tulo 5.
-[69]
-LaTeX Info: Redefining \. on input line 1338.
-LaTeX Info: Redefining \% on input line 1338.
- [70]
-LaTeX Info: Redefining \. on input line 1353.
-LaTeX Info: Redefining \% on input line 1353.
- [71]
+] [49] [50]
+Cap\'{\i }tulo 4.
 Package epstopdf Info: Source file: <img/mvc.eps>
 (epstopdf)                    date: 2014-05-23 17:35:52
 (epstopdf)                    size: 1655618 bytes
@@ -1191,143 +951,51 @@ Package epstopdf Info: Source file: <img/mvc.eps>
 (epstopdf)                    size: 46661 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/mvc-eps-converted-to.p
 df img/mvc.eps>
-(epstopdf)             \includegraphics on input line 1366.
+(epstopdf)             \includegraphics on input line 1010.
 Package epstopdf Info: Output file is already uptodate.
- <img/mvc-eps-converted-to.pdf, id=339, 619.31375pt x 441.65pt>
+<img/mvc-eps-converted-to.pdf, id=256, 619.31375pt x 441.65pt>
 File: img/mvc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/mvc-eps-converted-to.pdf>
-Package pdftex.def Info: img/mvc-eps-converted-to.pdf used on input line 1366.
+Package pdftex.def Info: img/mvc-eps-converted-to.pdf used on input line 1010.
 (pdftex.def)             Requested size: 256.0748pt x 182.6209pt.
-LaTeX Info: Redefining \. on input line 1369.
-LaTeX Info: Redefining \% on input line 1369.
- [72 <./img/mvc-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 1382.
-LaTeX Info: Redefining \% on input line 1382.
 
-[73]
-LaTeX Info: Redefining \. on input line 1387.
-LaTeX Info: Redefining \% on input line 1387.
- [74]
-Package epstopdf Info: Source file: <img/ubuntu.eps>
-(epstopdf)                    date: 2014-05-23 18:38:22
-(epstopdf)                    size: 978174 bytes
-(epstopdf)             Output file: <img/ubuntu-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-23 18:39:06
-(epstopdf)                    size: 25446 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/ubuntu-eps-converted-t
-o.pdf img/ubuntu.eps>
-(epstopdf)             \includegraphics on input line 1399.
-Package epstopdf Info: Output file is already uptodate.
- <img/ubuntu-eps-converted-to.pdf, id=353, 301.125pt x 301.125pt>
-File: img/ubuntu-eps-converted-to.pdf Graphic file (type pdf)
+Underfull \vbox (badness 3302) has occurred while \output is active []
 
-<use img/ubuntu-eps-converted-to.pdf>
-Package pdftex.def Info: img/ubuntu-eps-converted-to.pdf used on input line 139
-9.
-(pdftex.def)             Requested size: 170.71652pt x 170.72406pt.
-LaTeX Info: Redefining \. on input line 1404.
-LaTeX Info: Redefining \% on input line 1404.
- [75 <./img/ubuntu-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 1406.
-LaTeX Info: Redefining \% on input line 1406.
+ [51
 
-[76]
-Package epstopdf Info: Source file: <img/qtcreator.eps>
-(epstopdf)                    date: 2014-05-23 18:58:44
-(epstopdf)                    size: 835500 bytes
-(epstopdf)             Output file: <img/qtcreator-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-23 18:59:16
-(epstopdf)                    size: 20527 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/qtcreator-eps-converte
-d-to.pdf img/qtcreator.eps>
-(epstopdf)             \includegraphics on input line 1414.
-Package epstopdf Info: Output file is already uptodate.
- <img/qtcreator-eps-converted-to.pdf, id=364, 373.395pt x 368.37625pt>
-File: img/qtcreator-eps-converted-to.pdf Graphic file (type pdf)
+]
+LaTeX Info: Redefining \. on input line 1017.
+LaTeX Info: Redefining \% on input line 1017.
 
-<use img/qtcreator-eps-converted-to.pdf>
-Package pdftex.def Info: img/qtcreator-eps-converted-to.pdf used on input line 
-1414.
-(pdftex.def)             Requested size: 170.71652pt x 168.42087pt.
-LaTeX Info: Redefining \. on input line 1419.
-LaTeX Info: Redefining \% on input line 1419.
- [77 <./img/qtcreator-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <img/eclipse.eps>
-(epstopdf)                    date: 2014-05-23 19:17:46
-(epstopdf)                    size: 1598883 bytes
-(epstopdf)             Output file: <img/eclipse-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-23 19:18:38
-(epstopdf)                    size: 54549 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/eclipse-eps-converted-
-to.pdf img/eclipse.eps>
-(epstopdf)             \includegraphics on input line 1425.
-Package epstopdf Info: Output file is already uptodate.
- <img/eclipse-eps-converted-to.pdf, id=371, 513.92pt x 513.92pt>
-File: img/eclipse-eps-converted-to.pdf Graphic file (type pdf)
+[52 <./img/mvc-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1025.
+LaTeX Info: Redefining \% on input line 1025.
+ [53]
+LaTeX Info: Redefining \. on input line 1037.
+LaTeX Info: Redefining \% on input line 1037.
+ [54]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use img/eclipse-eps-converted-to.pdf>
-Package pdftex.def Info: img/eclipse-eps-converted-to.pdf used on input line 14
-25.
-(pdftex.def)             Requested size: 170.71652pt x 170.71548pt.
-LaTeX Info: Redefining \. on input line 1432.
-LaTeX Info: Redefining \% on input line 1432.
- [78 <./img/eclipse-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 1448.
-LaTeX Info: Redefining \% on input line 1448.
- [79]
-Package epstopdf Info: Source file: <img/mercurial.eps>
-(epstopdf)                    date: 2014-05-23 20:29:45
-(epstopdf)                    size: 1853239 bytes
-(epstopdf)             Output file: <img/mercurial-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-23 20:32:27
-(epstopdf)                    size: 45828 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/mercurial-eps-converte
-d-to.pdf img/mercurial.eps>
-(epstopdf)             \includegraphics on input line 1469.
-Package epstopdf Info: Output file is already uptodate.
- <img/mercurial-eps-converted-to.pdf, id=381, 501.875pt x 610.28pt>
-File: img/mercurial-eps-converted-to.pdf Graphic file (type pdf)
+LaTeX Info: Redefining \. on input line 1049.
+LaTeX Info: Redefining \% on input line 1049.
+ [55]
+LaTeX Info: Redefining \. on input line 1067.
+LaTeX Info: Redefining \% on input line 1067.
 
-<use img/mercurial-eps-converted-to.pdf>
-Package pdftex.def Info: img/mercurial-eps-converted-to.pdf used on input line 
-1469.
-(pdftex.def)             Requested size: 170.71652pt x 207.59488pt.
-LaTeX Info: Redefining \. on input line 1470.
-LaTeX Info: Redefining \% on input line 1470.
- [80]
-LaTeX Info: Redefining \. on input line 1471.
-LaTeX Info: Redefining \% on input line 1471.
- [81 <./img/mercurial-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <img/bitbucket.eps>
-(epstopdf)                    date: 2014-05-23 20:29:14
-(epstopdf)                    size: 1598883 bytes
-(epstopdf)             Output file: <img/bitbucket-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-23 20:38:52
-(epstopdf)                    size: 19231 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/bitbucket-eps-converte
-d-to.pdf img/bitbucket.eps>
-(epstopdf)             \includegraphics on input line 1476.
-Package epstopdf Info: Output file is already uptodate.
- <img/bitbucket-eps-converted-to.pdf, id=392, 513.92pt x 513.92pt>
-File: img/bitbucket-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/bitbucket-eps-converted-to.pdf>
-Package pdftex.def Info: img/bitbucket-eps-converted-to.pdf used on input line 
-1476.
-(pdftex.def)             Requested size: 170.71652pt x 170.71548pt.
-LaTeX Info: Redefining \. on input line 1482.
-LaTeX Info: Redefining \% on input line 1482.
- [82 <./img/bitbucket-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 1498.
-LaTeX Info: Redefining \% on input line 1498.
- [83]
-LaTeX Info: Redefining \. on input line 1513.
-LaTeX Info: Redefining \% on input line 1513.
- [84]
-LaTeX Info: Redefining \. on input line 1532.
-LaTeX Info: Redefining \% on input line 1532.
- [85]
+[56]
+LaTeX Info: Redefining \. on input line 1077.
+LaTeX Info: Redefining \% on input line 1077.
+ [57]
+LaTeX Info: Redefining \. on input line 1089.
+LaTeX Info: Redefining \% on input line 1089.
+ [58]
+LaTeX Info: Redefining \. on input line 1105.
+LaTeX Info: Redefining \% on input line 1105.
+ [59]
+LaTeX Info: Redefining \. on input line 1115.
+LaTeX Info: Redefining \% on input line 1115.
+ [60]
 Package epstopdf Info: Source file: <img/cmakelists.eps>
 (epstopdf)                    date: 2014-05-24 21:20:21
 (epstopdf)                    size: 2489797 bytes
@@ -1336,71 +1004,29 @@ Package epstopdf Info: Source file: <img/cmakelists.eps>
 (epstopdf)                    size: 159743 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/cmakelists-eps-convert
 ed-to.pdf img/cmakelists.eps>
-(epstopdf)             \includegraphics on input line 1541.
+(epstopdf)             \includegraphics on input line 1123.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/cmakelists-eps-converted-to.pdf, id=408, 547.04375pt x 752.8125pt>
+<img/cmakelists-eps-converted-to.pdf, id=292, 547.04375pt x 752.8125pt>
 File: img/cmakelists-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/cmakelists-eps-converted-to.pdf>
 Package pdftex.def Info: img/cmakelists-eps-converted-to.pdf used on input line
- 1541.
+ 1123.
 (pdftex.def)             Requested size: 341.43306pt x 469.86337pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1542.
-LaTeX Info: Redefining \% on input line 1542.
- [86]
-LaTeX Info: Redefining \. on input line 1543.
-LaTeX Info: Redefining \% on input line 1543.
+LaTeX Info: Redefining \. on input line 1124.
+LaTeX Info: Redefining \% on input line 1124.
+ [61]
+LaTeX Info: Redefining \. on input line 1125.
+LaTeX Info: Redefining \% on input line 1125.
 
-[87 <./img/cmakelists-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 1560.
-LaTeX Info: Redefining \% on input line 1560.
- [88]
-Package epstopdf Info: Source file: <img/mavlinkwaypointwrite.eps>
-(epstopdf)                    date: 2014-08-23 20:41:57
-(epstopdf)                    size: 1686014 bytes
-(epstopdf)             Output file: <img/mavlinkwaypointwrite-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2014-08-23 20:43:58
-(epstopdf)                    size: 40205 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/mavlinkwaypointwrite-e
-ps-converted-to.pdf img/mavlinkwaypointwrite.eps>
-(epstopdf)             \includegraphics on input line 1561.
-Package epstopdf Info: Output file is already uptodate.
-File: img/mavlinkwaypointwrite-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/mavlinkwaypointwrite-eps-converted-to.pdf>
-Package pdftex.def Info: img/mavlinkwaypointwrite-eps-converted-to.pdf used on 
-input line 1561.
-(pdftex.def)             Requested size: 341.43306pt x 284.54257pt.
-LaTeX Info: Redefining \. on input line 1563.
-LaTeX Info: Redefining \% on input line 1563.
- [89]
-Package epstopdf Info: Source file: <img/qgroundcontrol.eps>
-(epstopdf)                    date: 2014-08-23 21:00:27
-(epstopdf)                    size: 4827541 bytes
-(epstopdf)             Output file: <img/qgroundcontrol-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-23 21:01:30
-(epstopdf)                    size: 451452 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/qgroundcontrol-eps-con
-verted-to.pdf img/qgroundcontrol.eps>
-(epstopdf)             \includegraphics on input line 1568.
-Package epstopdf Info: Output file is already uptodate.
-File: img/qgroundcontrol-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/qgroundcontrol-eps-converted-to.pdf>
-Package pdftex.def Info: img/qgroundcontrol-eps-converted-to.pdf used on input 
-line 1568.
-(pdftex.def)             Requested size: 341.43306pt x 223.07529pt.
-LaTeX Info: Redefining \. on input line 1575.
-LaTeX Info: Redefining \% on input line 1575.
- [90]
-LaTeX Info: Redefining \. on input line 1580.
-LaTeX Info: Redefining \% on input line 1580.
- [91]
+[62 <./img/cmakelists-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1133.
+LaTeX Info: Redefining \% on input line 1133.
+ [63]
 Package epstopdf Info: Source file: <img/pom.eps>
 (epstopdf)                    date: 2014-05-24 22:07:31
 (epstopdf)                    size: 2284227 bytes
@@ -1409,163 +1035,42 @@ Package epstopdf Info: Source file: <img/pom.eps>
 (epstopdf)                    size: 170290 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/pom-eps-converted-to.p
 df img/pom.eps>
-(epstopdf)             \includegraphics on input line 1584.
+(epstopdf)             \includegraphics on input line 1136.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/pom-eps-converted-to.pdf, id=431, 394.47375pt x 957.5775pt>
+<img/pom-eps-converted-to.pdf, id=306, 394.47375pt x 957.5775pt>
 File: img/pom-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/pom-eps-converted-to.pdf>
-Package pdftex.def Info: img/pom-eps-converted-to.pdf used on input line 1584.
+Package pdftex.def Info: img/pom-eps-converted-to.pdf used on input line 1136.
 (pdftex.def)             Requested size: 256.0748pt x 621.61438pt.
-LaTeX Info: Redefining \. on input line 1589.
-LaTeX Info: Redefining \% on input line 1589.
- [92 <./img/pom-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <img/locomove.eps>
-(epstopdf)                    date: 2014-08-23 21:37:03
-(epstopdf)                    size: 2191195 bytes
-(epstopdf)             Output file: <img/locomove-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-23 21:37:20
-(epstopdf)                    size: 47875 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/locomove-eps-converted
--to.pdf img/locomove.eps>
-(epstopdf)             \includegraphics on input line 1592.
-Package epstopdf Info: Output file is already uptodate.
-File: img/locomove-eps-converted-to.pdf Graphic file (type pdf)
+LaTeX Info: Redefining \. on input line 1139.
+LaTeX Info: Redefining \% on input line 1139.
+ [64 <./img/pom-eps-converted-to.pdf>]
+Underfull \vbox (badness 7133) has occurred while \output is active []
 
-<use img/locomove-eps-converted-to.pdf>
-Package pdftex.def Info: img/locomove-eps-converted-to.pdf used on input line 1
-592.
-(pdftex.def)             Requested size: 341.43306pt x 249.86342pt.
-LaTeX Info: Redefining \. on input line 1595.
-LaTeX Info: Redefining \% on input line 1595.
- [93]
-LaTeX Info: Redefining \. on input line 1617.
-LaTeX Info: Redefining \% on input line 1617.
- [94]
-LaTeX Info: Redefining \. on input line 1623.
-LaTeX Info: Redefining \% on input line 1623.
- [95]
-Package epstopdf Info: Source file: <img/spring.eps>
-(epstopdf)                    date: 2014-08-20 20:29:13
-(epstopdf)                    size: 235562 bytes
-(epstopdf)             Output file: <img/spring-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-20 20:29:59
-(epstopdf)                    size: 7544 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/spring-eps-converted-t
-o.pdf img/spring.eps>
-(epstopdf)             \includegraphics on input line 1642.
-Package epstopdf Info: Output file is already uptodate.
+LaTeX Info: Redefining \. on input line 1154.
+LaTeX Info: Redefining \% on input line 1154.
+ [65]
+LaTeX Info: Redefining \. on input line 1167.
+LaTeX Info: Redefining \% on input line 1167.
 
-<img/spring-eps-converted-to.pdf, id=448, 252.945pt x 150.5625pt>
-File: img/spring-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/spring-eps-converted-to.pdf>
-Package pdftex.def Info: img/spring-eps-converted-to.pdf used on input line 164
-2.
-(pdftex.def)             Requested size: 256.0748pt x 152.4276pt.
-
-Underfull \vbox (badness 2753) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1643.
-LaTeX Info: Redefining \% on input line 1643.
- [96]
-LaTeX Info: Redefining \. on input line 1644.
-LaTeX Info: Redefining \% on input line 1644.
-
-[97 <./img/spring-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 1660.
-LaTeX Info: Redefining \% on input line 1660.
- [98] [99
-
-] [100]
-Cap\'{\i }tulo 6.
-[101
-
-]
-LaTeX Info: Redefining \. on input line 1698.
-LaTeX Info: Redefining \% on input line 1698.
- [102]
-Package epstopdf Info: Source file: <img/struts2.eps>
-(epstopdf)                    date: 2014-08-21 18:12:01
-(epstopdf)                    size: 139650 bytes
-(epstopdf)             Output file: <img/struts2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-21 21:40:16
-(epstopdf)                    size: 12082 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/struts2-eps-converted-
-to.pdf img/struts2.eps>
-(epstopdf)             \includegraphics on input line 1707.
-Package epstopdf Info: Output file is already uptodate.
- <img/struts2-eps-converted-to.pdf, id=474, 92.345pt x 31.11626pt>
-File: img/struts2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/struts2-eps-converted-to.pdf>
-Package pdftex.def Info: img/struts2-eps-converted-to.pdf used on input line 17
-07.
-(pdftex.def)             Requested size: 256.0748pt x 86.28687pt.
-LaTeX Info: Redefining \. on input line 1711.
-LaTeX Info: Redefining \% on input line 1711.
- [103 <./img/struts2-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <img/hibernate.eps>
-(epstopdf)                    date: 2014-08-22 18:24:10
-(epstopdf)                    size: 5271 bytes
-(epstopdf)             Output file: <img/hibernate-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-22 18:25:24
-(epstopdf)                    size: 3599 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/hibernate-eps-converte
-d-to.pdf img/hibernate.eps>
-(epstopdf)             \includegraphics on input line 1735.
-Package epstopdf Info: Output file is already uptodate.
- <img/hibernate-eps-converted-to.pdf, id=481, 199.74625pt x 184.69pt>
-File: img/hibernate-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/hibernate-eps-converted-to.pdf>
-Package pdftex.def Info: img/hibernate-eps-converted-to.pdf used on input line 
-1735.
-(pdftex.def)             Requested size: 256.0748pt x 236.80254pt.
-
-Underfull \vbox (badness 1668) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1736.
-LaTeX Info: Redefining \% on input line 1736.
- [104]
-Package epstopdf Info: Source file: <img/valgrind.eps>
-(epstopdf)                    date: 2014-08-22 21:15:39
-(epstopdf)                    size: 273538 bytes
-(epstopdf)             Output file: <img/valgrind-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-22 21:16:57
-(epstopdf)                    size: 90474 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/valgrind-eps-converted
--to.pdf img/valgrind.eps>
-(epstopdf)             \includegraphics on input line 1745.
-Package epstopdf Info: Output file is already uptodate.
-
-<img/valgrind-eps-converted-to.pdf, id=485, 473.77pt x 279.0425pt>
-File: img/valgrind-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/valgrind-eps-converted-to.pdf>
-Package pdftex.def Info: img/valgrind-eps-converted-to.pdf used on input line 1
-745.
-(pdftex.def)             Requested size: 256.0748pt x 150.82547pt.
-
+[66]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1746.
-LaTeX Info: Redefining \% on input line 1746.
- [105 <./img/hibernate-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 1790.
-LaTeX Info: Redefining \% on input line 1790.
- [106 <./img/valgrind-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 1845.
-LaTeX Info: Redefining \% on input line 1845.
+LaTeX Info: Redefining \. on input line 1191.
+LaTeX Info: Redefining \% on input line 1191.
+ [67]
+LaTeX Info: Redefining \. on input line 1199.
+LaTeX Info: Redefining \% on input line 1199.
 
-[107]
-LaTeX Info: Redefining \. on input line 1894.
-LaTeX Info: Redefining \% on input line 1894.
- [108]
-LaTeX Info: Redefining \. on input line 1901.
-LaTeX Info: Redefining \% on input line 1901.
- [109]
+[68]
+LaTeX Info: Redefining \. on input line 1200.
+LaTeX Info: Redefining \% on input line 1200.
+ [69]
+LaTeX Info: Redefining \. on input line 1209.
+LaTeX Info: Redefining \% on input line 1209.
+ [70]
 Package epstopdf Info: Source file: <img/valgrindreport.eps>
 (epstopdf)                    date: 2014-08-23 18:09:35
 (epstopdf)                    size: 767913 bytes
@@ -1574,25 +1079,28 @@ Package epstopdf Info: Source file: <img/valgrindreport.eps>
 (epstopdf)                    size: 23330 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/valgrindreport-eps-con
 verted-to.pdf img/valgrindreport.eps>
-(epstopdf)             \includegraphics on input line 1905.
+(epstopdf)             \includegraphics on input line 1220.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/valgrindreport-eps-converted-to.pdf, id=507, 552.0625pt x 228.855pt>
+<img/valgrindreport-eps-converted-to.pdf, id=332, 552.0625pt x 228.855pt>
 File: img/valgrindreport-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/valgrindreport-eps-converted-to.pdf>
 Package pdftex.def Info: img/valgrindreport-eps-converted-to.pdf used on input 
-line 1905.
+line 1220.
 (pdftex.def)             Requested size: 341.43306pt x 141.5464pt.
-LaTeX Info: Redefining \. on input line 1913.
-LaTeX Info: Redefining \% on input line 1913.
- [110 <./img/valgrindreport-eps-converted-to.pdf>] [111
+LaTeX Info: Redefining \. on input line 1225.
+LaTeX Info: Redefining \% on input line 1225.
+ [71 <./img/valgrindreport-eps-converted-to.pdf>] [72
 
-] [112]
-Cap\'{\i }tulo 7.
-[113
+] [73] [74]
+Cap\'{\i }tulo 5.
+[75
 
 ]
+LaTeX Info: Redefining \. on input line 1272.
+LaTeX Info: Redefining \% on input line 1272.
+ [76]
 Package epstopdf Info: Source file: <img/arquitectura.eps>
 (epstopdf)                    date: 2014-08-24 14:18:55
 (epstopdf)                    size: 7879068 bytes
@@ -1601,59 +1109,27 @@ Package epstopdf Info: Source file: <img/arquitectura.eps>
 (epstopdf)                    size: 152633 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/arquitectura-eps-conve
 rted-to.pdf img/arquitectura.eps>
-(epstopdf)             \includegraphics on input line 1957.
+(epstopdf)             \includegraphics on input line 1277.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/arquitectura-eps-converted-to.pdf, id=525, 631.35875pt x 476.78125pt>
+<img/arquitectura-eps-converted-to.pdf, id=356, 631.35875pt x 476.78125pt>
 File: img/arquitectura-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/arquitectura-eps-converted-to.pdf>
 Package pdftex.def Info: img/arquitectura-eps-converted-to.pdf used on input li
-ne 1957.
+ne 1277.
 (pdftex.def)             Requested size: 455.24408pt x 343.79149pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 1957--1957
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1277--1277
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1958.
-LaTeX Info: Redefining \% on input line 1958.
- [114]
-Package epstopdf Info: Source file: <img/arquitectura.eps>
-(epstopdf)                    date: 2014-08-24 14:18:55
-(epstopdf)                    size: 7879068 bytes
-(epstopdf)             Output file: <img/arquitectura-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-24 14:20:36
-(epstopdf)                    size: 152633 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/arquitectura-eps-conve
-rted-to.pdf img/arquitectura.eps>
-(epstopdf)             \includegraphics on input line 1963.
-Package epstopdf Info: Output file is already uptodate.
-File: img/arquitectura-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/arquitectura-eps-converted-to.pdf>
-Package pdftex.def Info: img/arquitectura-eps-converted-to.pdf used on input li
-ne 1963.
-(pdftex.def)             Requested size: 455.24408pt x 343.79149pt.
-
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 1963--1963
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1964.
-LaTeX Info: Redefining \% on input line 1964.
- [115 <./img/arquitectura-eps-converted-to.pdf>]
-Underfull \vbox (badness 4266) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1977.
-LaTeX Info: Redefining \% on input line 1977.
- [116]
+LaTeX Info: Redefining \. on input line 1285.
+LaTeX Info: Redefining \% on input line 1285.
+[77 <./img/arquitectura-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1287.
+LaTeX Info: Redefining \% on input line 1287.
+ [78]
 Package epstopdf Info: Source file: <img/funcionamientobasicomision.eps>
 (epstopdf)                    date: 2014-08-25 20:12:16
 (epstopdf)                    size: 2368562 bytes
@@ -1663,25 +1139,25 @@ ed-to.pdf>
 (epstopdf)                    size: 97818 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/funcionamientobasicomi
 sion-eps-converted-to.pdf img/funcionamientobasicomision.eps>
-(epstopdf)             \includegraphics on input line 1981.
+(epstopdf)             \includegraphics on input line 1295.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/funcionamientobasicomision-eps-converted-to.pdf, id=538, 722.7pt x 542.025
+<img/funcionamientobasicomision-eps-converted-to.pdf, id=366, 722.7pt x 542.025
 pt>
 File: img/funcionamientobasicomision-eps-converted-to.pdf Graphic file (type pd
 f)
  <use img/funcionamientobasicomision-eps-converted-to.pdf>
 Package pdftex.def Info: img/funcionamientobasicomision-eps-converted-to.pdf us
-ed on input line 1981.
+ed on input line 1295.
 (pdftex.def)             Requested size: 455.24408pt x 341.4362pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 1981--1981
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1295--1295
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 1987.
-LaTeX Info: Redefining \% on input line 1987.
-[117 <./img/funcionamientobasicomision-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1301.
+LaTeX Info: Redefining \% on input line 1301.
+[79 <./img/funcionamientobasicomision-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/cargamision.eps>
 (epstopdf)                    date: 2014-08-25 20:11:50
 (epstopdf)                    size: 2368562 bytes
@@ -1690,24 +1166,21 @@ Package epstopdf Info: Source file: <img/cargamision.eps>
 (epstopdf)                    size: 83573 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/cargamision-eps-conver
 ted-to.pdf img/cargamision.eps>
-(epstopdf)             \includegraphics on input line 1995.
+(epstopdf)             \includegraphics on input line 1304.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/cargamision-eps-converted-to.pdf, id=546, 722.7pt x 542.025pt>
+<img/cargamision-eps-converted-to.pdf, id=373, 722.7pt x 542.025pt>
 File: img/cargamision-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/cargamision-eps-converted-to.pdf>
 Package pdftex.def Info: img/cargamision-eps-converted-to.pdf used on input lin
-e 1995.
+e 1304.
 (pdftex.def)             Requested size: 455.24408pt x 341.4362pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 1995--1995
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1304--1304
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 1999.
-LaTeX Info: Redefining \% on input line 1999.
-[118 <./img/cargamision-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/iniciopausaparada.eps>
 (epstopdf)                    date: 2014-08-25 20:12:50
 (epstopdf)                    size: 2368562 bytes
@@ -1717,24 +1190,23 @@ Package epstopdf Info: Source file: <img/iniciopausaparada.eps>
 (epstopdf)                    size: 107242 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/iniciopausaparada-eps-
 converted-to.pdf img/iniciopausaparada.eps>
-(epstopdf)             \includegraphics on input line 2005.
+(epstopdf)             \includegraphics on input line 1310.
 Package epstopdf Info: Output file is already uptodate.
-
-<img/iniciopausaparada-eps-converted-to.pdf, id=553, 722.7pt x 542.025pt>
+<img/iniciopausaparada-eps-converted-to.pdf, id=374, 722.7pt x 542.025pt>
 File: img/iniciopausaparada-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/iniciopausaparada-eps-converted-to.pdf>
 Package pdftex.def Info: img/iniciopausaparada-eps-converted-to.pdf used on inp
-ut line 2005.
+ut line 1310.
 (pdftex.def)             Requested size: 455.24408pt x 341.4362pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2005--2005
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1310--1310
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 2013.
-LaTeX Info: Redefining \% on input line 2013.
-[119 <./img/iniciopausaparada-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1310.
+LaTeX Info: Redefining \% on input line 1310.
+[80 <./img/cargamision-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/introduccionfallos.eps>
 (epstopdf)                    date: 2014-08-25 20:13:27
 (epstopdf)                    size: 2368562 bytes
@@ -1744,27 +1216,24 @@ f>
 (epstopdf)                    size: 51231 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/introduccionfallos-eps
 -converted-to.pdf img/introduccionfallos.eps>
-(epstopdf)             \includegraphics on input line 2023.
+(epstopdf)             \includegraphics on input line 1320.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/introduccionfallos-eps-converted-to.pdf, id=560, 722.7pt x 542.025pt>
+<img/introduccionfallos-eps-converted-to.pdf, id=381, 722.7pt x 542.025pt>
 File: img/introduccionfallos-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/introduccionfallos-eps-converted-to.pdf>
 Package pdftex.def Info: img/introduccionfallos-eps-converted-to.pdf used on in
-put line 2023.
+put line 1320.
 (pdftex.def)             Requested size: 455.24408pt x 341.4362pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2023--2023
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1320--1320
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 2024.
-LaTeX Info: Redefining \% on input line 2024.
- [120]
+LaTeX Info: Redefining \. on input line 1321.
+LaTeX Info: Redefining \% on input line 1321.
+[81 <./img/iniciopausaparada-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/cambiosmision.eps>
 (epstopdf)                    date: 2014-08-25 20:10:03
 (epstopdf)                    size: 2368562 bytes
@@ -1773,24 +1242,30 @@ Package epstopdf Info: Source file: <img/cambiosmision.eps>
 (epstopdf)                    size: 49037 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/cambiosmision-eps-conv
 erted-to.pdf img/cambiosmision.eps>
-(epstopdf)             \includegraphics on input line 2037.
+(epstopdf)             \includegraphics on input line 1329.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/cambiosmision-eps-converted-to.pdf, id=564, 722.7pt x 542.025pt>
+<img/cambiosmision-eps-converted-to.pdf, id=389, 722.7pt x 542.025pt>
 File: img/cambiosmision-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/cambiosmision-eps-converted-to.pdf>
 Package pdftex.def Info: img/cambiosmision-eps-converted-to.pdf used on input l
-ine 2037.
+ine 1329.
 (pdftex.def)             Requested size: 455.24408pt x 341.4362pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2037--2037
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1329--1329
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 2038.
-LaTeX Info: Redefining \% on input line 2038.
-[121 <./img/introduccionfallos-eps-converted-to.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1330.
+LaTeX Info: Redefining \% on input line 1330.
+ [82 <./img/introduccionfallos-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1334.
+LaTeX Info: Redefining \% on input line 1334.
+ [83 <./img/cambiosmision-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/relacionescomunicacion.eps>
 (epstopdf)                    date: 2014-08-25 20:51:21
 (epstopdf)                    size: 2368562 bytes
@@ -1800,33 +1275,38 @@ o.pdf>
 (epstopdf)                    size: 40328 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/relacionescomunicacion
 -eps-converted-to.pdf img/relacionescomunicacion.eps>
-(epstopdf)             \includegraphics on input line 2051.
+(epstopdf)             \includegraphics on input line 1339.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/relacionescomunicacion-eps-converted-to.pdf, id=571, 722.7pt x 542.025pt>
+<img/relacionescomunicacion-eps-converted-to.pdf, id=402, 722.7pt x 542.025pt>
 File: img/relacionescomunicacion-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/relacionescomunicacion-eps-converted-to.pdf>
 Package pdftex.def Info: img/relacionescomunicacion-eps-converted-to.pdf used o
-n input line 2051.
+n input line 1339.
 (pdftex.def)             Requested size: 455.24408pt x 341.4362pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2051--2051
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1339--1339
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 2052.
-LaTeX Info: Redefining \% on input line 2052.
-[122 <./img/cambiosmision-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 2059.
-LaTeX Info: Redefining \% on input line 2059.
- [123 <./img/relacionescomunicacion-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 2109.
-LaTeX Info: Redefining \% on input line 2109.
- [124]
-LaTeX Info: Redefining \. on input line 2167.
-LaTeX Info: Redefining \% on input line 2167.
- [125]
+LaTeX Info: Redefining \. on input line 1344.
+LaTeX Info: Redefining \% on input line 1344.
+[84 <./img/relacionescomunicacion-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1384.
+LaTeX Info: Redefining \% on input line 1384.
+ [85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1434.
+LaTeX Info: Redefining \% on input line 1434.
+ [86]
+LaTeX Info: Redefining \. on input line 1483.
+LaTeX Info: Redefining \% on input line 1483.
+
+[87]
 Package epstopdf Info: Source file: <img/definicioninterfaces.eps>
 (epstopdf)                    date: 2014-08-26 19:24:44
 (epstopdf)                    size: 4038792 bytes
@@ -1836,476 +1316,756 @@ pdf>
 (epstopdf)                    size: 279935 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/definicioninterfaces-e
 ps-converted-to.pdf img/definicioninterfaces.eps>
-(epstopdf)             \includegraphics on input line 2202.
+(epstopdf)             \includegraphics on input line 1488.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/definicioninterfaces-eps-converted-to.pdf, id=591, 671.50874pt x 995.72pt>
+<img/definicioninterfaces-eps-converted-to.pdf, id=419, 671.50874pt x 995.72pt>
 File: img/definicioninterfaces-eps-converted-to.pdf Graphic file (type pdf)
 <use img/definicioninterfaces-eps-converted-to.pdf>
 Package pdftex.def Info: img/definicioninterfaces-eps-converted-to.pdf used on 
-input line 2202.
-(pdftex.def)             Requested size: 455.24408pt x 675.04472pt.
-
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2202--2202
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 2203.
-LaTeX Info: Redefining \% on input line 2203.
- [126]
-Overfull \vbox (28.8123pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 2203.
-LaTeX Info: Redefining \% on input line 2203.
-
-[127 <./img/definicioninterfaces-eps-converted-to.pdf>]
+input line 1488.
+(pdftex.def)             Requested size: 256.0748pt x 379.69936pt.
+LaTeX Info: Redefining \. on input line 1490.
+LaTeX Info: Redefining \% on input line 1490.
+ [88 <./img/definicioninterfaces-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/diagvelocidad1.eps>
-(epstopdf)                    date: 2014-08-26 20:14:33
-(epstopdf)                    size: 2534031 bytes
+(epstopdf)                    date: 2014-09-02 19:06:39
+(epstopdf)                    size: 1989563 bytes
 (epstopdf)             Output file: <img/diagvelocidad1-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-26 21:18:43
-(epstopdf)                    size: 9864 bytes
+(epstopdf)                    date: 2014-09-02 19:10:54
+(epstopdf)                    size: 19585 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/diagvelocidad1-eps-con
 verted-to.pdf img/diagvelocidad1.eps>
-(epstopdf)             \includegraphics on input line 2209.
+(epstopdf)             \includegraphics on input line 1495.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/diagvelocidad1-eps-converted-to.pdf, id=601, 771.88374pt x 543.02875pt>
+<img/diagvelocidad1-eps-converted-to.pdf, id=426, 701.62125pt x 468.75125pt>
 File: img/diagvelocidad1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/diagvelocidad1-eps-converted-to.pdf>
 Package pdftex.def Info: img/diagvelocidad1-eps-converted-to.pdf used on input 
-line 2209.
-(pdftex.def)             Requested size: 455.24408pt x 320.26817pt.
+line 1495.
+(pdftex.def)             Requested size: 455.24408pt x 304.1554pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2209--2209
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1495--1495
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 2211.
-LaTeX Info: Redefining \% on input line 2211.
-[128 <./img/diagvelocidad1-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1497.
+LaTeX Info: Redefining \% on input line 1497.
+[89 <./img/diagvelocidad1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/diagevolucion1.eps>
-(epstopdf)                    date: 2014-08-28 01:35:16
-(epstopdf)                    size: 2530743 bytes
+(epstopdf)                    date: 2014-09-02 19:04:56
+(epstopdf)                    size: 2252523 bytes
 (epstopdf)             Output file: <img/diagevolucion1-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-28 01:35:33
-(epstopdf)                    size: 15192 bytes
+(epstopdf)                    date: 2014-09-02 19:10:54
+(epstopdf)                    size: 15660 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/diagevolucion1-eps-con
 verted-to.pdf img/diagevolucion1.eps>
-(epstopdf)             \includegraphics on input line 2216.
+(epstopdf)             \includegraphics on input line 1502.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/diagevolucion1-eps-converted-to.pdf, id=608, 770.88pt x 543.02875pt>
+<img/diagevolucion1-eps-converted-to.pdf, id=433, 737.75626pt x 504.88625pt>
 File: img/diagevolucion1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/diagevolucion1-eps-converted-to.pdf>
 Package pdftex.def Info: img/diagevolucion1-eps-converted-to.pdf used on input 
-line 2216.
-(pdftex.def)             Requested size: 455.24408pt x 320.68246pt.
+line 1502.
+(pdftex.def)             Requested size: 455.24408pt x 311.54707pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2216--2216
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1502--1502
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 2219.
-LaTeX Info: Redefining \% on input line 2219.
-[129 <./img/diagevolucion1-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 2238.
-LaTeX Info: Redefining \% on input line 2238.
- [130]
-LaTeX Info: Redefining \. on input line 2254.
-LaTeX Info: Redefining \% on input line 2254.
- [131]
-LaTeX Info: Redefining \. on input line 2274.
-LaTeX Info: Redefining \% on input line 2274.
- [132]
-LaTeX Info: Redefining \. on input line 2284.
-LaTeX Info: Redefining \% on input line 2284.
- [133]
-LaTeX Info: Redefining \. on input line 2306.
-LaTeX Info: Redefining \% on input line 2306.
+LaTeX Info: Redefining \. on input line 1505.
+LaTeX Info: Redefining \% on input line 1505.
+[90 <./img/diagevolucion1-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1531.
+LaTeX Info: Redefining \% on input line 1531.
+ [91]
+LaTeX Info: Redefining \. on input line 1553.
+LaTeX Info: Redefining \% on input line 1553.
+ [92]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[134]
-LaTeX Info: Redefining \. on input line 2330.
-LaTeX Info: Redefining \% on input line 2330.
- [135]
-Underfull \vbox (badness 1348) has occurred while \output is active []
+LaTeX Info: Redefining \. on input line 1564.
+LaTeX Info: Redefining \% on input line 1564.
+ [93]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2355.
-LaTeX Info: Redefining \% on input line 2355.
- [136]
-LaTeX Info: Redefining \. on input line 2377.
-LaTeX Info: Redefining \% on input line 2377.
+LaTeX Info: Redefining \. on input line 1580.
+LaTeX Info: Redefining \% on input line 1580.
+ [94]
+LaTeX Info: Redefining \. on input line 1597.
+LaTeX Info: Redefining \% on input line 1597.
 
-[137]
-LaTeX Info: Redefining \. on input line 2397.
-LaTeX Info: Redefining \% on input line 2397.
- [138]
-LaTeX Info: Redefining \. on input line 2401.
-LaTeX Info: Redefining \% on input line 2401.
- [139]
+[95]
+LaTeX Info: Redefining \. on input line 1617.
+LaTeX Info: Redefining \% on input line 1617.
+ [96]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1637.
+LaTeX Info: Redefining \% on input line 1637.
+ [97]
+LaTeX Info: Redefining \. on input line 1650.
+LaTeX Info: Redefining \% on input line 1650.
+
+[98]
 Package epstopdf Info: Source file: <img/diagvelocidad2.eps>
-(epstopdf)                    date: 2014-08-28 01:39:11
-(epstopdf)                    size: 2534031 bytes
+(epstopdf)                    date: 2014-09-02 19:06:54
+(epstopdf)                    size: 2152904 bytes
 (epstopdf)             Output file: <img/diagvelocidad2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-28 01:40:58
-(epstopdf)                    size: 19418 bytes
+(epstopdf)                    date: 2014-09-02 19:10:55
+(epstopdf)                    size: 19917 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/diagvelocidad2-eps-con
 verted-to.pdf img/diagvelocidad2.eps>
-(epstopdf)             \includegraphics on input line 2410.
+(epstopdf)             \includegraphics on input line 1655.
 Package epstopdf Info: Output file is already uptodate.
-
-<img/diagvelocidad2-eps-converted-to.pdf, id=647, 771.88374pt x 543.02875pt>
+ <img/diagvelocidad2-eps-converted-to.pdf, id=465, 726.715pt x 489.83pt>
 File: img/diagvelocidad2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/diagvelocidad2-eps-converted-to.pdf>
 Package pdftex.def Info: img/diagvelocidad2-eps-converted-to.pdf used on input 
-line 2410.
-(pdftex.def)             Requested size: 455.24408pt x 320.26817pt.
+line 1655.
+(pdftex.def)             Requested size: 455.24408pt x 306.85304pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2410--2410
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1655--1655
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 2412.
-LaTeX Info: Redefining \% on input line 2412.
-[140 <./img/diagvelocidad2-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1657.
+LaTeX Info: Redefining \% on input line 1657.
+[99 <./img/diagvelocidad2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/diagevolucion2.eps>
-(epstopdf)                    date: 2014-08-28 01:38:56
-(epstopdf)                    size: 2530743 bytes
+(epstopdf)                    date: 2014-09-02 19:05:06
+(epstopdf)                    size: 2310600 bytes
 (epstopdf)             Output file: <img/diagevolucion2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-28 01:42:51
-(epstopdf)                    size: 17537 bytes
+(epstopdf)                    date: 2014-09-02 19:10:56
+(epstopdf)                    size: 16558 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/diagevolucion2-eps-con
 verted-to.pdf img/diagevolucion2.eps>
-(epstopdf)             \includegraphics on input line 2414.
+(epstopdf)             \includegraphics on input line 1659.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/diagevolucion2-eps-converted-to.pdf, id=654, 770.88pt x 543.02875pt>
+<img/diagevolucion2-eps-converted-to.pdf, id=473, 756.8275pt x 504.88625pt>
 File: img/diagevolucion2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/diagevolucion2-eps-converted-to.pdf>
 Package pdftex.def Info: img/diagevolucion2-eps-converted-to.pdf used on input 
-line 2414.
-(pdftex.def)             Requested size: 455.24408pt x 320.68246pt.
+line 1659.
+(pdftex.def)             Requested size: 455.24408pt x 303.69676pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2414--2414
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1659--1659
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 2416.
-LaTeX Info: Redefining \% on input line 2416.
-[141 <./img/diagevolucion2-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 2437.
-LaTeX Info: Redefining \% on input line 2437.
- [142]
-LaTeX Info: Redefining \. on input line 2459.
-LaTeX Info: Redefining \% on input line 2459.
- [143]
+LaTeX Info: Redefining \. on input line 1661.
+LaTeX Info: Redefining \% on input line 1661.
+[100 <./img/diagevolucion2-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1696.
+LaTeX Info: Redefining \% on input line 1696.
+ [101]
+LaTeX Info: Redefining \. on input line 1713.
+LaTeX Info: Redefining \% on input line 1713.
+ [102]
+LaTeX Info: Redefining \. on input line 1717.
+LaTeX Info: Redefining \% on input line 1717.
+ [103]
 Package epstopdf Info: Source file: <img/diagvelocidad3.eps>
-(epstopdf)                    date: 2014-08-31 00:49:43
-(epstopdf)                    size: 2534031 bytes
+(epstopdf)                    date: 2014-09-02 19:07:06
+(epstopdf)                    size: 2138247 bytes
 (epstopdf)             Output file: <img/diagvelocidad3-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-31 01:11:17
-(epstopdf)                    size: 19707 bytes
+(epstopdf)                    date: 2014-09-02 19:10:57
+(epstopdf)                    size: 17771 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/diagvelocidad3-eps-con
 verted-to.pdf img/diagvelocidad3.eps>
-(epstopdf)             \includegraphics on input line 2467.
+(epstopdf)             \includegraphics on input line 1722.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/diagvelocidad3-eps-converted-to.pdf, id=668, 771.88374pt x 543.02875pt>
+<img/diagvelocidad3-eps-converted-to.pdf, id=489, 727.71875pt x 485.815pt>
 File: img/diagvelocidad3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/diagvelocidad3-eps-converted-to.pdf>
 Package pdftex.def Info: img/diagvelocidad3-eps-converted-to.pdf used on input 
-line 2467.
-(pdftex.def)             Requested size: 455.24408pt x 320.26817pt.
+line 1722.
+(pdftex.def)             Requested size: 455.24408pt x 303.92273pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2467--2467
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1722--1722
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 2468.
-LaTeX Info: Redefining \% on input line 2468.
- [144]
 Package epstopdf Info: Source file: <img/diagevolucion3.eps>
-(epstopdf)                    date: 2014-08-31 00:49:55
-(epstopdf)                    size: 2530743 bytes
+(epstopdf)                    date: 2014-09-02 19:05:17
+(epstopdf)                    size: 2432552 bytes
 (epstopdf)             Output file: <img/diagevolucion3-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-31 01:52:12
-(epstopdf)                    size: 18656 bytes
+(epstopdf)                    date: 2014-09-02 19:10:58
+(epstopdf)                    size: 18347 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/diagevolucion3-eps-con
 verted-to.pdf img/diagevolucion3.eps>
-(epstopdf)             \includegraphics on input line 2470.
+(epstopdf)             \includegraphics on input line 1725.
 Package epstopdf Info: Output file is already uptodate.
-
-<img/diagevolucion3-eps-converted-to.pdf, id=672, 770.88pt x 543.02875pt>
+<img/diagevolucion3-eps-converted-to.pdf, id=490, 767.86874pt x 523.9575pt>
 File: img/diagevolucion3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/diagevolucion3-eps-converted-to.pdf>
 Package pdftex.def Info: img/diagevolucion3-eps-converted-to.pdf used on input 
-line 2470.
-(pdftex.def)             Requested size: 455.24408pt x 320.68246pt.
+line 1725.
+(pdftex.def)             Requested size: 455.24408pt x 310.6433pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2470--2470
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1725--1725
  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2471.
-LaTeX Info: Redefining \% on input line 2471.
- [145 <./img/diagvelocidad3-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 2473.
-LaTeX Info: Redefining \% on input line 2473.
- [146 <./img/diagevolucion3-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 2491.
-LaTeX Info: Redefining \% on input line 2491.
- [147]
-LaTeX Info: Redefining \. on input line 2504.
-LaTeX Info: Redefining \% on input line 2504.
- [148]
-LaTeX Info: Redefining \. on input line 2514.
-LaTeX Info: Redefining \% on input line 2514.
- [149]
+LaTeX Info: Redefining \. on input line 1726.
+LaTeX Info: Redefining \% on input line 1726.
+ [104 <./img/diagvelocidad3-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1728.
+LaTeX Info: Redefining \% on input line 1728.
+ [105 <./img/diagevolucion3-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1750.
+LaTeX Info: Redefining \% on input line 1750.
+ [106]
+LaTeX Info: Redefining \. on input line 1762.
+LaTeX Info: Redefining \% on input line 1762.
+ [107]
+LaTeX Info: Redefining \. on input line 1763.
+LaTeX Info: Redefining \% on input line 1763.
+ [108]
 Package epstopdf Info: Source file: <img/diagvelocidad4.eps>
-(epstopdf)                    date: 2014-08-31 18:46:48
-(epstopdf)                    size: 2530743 bytes
+(epstopdf)                    date: 2014-09-02 19:07:15
+(epstopdf)                    size: 2107491 bytes
 (epstopdf)             Output file: <img/diagvelocidad4-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-31 18:48:29
-(epstopdf)                    size: 20901 bytes
+(epstopdf)                    date: 2014-09-02 19:10:59
+(epstopdf)                    size: 20782 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/diagvelocidad4-eps-con
 verted-to.pdf img/diagvelocidad4.eps>
-(epstopdf)             \includegraphics on input line 2520.
+(epstopdf)             \includegraphics on input line 1768.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/diagvelocidad4-eps-converted-to.pdf, id=696, 770.88pt x 543.02875pt>
+<img/diagvelocidad4-eps-converted-to.pdf, id=514, 721.69624pt x 482.80376pt>
 File: img/diagvelocidad4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/diagvelocidad4-eps-converted-to.pdf>
 Package pdftex.def Info: img/diagvelocidad4-eps-converted-to.pdf used on input 
-line 2520.
-(pdftex.def)             Requested size: 455.24408pt x 320.68246pt.
+line 1768.
+(pdftex.def)             Requested size: 455.24408pt x 304.55106pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2520--2520
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1768--1768
  [] 
  []
 
 Package epstopdf Info: Source file: <img/diagevolucion4.eps>
-(epstopdf)                    date: 2014-08-31 18:47:13
-(epstopdf)                    size: 2530743 bytes
+(epstopdf)                    date: 2014-09-02 19:05:24
+(epstopdf)                    size: 2322833 bytes
 (epstopdf)             Output file: <img/diagevolucion4-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-31 18:48:30
-(epstopdf)                    size: 20971 bytes
+(epstopdf)                    date: 2014-09-02 19:10:59
+(epstopdf)                    size: 18440 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/diagevolucion4-eps-con
 verted-to.pdf img/diagevolucion4.eps>
-(epstopdf)             \includegraphics on input line 2523.
+(epstopdf)             \includegraphics on input line 1771.
 Package epstopdf Info: Output file is already uptodate.
-<img/diagevolucion4-eps-converted-to.pdf, id=697, 770.88pt x 543.02875pt>
+<img/diagevolucion4-eps-converted-to.pdf, id=515, 757.83125pt x 506.89375pt>
 File: img/diagevolucion4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/diagevolucion4-eps-converted-to.pdf>
 Package pdftex.def Info: img/diagevolucion4-eps-converted-to.pdf used on input 
-line 2523.
-(pdftex.def)             Requested size: 455.24408pt x 320.68246pt.
+line 1771.
+(pdftex.def)             Requested size: 455.24408pt x 304.50212pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2523--2523
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1771--1771
  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2524.
-LaTeX Info: Redefining \% on input line 2524.
- [150 <./img/diagvelocidad4-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 2525.
-LaTeX Info: Redefining \% on input line 2525.
- [151 <./img/diagevolucion4-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 2542.
-LaTeX Info: Redefining \% on input line 2542.
- [152]
-LaTeX Info: Redefining \. on input line 2557.
-LaTeX Info: Redefining \% on input line 2557.
- [153]
-LaTeX Info: Redefining \. on input line 2575.
-LaTeX Info: Redefining \% on input line 2575.
- [154]
+LaTeX Info: Redefining \. on input line 1772.
+LaTeX Info: Redefining \% on input line 1772.
+ [109 <./img/diagvelocidad4-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1773.
+LaTeX Info: Redefining \% on input line 1773.
+ [110 <./img/diagevolucion4-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1800.
+LaTeX Info: Redefining \% on input line 1800.
+ [111]
+LaTeX Info: Redefining \. on input line 1813.
+LaTeX Info: Redefining \% on input line 1813.
+ [112]
+LaTeX Info: Redefining \. on input line 1821.
+LaTeX Info: Redefining \% on input line 1821.
+ [113]
 Package epstopdf Info: Source file: <img/diagvelocidad5.eps>
-(epstopdf)                    date: 2014-08-31 21:21:33
-(epstopdf)                    size: 2534031 bytes
+(epstopdf)                    date: 2014-09-02 19:07:26
+(epstopdf)                    size: 2086696 bytes
 (epstopdf)             Output file: <img/diagvelocidad5-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-31 21:32:31
-(epstopdf)                    size: 25564 bytes
+(epstopdf)                    date: 2014-09-02 19:11:00
+(epstopdf)                    size: 21728 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/diagvelocidad5-eps-con
 verted-to.pdf img/diagvelocidad5.eps>
-(epstopdf)             \includegraphics on input line 2587.
+(epstopdf)             \includegraphics on input line 1826.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/diagvelocidad5-eps-converted-to.pdf, id=720, 771.88374pt x 543.02875pt>
+<img/diagvelocidad5-eps-converted-to.pdf, id=538, 729.72626pt x 472.76625pt>
 File: img/diagvelocidad5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/diagvelocidad5-eps-converted-to.pdf>
 Package pdftex.def Info: img/diagvelocidad5-eps-converted-to.pdf used on input 
-line 2587.
-(pdftex.def)             Requested size: 455.24408pt x 320.26817pt.
+line 1826.
+(pdftex.def)             Requested size: 455.24408pt x 294.93713pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2587--2587
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1826--1826
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 2588.
-LaTeX Info: Redefining \% on input line 2588.
- [155]
 Package epstopdf Info: Source file: <img/diagevolucion5.eps>
-(epstopdf)                    date: 2014-08-31 21:19:22
-(epstopdf)                    size: 2530743 bytes
+(epstopdf)                    date: 2014-09-02 19:05:34
+(epstopdf)                    size: 2336622 bytes
 (epstopdf)             Output file: <img/diagevolucion5-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-08-31 21:33:08
-(epstopdf)                    size: 19248 bytes
+(epstopdf)                    date: 2014-09-02 19:11:01
+(epstopdf)                    size: 18774 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/diagevolucion5-eps-con
 verted-to.pdf img/diagevolucion5.eps>
-(epstopdf)             \includegraphics on input line 2590.
+(epstopdf)             \includegraphics on input line 1829.
 Package epstopdf Info: Output file is already uptodate.
-
-<img/diagevolucion5-eps-converted-to.pdf, id=724, 770.88pt x 543.02875pt>
+<img/diagevolucion5-eps-converted-to.pdf, id=539, 763.85374pt x 505.89pt>
 File: img/diagevolucion5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/diagevolucion5-eps-converted-to.pdf>
 Package pdftex.def Info: img/diagevolucion5-eps-converted-to.pdf used on input 
-line 2590.
-(pdftex.def)             Requested size: 455.24408pt x 320.68246pt.
+line 1829.
+(pdftex.def)             Requested size: 455.24408pt x 301.49844pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2590--2590
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1829--1829
  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2591.
-LaTeX Info: Redefining \% on input line 2591.
- [156 <./img/diagvelocidad5-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 2592.
-LaTeX Info: Redefining \% on input line 2592.
- [157 <./img/diagevolucion5-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 2612.
-LaTeX Info: Redefining \% on input line 2612.
- [158]
-Underfull \vbox (badness 3138) has occurred while \output is active []
+LaTeX Info: Redefining \. on input line 1830.
+LaTeX Info: Redefining \% on input line 1830.
+ [114 <./img/diagvelocidad5-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1831.
+LaTeX Info: Redefining \% on input line 1831.
+ [115 <./img/diagevolucion5-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1868.
+LaTeX Info: Redefining \% on input line 1868.
+ [116]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2628.
-LaTeX Info: Redefining \% on input line 2628.
- [159]
+LaTeX Info: Redefining \. on input line 1883.
+LaTeX Info: Redefining \% on input line 1883.
+ [117]
+LaTeX Info: Redefining \. on input line 1887.
+LaTeX Info: Redefining \% on input line 1887.
+
+[118]
 Package epstopdf Info: Source file: <img/diagvelocidad6.eps>
-(epstopdf)                    date: 2014-09-01 00:24:40
-(epstopdf)                    size: 2530743 bytes
+(epstopdf)                    date: 2014-09-02 19:07:38
+(epstopdf)                    size: 2104508 bytes
 (epstopdf)             Output file: <img/diagvelocidad6-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-01 00:25:09
-(epstopdf)                    size: 29782 bytes
+(epstopdf)                    date: 2014-09-02 19:11:02
+(epstopdf)                    size: 23333 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/diagvelocidad6-eps-con
 verted-to.pdf img/diagvelocidad6.eps>
-(epstopdf)             \includegraphics on input line 2639.
+(epstopdf)             \includegraphics on input line 1892.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/diagvelocidad6-eps-converted-to.pdf, id=744, 770.88pt x 543.02875pt>
+<img/diagvelocidad6-eps-converted-to.pdf, id=562, 726.715pt x 478.78876pt>
 File: img/diagvelocidad6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/diagvelocidad6-eps-converted-to.pdf>
 Package pdftex.def Info: img/diagvelocidad6-eps-converted-to.pdf used on input 
-line 2639.
-(pdftex.def)             Requested size: 455.24408pt x 320.68246pt.
+line 1892.
+(pdftex.def)             Requested size: 455.24408pt x 299.93628pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2639--2639
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1892--1892
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 2640.
-LaTeX Info: Redefining \% on input line 2640.
- [160]
 Package epstopdf Info: Source file: <img/diagevolucion6.eps>
-(epstopdf)                    date: 2014-09-01 00:24:18
-(epstopdf)                    size: 2530743 bytes
+(epstopdf)                    date: 2014-09-02 19:05:52
+(epstopdf)                    size: 2278612 bytes
 (epstopdf)             Output file: <img/diagevolucion6-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-09-01 00:27:03
-(epstopdf)                    size: 23052 bytes
+(epstopdf)                    date: 2014-09-02 19:11:03
+(epstopdf)                    size: 21132 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/diagevolucion6-eps-con
 verted-to.pdf img/diagevolucion6.eps>
-(epstopdf)             \includegraphics on input line 2643.
+(epstopdf)             \includegraphics on input line 1896.
 Package epstopdf Info: Output file is already uptodate.
-
-<img/diagevolucion6-eps-converted-to.pdf, id=748, 770.88pt x 543.02875pt>
+<img/diagevolucion6-eps-converted-to.pdf, id=563, 753.81625pt x 499.8675pt>
 File: img/diagevolucion6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/diagevolucion6-eps-converted-to.pdf>
 Package pdftex.def Info: img/diagevolucion6-eps-converted-to.pdf used on input 
-line 2643.
-(pdftex.def)             Requested size: 455.24408pt x 320.68246pt.
+line 1896.
+(pdftex.def)             Requested size: 455.24408pt x 301.87541pt.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 2643--2643
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1896--1896
  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 2644.
-LaTeX Info: Redefining \% on input line 2644.
- [161 <./img/diagvelocidad6-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 2645.
-LaTeX Info: Redefining \% on input line 2645.
- [162 <./img/diagevolucion6-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 2658.
-LaTeX Info: Redefining \% on input line 2658.
- [163]
-LaTeX Info: Redefining \. on input line 2671.
-LaTeX Info: Redefining \% on input line 2671.
- [164]
-LaTeX Info: Redefining \. on input line 2677.
-LaTeX Info: Redefining \% on input line 2677.
- [165] [166
+LaTeX Info: Redefining \. on input line 1897.
+LaTeX Info: Redefining \% on input line 1897.
+ [119 <./img/diagvelocidad6-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1898.
+LaTeX Info: Redefining \% on input line 1898.
+ [120 <./img/diagevolucion6-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1910.
+LaTeX Info: Redefining \% on input line 1910.
+ [121]
+LaTeX Info: Redefining \. on input line 1922.
+LaTeX Info: Redefining \% on input line 1922.
+ [122]
+Package epstopdf Info: Source file: <img/diagvelocidad7.eps>
+(epstopdf)                    date: 2014-09-02 19:07:50
+(epstopdf)                    size: 2078389 bytes
+(epstopdf)             Output file: <img/diagvelocidad7-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-09-02 19:11:03
+(epstopdf)                    size: 27179 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/diagvelocidad7-eps-con
+verted-to.pdf img/diagvelocidad7.eps>
+(epstopdf)             \includegraphics on input line 1927.
+Package epstopdf Info: Output file is already uptodate.
 
-] [167] [168] [169
+<img/diagvelocidad7-eps-converted-to.pdf, id=582, 720.6925pt x 476.78125pt>
+File: img/diagvelocidad7-eps-converted-to.pdf Graphic file (type pdf)
 
-] [170] (./SIMFORPAS.aux
+<use img/diagvelocidad7-eps-converted-to.pdf>
+Package pdftex.def Info: img/diagvelocidad7-eps-converted-to.pdf used on input 
+line 1927.
+(pdftex.def)             Requested size: 455.24408pt x 301.16675pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1927--1927
+ [] 
+ []
+
+Package epstopdf Info: Source file: <img/diagevolucion7.eps>
+(epstopdf)                    date: 2014-09-02 19:06:07
+(epstopdf)                    size: 2246872 bytes
+(epstopdf)             Output file: <img/diagevolucion7-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-09-02 19:11:04
+(epstopdf)                    size: 21547 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/diagevolucion7-eps-con
+verted-to.pdf img/diagevolucion7.eps>
+(epstopdf)             \includegraphics on input line 1930.
+Package epstopdf Info: Output file is already uptodate.
+<img/diagevolucion7-eps-converted-to.pdf, id=583, 747.79375pt x 496.85625pt>
+File: img/diagevolucion7-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/diagevolucion7-eps-converted-to.pdf>
+Package pdftex.def Info: img/diagevolucion7-eps-converted-to.pdf used on input 
+line 1930.
+(pdftex.def)             Requested size: 455.24408pt x 302.47534pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 1930--1930
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1931.
+LaTeX Info: Redefining \% on input line 1931.
+ [123 <./img/diagvelocidad7-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1932.
+LaTeX Info: Redefining \% on input line 1932.
+ [124 <./img/diagevolucion7-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 1963.
+LaTeX Info: Redefining \% on input line 1963.
+ [125]
+LaTeX Info: Redefining \. on input line 1987.
+LaTeX Info: Redefining \% on input line 1987.
+ [126]
+LaTeX Info: Redefining \. on input line 2022.
+LaTeX Info: Redefining \% on input line 2022.
+ [127]
+Package epstopdf Info: Source file: <img/diagvelocidad8.eps>
+(epstopdf)                    date: 2014-09-02 19:08:10
+(epstopdf)                    size: 2210441 bytes
+(epstopdf)             Output file: <img/diagvelocidad8-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-09-02 19:11:05
+(epstopdf)                    size: 31091 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/diagvelocidad8-eps-con
+verted-to.pdf img/diagvelocidad8.eps>
+(epstopdf)             \includegraphics on input line 2027.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/diagvelocidad8-eps-converted-to.pdf, id=606, 750.805pt x 486.81876pt>
+File: img/diagvelocidad8-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/diagvelocidad8-eps-converted-to.pdf>
+Package pdftex.def Info: img/diagvelocidad8-eps-converted-to.pdf used on input 
+line 2027.
+(pdftex.def)             Requested size: 455.24408pt x 295.18365pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 2027--2027
+ [] 
+ []
+
+Package epstopdf Info: Source file: <img/diagevolucion8.eps>
+(epstopdf)                    date: 2014-09-02 19:06:19
+(epstopdf)                    size: 2249819 bytes
+(epstopdf)             Output file: <img/diagevolucion8-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-09-02 19:11:06
+(epstopdf)                    size: 22171 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/diagevolucion8-eps-con
+verted-to.pdf img/diagevolucion8.eps>
+(epstopdf)             \includegraphics on input line 2030.
+Package epstopdf Info: Output file is already uptodate.
+<img/diagevolucion8-eps-converted-to.pdf, id=607, 742.775pt x 500.87125pt>
+File: img/diagevolucion8-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/diagevolucion8-eps-converted-to.pdf>
+Package pdftex.def Info: img/diagevolucion8-eps-converted-to.pdf used on input 
+line 2030.
+(pdftex.def)             Requested size: 455.24408pt x 306.99075pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 2030--2030
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 2031.
+LaTeX Info: Redefining \% on input line 2031.
+ [128 <./img/diagvelocidad8-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 2032.
+LaTeX Info: Redefining \% on input line 2032.
+ [129 <./img/diagevolucion8-eps-converted-to.pdf>] [130
+
+] [131] [132]
+Cap\'{\i }tulo 6.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [133
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 2104.
+LaTeX Info: Redefining \% on input line 2104.
+ [134]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 2147.
+LaTeX Info: Redefining \% on input line 2147.
+ [135]
+LaTeX Info: Redefining \. on input line 2181.
+LaTeX Info: Redefining \% on input line 2181.
+
+[136]
+Overfull \hbox (128.34827pt too wide) in paragraph at lines 2184--2185
+\OT1/ptm/m/n/12 per-fi-les de ANI-MO: NDDS[]QOS[]PROFILES=/etc/animoframeworkCo
+re/DEFAULT[]NDDS[]QOS[]PROFILES.xml. 
+ []
+
+
+Overfull \hbox (260.016pt too wide) in paragraph at lines 2198--2201
+[]\OT1/ptm/m/n/12 export LD[]LIBRARY[]PATH=$LD[]LIBRARY[]PATH:$CATALINA[]HOME/l
+ib:/opt/RTI/ndds.5.1.0/lib/x64Linux2.6gcc4.1.1jdk/
+ []
+
+LaTeX Info: Redefining \. on input line 2204.
+LaTeX Info: Redefining \% on input line 2204.
+[137]
+Package epstopdf Info: Source file: <img/lanzamientosimulador.eps>
+(epstopdf)                    date: 2014-09-02 19:28:21
+(epstopdf)                    size: 2207603 bytes
+(epstopdf)             Output file: <img/lanzamientosimulador-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2014-09-02 19:41:50
+(epstopdf)                    size: 91136 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/lanzamientosimulador-e
+ps-converted-to.pdf img/lanzamientosimulador.eps>
+(epstopdf)             \includegraphics on input line 2220.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/lanzamientosimulador-eps-converted-to.pdf, id=646, 731.73375pt x 498.86375
+pt>
+File: img/lanzamientosimulador-eps-converted-to.pdf Graphic file (type pdf)
+ <use img/lanzamientosimulador-eps-converted-to.pdf>
+Package pdftex.def Info: img/lanzamientosimulador-eps-converted-to.pdf used on 
+input line 2220.
+(pdftex.def)             Requested size: 455.24408pt x 310.36563pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 2220--2220
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 2221.
+LaTeX Info: Redefining \% on input line 2221.
+ [138]
+Overfull \hbox (99.59752pt too wide) in paragraph at lines 2222--2223
+[]\OT1/ptm/m/n/12 Desplegar el Pues-to del Ins-truc-tor en el Ges-tor de Apli-c
+a-cio-nes de Tom-cat: http://localhost:8080/manager/. 
+ []
+
+Package epstopdf Info: Source file: <img/deployinstructorstation.eps>
+(epstopdf)                    date: 2014-09-02 19:28:17
+(epstopdf)                    size: 8977736 bytes
+(epstopdf)             Output file: <img/deployinstructorstation-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2014-09-02 19:41:52
+(epstopdf)                    size: 470048 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/deployinstructorstatio
+n-eps-converted-to.pdf img/deployinstructorstation.eps>
+(epstopdf)             \includegraphics on input line 2224.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/deployinstructorstation-eps-converted-to.pdf, id=650, 1357.07pt x 1096.095
+pt>
+File: img/deployinstructorstation-eps-converted-to.pdf Graphic file (type pdf)
+ <use img/deployinstructorstation-eps-converted-to.pdf>
+Package pdftex.def Info: img/deployinstructorstation-eps-converted-to.pdf used 
+on input line 2224.
+(pdftex.def)             Requested size: 455.24408pt x 367.6833pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 2224--2224
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 2225.
+LaTeX Info: Redefining \% on input line 2225.
+ [139 <./img/lanzamientosimulador-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/puestoinstructormision.eps>
+(epstopdf)                    date: 2014-09-02 19:30:57
+(epstopdf)                    size: 13727071 bytes
+(epstopdf)             Output file: <img/puestoinstructormision-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2014-09-02 19:41:54
+(epstopdf)                    size: 440772 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/puestoinstructormision
+-eps-converted-to.pdf img/puestoinstructormision.eps>
+(epstopdf)             \includegraphics on input line 2228.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/puestoinstructormision-eps-converted-to.pdf, id=657, 1927.2pt x 1180.41pt>
+File: img/puestoinstructormision-eps-converted-to.pdf Graphic file (type pdf)
+<use img/puestoinstructormision-eps-converted-to.pdf>
+Package pdftex.def Info: img/puestoinstructormision-eps-converted-to.pdf used o
+n input line 2228.
+(pdftex.def)             Requested size: 455.24408pt x 278.83731pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 2228--2228
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 2229.
+LaTeX Info: Redefining \% on input line 2229.
+ [140 <./img/deployinstructorstation-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/plugin.eps>
+(epstopdf)                    date: 2014-09-02 19:28:40
+(epstopdf)                    size: 1639337 bytes
+(epstopdf)             Output file: <img/plugin-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-09-02 19:41:55
+(epstopdf)                    size: 72922 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/plugin-eps-converted-t
+o.pdf img/plugin.eps>
+(epstopdf)             \includegraphics on input line 2234.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/plugin-eps-converted-to.pdf, id=664, 378.41376pt x 715.67375pt>
+File: img/plugin-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/plugin-eps-converted-to.pdf>
+Package pdftex.def Info: img/plugin-eps-converted-to.pdf used on input line 223
+4.
+(pdftex.def)             Requested size: 170.71652pt x 322.86923pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 2235.
+LaTeX Info: Redefining \% on input line 2235.
+ [141 <./img/puestoinstructormision-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/conexiongcs.eps>
+(epstopdf)                    date: 2014-09-02 19:27:33
+(epstopdf)                    size: 463817 bytes
+(epstopdf)             Output file: <img/conexiongcs-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-09-02 19:41:56
+(epstopdf)                    size: 20681 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/conexiongcs-eps-conver
+ted-to.pdf img/conexiongcs.eps>
+(epstopdf)             \includegraphics on input line 2238.
+Package epstopdf Info: Output file is already uptodate.
+
+<img/conexiongcs-eps-converted-to.pdf, id=672, 342.27875pt x 221.82875pt>
+File: img/conexiongcs-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/conexiongcs-eps-converted-to.pdf>
+Package pdftex.def Info: img/conexiongcs-eps-converted-to.pdf used on input lin
+e 2238.
+(pdftex.def)             Requested size: 170.71652pt x 110.6433pt.
+LaTeX Info: Redefining \. on input line 2242.
+LaTeX Info: Redefining \% on input line 2242.
+ [142 <./img/plugin-eps-converted-to.pdf> <./img/conexiongcs-eps-converted-to.p
+df>]
+LaTeX Info: Redefining \. on input line 2262.
+LaTeX Info: Redefining \% on input line 2262.
+ [143] [144
+
+] [145] [146]
+Cap\'{\i }tulo 7.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [147
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 2339.
+LaTeX Info: Redefining \% on input line 2339.
+ [148]
+[149] [150
+
+]
+Cap\'{\i }tulo 8.
+
+Overfull \hbox (9.28996pt too wide) in paragraph at lines 2383--2384
+[]\OT1/ptm/m/n/12 CoockBoock for Goo-gle Mock. \OT1/ptm/m/it/12 https://code.go
+ogle.com/p/googlemock/wiki/CookBook 
+ []
+
+[151] (./SIMFORPAS.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
- 6878 strings out of 493315
- 98708 string characters out of 6137904
- 175917 words of memory out of 5000000
- 10132 multiletter control sequences out of 15000+600000
+ 6860 strings out of 493315
+ 98529 string characters out of 6137904
+ 175853 words of memory out of 5000000
+ 10118 multiletter control sequences out of 15000+600000
  34109 words of font info for 64 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,13n,56p,1441b,672s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SIMFORPAS.pdf (180 pages, 5999096 bytes).
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SIMFORPAS.pdf (161 pages, 8217711 bytes).
 PDF statistics:
- 808 PDF objects out of 1000 (max. 8388607)
- 514 compressed objects within 6 object streams
+ 732 PDF objects out of 1000 (max. 8388607)
+ 465 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
